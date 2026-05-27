@@ -1,0 +1,737 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="Micronaut web experience"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="color-scheme" content="light dark"><script src="../../_astro/inline/script.fa89371c9dff4452.js"></script><link rel="icon" href="https://dstepanov.github.io/micronaut-web/micronaut-assets/icons/micronaut-sally.svg"><title>Securely store Micronaut application secrets in Oracle Cloud Vault | Java / Maven</title><link rel="stylesheet" href="/micronaut-guides/_astro/WebLayout.nyT9V4o_.css"></head> <body> <div class="min-h-screen bg-background text-foreground"> <link rel="stylesheet" href="../../_astro/inline/style.beff48a0aa3b0522.css"><script src="../../_astro/inline/script.433585662f852c8c.js"></script><script src="../../_astro/inline/script.49a0a415f3ebb887.js"></script><astro-island uid="Z1xkLAi" prefix="r7" component-url="/micronaut-guides/_astro/site-header.C363Uor4.js" component-export="SiteHeader" renderer-url="/micronaut-guides/_astro/client.CTSvgX8Q.js" props="{&quot;surface&quot;:[0,&quot;guides&quot;],&quot;mainSitePages&quot;:[1,[[0,{&quot;slug&quot;:[0,&quot;micronaut-success-stories&quot;],&quot;title&quot;:[0,&quot;Micronaut Success Stories&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Real teams use Micronaut for serverless APIs, Grails migrations, workflow orchestration, IoT microservices, event platforms, legacy tool upgrades, and SaaS backends.&quot;],&quot;intro&quot;:[0,&quot;The success stories index is generated from the metadata on each success-story page.&quot;],&quot;contentSource&quot;:[0,&quot;generated-success-stories&quot;]}],[0,{&quot;slug&quot;:[0,&quot;download&quot;],&quot;title&quot;:[0,&quot;Micronaut Download&quot;],&quot;eyebrow&quot;:[0,&quot;Start&quot;],&quot;description&quot;:[0,&quot;Download the Micronaut framework.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;learn&quot;],&quot;title&quot;:[0,&quot;Master the Micronaut Framework&quot;],&quot;eyebrow&quot;:[0,&quot;Learn&quot;],&quot;description&quot;:[0,&quot;User Documentation Easy access to the docs you need to get started right away Guides Instructional guides written by the Framework’s core developers Micronaut Fundamentals A video course available for free on Oracle MyLearn with an OCI Free Learning Subscription. On-Demand Webinars Pre-recorded webinars that focus on practical, real-world examples and techniques Microcasts Brief video...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;professional-training&quot;],&quot;title&quot;:[0,&quot;Professional Training&quot;],&quot;eyebrow&quot;:[0,&quot;Learn&quot;],&quot;description&quot;:[0,&quot;Professional training is available through the Micronaut framework&#39;s parent company, Object Computing, Inc.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/microcast&quot;],&quot;title&quot;:[0,&quot;Micronaut Microcasts&quot;],&quot;eyebrow&quot;:[0,&quot;Learn&quot;],&quot;description&quot;:[0,&quot;Micronaut® Microcasts provide bite-sized tips and tutorials to help you maximize your productivity with the Micronaut framework and confidently contribute to the ecosystem.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/webinar&quot;],&quot;title&quot;:[0,&quot;Micronaut Webinars&quot;],&quot;eyebrow&quot;:[0,&quot;Learn&quot;],&quot;description&quot;:[0,&quot;Our technical webinars help developers learn new skills and enhance their productivity through a focus on practical, real-world examples and techniques.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;resources&quot;],&quot;title&quot;:[0,&quot;Resources&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Upcoming Events Blog Releases Security Announcements Podcast Commercial Support Community Support FAQ Contact Micronaut Success Stories&quot;]}],[0,{&quot;slug&quot;:[0,&quot;upcoming-events&quot;],&quot;title&quot;:[0,&quot;Upcoming Events&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;The Micronaut® framework is a modern, Open Source, JVM-based, full-stack toolkit for building modular, easily testable microservices and serverless applications.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;blog&quot;],&quot;title&quot;:[0,&quot;Micronaut Blog&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Follow the Micronaut framework&#39;s evolution and keep up with the team&#39;s activities and accomplishments.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/release-announcements&quot;],&quot;title&quot;:[0,&quot;Micronaut Release Announcements&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Follow Micronaut release announcements for framework and ecosystem updates.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;micronaut-roadmap&quot;],&quot;title&quot;:[0,&quot;Micronaut ROADMAP&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;We use GitHub projects to organize work. We work in semantic versioning phases. Continuously, we have several projects open: A patch GitHub Project – bug fixes / build / documentation/patch dependency updates A minor GitHub Project – features / minor/major dependency updates A major GitHub Project for the next major version of the framework We...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/security-announcements&quot;],&quot;title&quot;:[0,&quot;Micronaut Security Announcements&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Track Micronaut security announcements and related project updates.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;support&quot;],&quot;title&quot;:[0,&quot;Commercial Support&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Review the lifecycle stages of previous and current versions of the Micronaut framework.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;resources/community-support&quot;],&quot;title&quot;:[0,&quot;Community Support&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Get the most value from the Micronaut framework and your membership in this extraordinarily passionate and supportive community!&quot;]}],[0,{&quot;slug&quot;:[0,&quot;faq&quot;],&quot;title&quot;:[0,&quot;Frequently Asked Questions&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Frequently asked questions about Micronaut, its design goals, and how to use the framework.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;contact&quot;],&quot;title&quot;:[0,&quot;Contact the Micronaut Team&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Get in touch with the core Micronaut development team.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;foundation&quot;],&quot;title&quot;:[0,&quot;The Micronaut Foundation&quot;],&quot;eyebrow&quot;:[0,&quot;Foundation&quot;],&quot;description&quot;:[0,&quot;The Micronaut Foundation The Micronaut Foundation is a not-for-profit organization that serves to: Contributing Members The bylaws of the Micronaut Foundation provide that Unity Foundation will maintain, in perpetuity, a majority interest in the Foundation to serve as a steward of the Micronaut framework and its growing global open source community. Object Computing committed an...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;foundation/corporate-sponsorship&quot;],&quot;title&quot;:[0,&quot;BecomE a Micronaut Foundation Corporate Sponsor&quot;],&quot;eyebrow&quot;:[0,&quot;Foundation&quot;],&quot;description&quot;:[0,&quot;Organizations that make extensive use of the Micronaut framework can support the continued evolution and growth of the technology through the Corporate Sponsor Program.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;foundation/community-sponsorship&quot;],&quot;title&quot;:[0,&quot;Becoming a Micronaut Foundation Community “All Star” Sponsor&quot;],&quot;eyebrow&quot;:[0,&quot;Foundation&quot;],&quot;description&quot;:[0,&quot;Join the Micronaut Foundation Community “All Stars” and be part of our project’s success!&quot;]}],[0,{&quot;slug&quot;:[0,&quot;foundation/sponsors&quot;],&quot;title&quot;:[0,&quot;Sponsors&quot;],&quot;eyebrow&quot;:[0,&quot;Foundation&quot;],&quot;description&quot;:[0,&quot;These are the organizations that have contributed to support the Micronaut Foundation.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;meeting-minutes&quot;],&quot;title&quot;:[0,&quot;Technology Advisory Board Meeting Minutes&quot;],&quot;eyebrow&quot;:[0,&quot;Foundation&quot;],&quot;description&quot;:[0,&quot;Public Technology Advisory Board meeting minutes for the Micronaut project.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;brand-guidelines&quot;],&quot;title&quot;:[0,&quot;Brand Guidelines&quot;],&quot;eyebrow&quot;:[0,&quot;Legal and brand&quot;],&quot;description&quot;:[0,&quot;Our Brand Guidelines contain guidelines regarding how and where you may use Micronaut® logos and design marks once you have been granted permission to use such marks.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;community-guidelines&quot;],&quot;title&quot;:[0,&quot;Community Code of Conduct&quot;],&quot;eyebrow&quot;:[0,&quot;Legal and community&quot;],&quot;description&quot;:[0,&quot;The Micronaut Foundation™ is a not-for-profit organization that serves to: We are very pleased and grateful for our partnership with the Unity Foundation. The Unity Foundation™ is a non-profit, community-based organization that is using open source technology to bridge the digital divide in disadvantaged communities. The Unity Foundation is committed to leveraging open source software...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;privacy-policy&quot;],&quot;title&quot;:[0,&quot;Privacy Policy&quot;],&quot;eyebrow&quot;:[0,&quot;Legal&quot;],&quot;description&quot;:[0,&quot;This privacy policy explains how our organization uses the personal data we collect from you when you use our website.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;resources/community-support/event-publication-request&quot;],&quot;title&quot;:[0,&quot;Promote an Upcoming Event&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;If you&#39;re hosting a conference or presenting a talk at an upcoming event, the Micronaut Foundation would love to help you promote it! Just share the details with us, and we&#39;ll share your event on our social media channels.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;payment-confirmation&quot;],&quot;title&quot;:[0,&quot;Payment Confirmation&quot;],&quot;eyebrow&quot;:[0,&quot;Foundation&quot;],&quot;description&quot;:[0,&quot;Confirmation page for payment-related flows on the Micronaut Foundation site.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;payment-failed&quot;],&quot;title&quot;:[0,&quot;Payment Failed&quot;],&quot;eyebrow&quot;:[0,&quot;Foundation&quot;],&quot;description&quot;:[0,&quot;We’re sorry, but your transaction failed to process. Please try again or contact site support.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;professional-training/event-driven-microservices-with-micronaut&quot;],&quot;title&quot;:[0,&quot;Event-Driven Microservices with the Micronaut Framework&quot;],&quot;eyebrow&quot;:[0,&quot;Training&quot;],&quot;description&quot;:[0,&quot;This 12-hour workshop arms students with everything they need to immediately start building applications using the Micronaut® framework.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;professional-training/micronaut-data&quot;],&quot;title&quot;:[0,&quot;Micronaut Data&quot;],&quot;eyebrow&quot;:[0,&quot;Training&quot;],&quot;description&quot;:[0,&quot;This 12-hour workshop arms students with everything they need to immediately start building applications using the Micronaut® framework.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;professional-training/micronaut-essentials&quot;],&quot;title&quot;:[0,&quot;Micronaut Essentials&quot;],&quot;eyebrow&quot;:[0,&quot;Training&quot;],&quot;description&quot;:[0,&quot;This 12-hour workshop arms students with everything they need to immediately start building applications using the Micronaut® framework.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;brand-guidelines/micronaut-trademark-policy&quot;],&quot;title&quot;:[0,&quot;Micronaut® Trademark Policy&quot;],&quot;eyebrow&quot;:[0,&quot;Legal and brand&quot;],&quot;description&quot;:[0,&quot;This statement describes the Micronaut® trademarks owned by Object Computing, Inc. and its policy and guidelines relating to use of those trademarks.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;brand-guidelines/micronaut-logos&quot;],&quot;title&quot;:[0,&quot;Micronaut Logos&quot;],&quot;eyebrow&quot;:[0,&quot;Legal and brand&quot;],&quot;description&quot;:[0,&quot;Download Micronaut logos to use in your own materials here.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;micronaut-success-stories/from-monolith-to-microservices-with-the-micronaut-framework&quot;],&quot;title&quot;:[0,&quot;From Monolith to Microservices with the Micronaut® Framework&quot;],&quot;eyebrow&quot;:[0,&quot;Success story&quot;],&quot;description&quot;:[0,&quot;Samsung SmartThings moved from a legacy monolith toward a lightweight Micronaut microservices system.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;micronaut-success-stories/responding-to-unexpected-disruption-with-agility-and-speed&quot;],&quot;title&quot;:[0,&quot;Responding to Unexpected Disruption with Agility and Speed&quot;],&quot;eyebrow&quot;:[0,&quot;Success story&quot;],&quot;description&quot;:[0,&quot;Event-management software company Conference Scheduling Solutions expanded its offerings with a secure virtual conference platform built with Micronaut on AWS.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;micronaut-success-stories/caribou-success-story&quot;],&quot;title&quot;:[0,&quot;A Power Packed Combination Optimizes Productivity and Performance&quot;],&quot;eyebrow&quot;:[0,&quot;Success story&quot;],&quot;description&quot;:[0,&quot;Caribou combined Micronaut, GraalVM, Kotlin, and AWS Lambda to reduce cold-start pressure for a SaaS backend.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;micronaut-success-stories/seamless-microservices-upgrade&quot;],&quot;title&quot;:[0,&quot;A Seamless Upgrade to Microservices in 4 Weeks&quot;],&quot;eyebrow&quot;:[0,&quot;Success story&quot;],&quot;description&quot;:[0,&quot;A manufacturing organization replaced an obsolete legacy tool with a Micronaut-backed microservice solution in four weeks.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;micronaut-success-stories/micronaut-framework-at-kestra&quot;],&quot;title&quot;:[0,&quot;Micronaut framework at Kestra&quot;],&quot;eyebrow&quot;:[0,&quot;Success story&quot;],&quot;description&quot;:[0,&quot;Kestra uses Micronaut for REST APIs, HTTP clients, OpenAPI generation, cloud readiness, and reactive workloads.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;micronaut-success-stories/agorapulse-micronaut-journey&quot;],&quot;title&quot;:[0,&quot;AgoraPulse Micronaut Journey&quot;],&quot;eyebrow&quot;:[0,&quot;Success story&quot;],&quot;description&quot;:[0,&quot;Agorapulse moved a large Grails codebase toward Micronaut while running serverless functions and backend applications.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;micronaut-success-stories/using-micronaut-framework-at-sonar&quot;],&quot;title&quot;:[0,&quot;Using Micronaut Framework at Sonar&quot;],&quot;eyebrow&quot;:[0,&quot;Success story&quot;],&quot;description&quot;:[0,&quot;Sonar uses Micronaut with AWS Lambda SnapStart and CRaC lifecycle support to improve API performance and keep serverless services responsive.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/case-studies&quot;],&quot;title&quot;:[0,&quot;Micronaut Case Studies&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Archive of Micronaut case studies and production usage stories.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/guest-post&quot;],&quot;title&quot;:[0,&quot;Micronaut Guest Post&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Archive of guest posts from the Micronaut community and ecosystem.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/micronaut-4&quot;],&quot;title&quot;:[0,&quot;Micronaut 4&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Archive of Micronaut 4 posts, announcements, and related project updates.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/micronaut-5&quot;],&quot;title&quot;:[0,&quot;Micronaut 5&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Archive of Micronaut 5 posts, announcements, and forward-looking project updates.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/micronaut-framework-2&quot;],&quot;title&quot;:[0,&quot;Micronaut Framework 2&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Archive of Micronaut Framework 2 posts and historical release-era material.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/sponsor&quot;],&quot;title&quot;:[0,&quot;Micronaut Sponsor&quot;],&quot;eyebrow&quot;:[0,&quot;Foundation&quot;],&quot;description&quot;:[0,&quot;Archive of sponsor-related posts and foundation support announcements.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/town-hall-meetings&quot;],&quot;title&quot;:[0,&quot;Micronaut Town Hall Meetings&quot;],&quot;eyebrow&quot;:[0,&quot;Foundation&quot;],&quot;description&quot;:[0,&quot;Archive of Micronaut town hall meeting posts and community governance communication.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;category/uncategorized&quot;],&quot;title&quot;:[0,&quot;Micronaut Uncategorized&quot;],&quot;eyebrow&quot;:[0,&quot;Resources&quot;],&quot;description&quot;:[0,&quot;Archive of Micronaut posts that are not assigned to a more specific category.&quot;]}],[0,{&quot;slug&quot;:[0,&quot;meeting-minutes/2020-10-09&quot;],&quot;title&quot;:[0,&quot;Technology Advisory Board Meeting Minutes&quot;],&quot;eyebrow&quot;:[0,&quot;Meeting minutes&quot;],&quot;description&quot;:[0,&quot;Board Members In Attendance: Jeff Scott Brown – Micronaut Foundation, co-founder and Director, Micronaut Practice Lead at Object Computing Graeme Rocher – Micronaut Foundation, co-founder and Director James Kleeh – Object Computing, Micronaut Development Lead Neal Ford – ThoughtWorks, Director, Cloud Architect Venkat Subramaniam – Agile Developer Inc., Founder Yuriy Artamonov – JetBrains, Microservices Fellow...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;meeting-minutes/2021-03-12&quot;],&quot;title&quot;:[0,&quot;Technology Advisory Board Meeting Minutes&quot;],&quot;eyebrow&quot;:[0,&quot;Meeting minutes&quot;],&quot;description&quot;:[0,&quot;Board Members In Attendance: Jeff Scott Brown – Micronaut Foundation, co-founder and Director, Micronaut Practice Lead at Object Computing Graeme Rocher – Micronaut Foundation, co-founder and Director; Oracle, Architect James Kleeh – Object Computing, Micronaut Development Lead Neal Ford – ThoughtWorks, Director, Cloud Architect Ken Sipe – Mesosphere, Cloud Solutions Architect Yuriy Artamonov – JetBrains,...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;meeting-minutes/2021-06-18&quot;],&quot;title&quot;:[0,&quot;Technology Advisory Board Meeting Minutes&quot;],&quot;eyebrow&quot;:[0,&quot;Meeting minutes&quot;],&quot;description&quot;:[0,&quot;Attendance Graeme Rocher – Micronaut Foundation, co-founder and Director; Oracle, Architect James Kleeh – Object Computing, Micronaut Development Lead Ken Sipe – Mesosphere, Cloud Solutions Architect Neal Ford – ThoughtWorks, Director, Cloud Architect Venkat Subramaniam – Agile Developer Inc., Founder Yuriy Artamonov – JetBrains, Microservices Fellow Guillaume LaForge – Google, Developer Advocate for Google Cloud...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;meeting-minutes/technology-advisory-board-meeting-minutes&quot;],&quot;title&quot;:[0,&quot;Technology Advisory Board Meeting Minutes&quot;],&quot;eyebrow&quot;:[0,&quot;Meeting minutes&quot;],&quot;description&quot;:[0,&quot;Board Members In Attendance Jason Schindler – Object Computing Inc., Partner and Groovy, Grails, and Micronaut Team Manager Graeme Rocher – Micronaut Foundation, co-founder and Director; Oracle, Architect Sergio del Amo – Object Computing, Micronaut Development Lead James Kleeh – Amazon, Software Development Engineer Neal Ford – ThoughtWorks, Director, Cloud Architect Ken Sipe – Edward Jones,...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;meeting-minutes/2022-03-25&quot;],&quot;title&quot;:[0,&quot;Technology Advisory Board Meeting Minutes&quot;],&quot;eyebrow&quot;:[0,&quot;Meeting minutes&quot;],&quot;description&quot;:[0,&quot;Board Members In Attendance Jason Schindler – Object Computing Inc., Partner and Groovy, Grails, and Micronaut Team Manager Graeme Rocher – Micronaut Foundation, co-founder and Director; Oracle, Architect James Kleeh – Object Computing,Inc., Micronaut Development Lead Neal Ford – ThoughtWorks, Director, Cloud Architect Venkat Subramaniam – Agile Developer Inc., Founder Yuriy Artamonov – JetBrains, Microservices Fellow...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;meeting-minutes/2022_11_15&quot;],&quot;title&quot;:[0,&quot;Technology Advisory Board Meeting Minutes&quot;],&quot;eyebrow&quot;:[0,&quot;Meeting minutes&quot;],&quot;description&quot;:[0,&quot;Board Members In Attendance Jason Schindler – Object Computing Inc., Partner and Groovy, Grails, and Micronaut Team Manager Graeme Rocher – Micronaut Foundation, co-founder and Director; Oracle, Architect Sergio del Amo – Object Computing, Micronaut Development Lead James Kleeh – Amazon, Software Development Engineer Ken Sipe – Edward Jones, Department Leader – Application and Technology Architecture...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;meeting-minutes/technology-advisory-board-minutes&quot;],&quot;title&quot;:[0,&quot;Technology Advisory Board Minutes&quot;],&quot;eyebrow&quot;:[0,&quot;Meeting minutes&quot;],&quot;description&quot;:[0,&quot;Board Members In Attendance Jason Schindler – Object Computing Inc., Partner and Groovy, Grails, and Micronaut Team Manager Graeme Rocher – Micronaut Foundation, co-founder and Director; Oracle, Architect Ken Sipe – Edward Jones, Department Leader – Application and Technology Architecture Yuriy Artamonov – JetBrains, Microservices Fellow Mark Sailes – Amazon, Specialist Solution Architect for Serverless at...&quot;]}],[0,{&quot;slug&quot;:[0,&quot;meeting-minutes/4_24_2024&quot;],&quot;title&quot;:[0,&quot;Technology Advisory Board Meeting Minutes&quot;],&quot;eyebrow&quot;:[0,&quot;Meeting minutes&quot;],&quot;description&quot;:[0,&quot;Board Members In Attendance Yuriy Artamonov – JetBrains, Microservices Fellow Sergio del Amo – Unity Foundation, Micronaut Development Lead Neal Ford – ThoughtWorks, Director, Cloud Architect James Kleeh – Amazon, Software Development Engineer Matthew Moss – Unity Foundation, Lead Security and Support Analyst Mark Sailes – Amazon, Specialist Solution Architect for Serverless at AWS Cloud...&quot;]}]]]}" ssr client="load" opts="{&quot;name&quot;:&quot;SiteHeader&quot;,&quot;value&quot;:true}" await-children><header class="sticky top-0 z-40 border-b bg-card/95 backdrop-blur-xl"><div class="mx-auto flex h-14 max-w-[var(--page-max)] items-center gap-4 px-5 sm:px-6 xl:px-0"><a href="https://dstepanov.github.io/micronaut-web/" aria-label="Micronaut home" class="flex shrink-0 items-center gap-2 text-sm font-semibold text-foreground no-underline"><span class="relative inline-flex items-center h-11 w-[192px]" aria-hidden="true"><img class="block h-full w-auto object-contain dark:hidden" src="https://dstepanov.github.io/micronaut-web/micronaut-assets/logos/micronaut-horizontal-black.svg" width="305" height="96" alt=""/><img class="hidden h-full w-auto object-contain dark:block" src="https://dstepanov.github.io/micronaut-web/micronaut-assets/logos/micronaut-horizontal-white.svg" width="305" height="96" alt=""/></span></a><nav aria-label="Main" data-orientation="horizontal" dir="ltr" data-slot="navigation-menu" data-viewport="false" class="group/navigation-menu relative max-w-max flex-1 items-center justify-center hidden lg:flex"><div style="position:relative"><ul data-orientation="horizontal" data-slot="navigation-menu-list" class="group flex flex-1 list-none items-center justify-center gap-1" dir="ltr"><li data-slot="navigation-menu-item" class="relative"><a data-slot="navigation-menu-link" class="flex flex-col gap-1 p-2 outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 focus-visible:outline-1 data-[active=true]:bg-accent/50 data-[active=true]:text-accent-foreground data-[active=true]:hover:bg-accent data-[active=true]:focus:bg-accent [&amp;_svg:not([class*=&#x27;size-&#x27;])]:size-4 [&amp;_svg:not([class*=&#x27;text-&#x27;])]:text-muted-foreground h-8 rounded-md px-3 py-1.5 text-[0.88rem] transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground" href="https://dstepanov.github.io/micronaut-docs/latest/" data-radix-collection-item="">Docs</a></li><li data-slot="navigation-menu-item" class="relative"><a data-active="" aria-current="page" data-slot="navigation-menu-link" class="flex flex-col gap-1 p-2 outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 focus-visible:outline-1 data-[active=true]:bg-accent/50 data-[active=true]:text-accent-foreground data-[active=true]:hover:bg-accent data-[active=true]:focus:bg-accent [&amp;_svg:not([class*=&#x27;size-&#x27;])]:size-4 [&amp;_svg:not([class*=&#x27;text-&#x27;])]:text-muted-foreground h-8 rounded-md px-3 py-1.5 text-[0.88rem] transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground bg-accent text-accent-foreground" href="/micronaut-guides/latest/" data-radix-collection-item="">Guides</a></li><li data-slot="navigation-menu-item" class="relative"><button id="radix-_r7R_2_-trigger-radix-_r7R_6e_" data-state="closed" aria-expanded="false" aria-controls="radix-_r7R_2_-content-radix-_r7R_6e_" data-slot="navigation-menu-trigger" class="group inline-flex w-max items-center justify-center rounded-md py-2 font-medium transition-[color,box-shadow] outline-none hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus-visible:ring-[3px] focus-visible:ring-ring/50 focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=open]:bg-accent/50 data-[state=open]:text-accent-foreground data-[state=open]:hover:bg-accent data-[state=open]:focus:bg-accent group h-8 bg-transparent px-3 text-[0.88rem]" data-radix-collection-item="">Learn<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down relative top-[1px] ml-1 size-3 transition duration-300 group-data-[state=open]:rotate-180" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></li><li data-slot="navigation-menu-item" class="relative"><button id="radix-_r7R_2_-trigger-radix-_r7R_ae_" data-state="closed" aria-expanded="false" aria-controls="radix-_r7R_2_-content-radix-_r7R_ae_" data-slot="navigation-menu-trigger" class="group inline-flex w-max items-center justify-center rounded-md py-2 font-medium transition-[color,box-shadow] outline-none hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus-visible:ring-[3px] focus-visible:ring-ring/50 focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=open]:bg-accent/50 data-[state=open]:text-accent-foreground data-[state=open]:hover:bg-accent data-[state=open]:focus:bg-accent group h-8 bg-transparent px-3 text-[0.88rem]" data-radix-collection-item="">Resources<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down relative top-[1px] ml-1 size-3 transition duration-300 group-data-[state=open]:rotate-180" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></li></ul></div></nav><div class="ml-auto flex min-w-0 items-center gap-2"><button data-slot="button" data-variant="outline" data-size="default" class="inline-flex shrink-0 items-center gap-2 rounded-md font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*=&#x27;size-&#x27;])]:size-4 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 py-2 has-[&gt;svg]:px-3 h-9 w-9 justify-start px-2 text-sm sm:w-52 sm:px-3 xl:w-[280px]" type="button" aria-label="Search Micronaut"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg><span class="hidden min-w-32 text-left text-muted-foreground/90 sm:inline">Search docs...</span><kbd class="ml-auto hidden rounded border px-1.5 py-0.5 text-[0.7rem] text-muted-foreground md:inline bg-muted">⌘K</kbd></button><div data-slot="dialog-header" class="flex flex-col gap-2 text-center sm:text-left sr-only"><h2 id="radix-_r7R_27H1_" data-slot="dialog-title" class="text-lg leading-none font-semibold">Search Micronaut</h2><p id="radix-_r7R_27H2_" data-slot="dialog-description" class="text-sm text-muted-foreground">Search projects, guides, sections, and tags.</p></div><a href="https://dstepanov.github.io/micronaut-web/launch/" data-slot="button" data-variant="outline" data-size="sm" class="shrink-0 items-center justify-center text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*=&#x27;size-&#x27;])]:size-4 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 gap-1.5 rounded-md px-3 has-[&gt;svg]:px-2.5 hidden h-9 md:inline-flex">Launch</a><button type="button" role="switch" aria-checked="false" aria-label="Switch to dark theme" title="Switch to dark theme" class="h-9 w-9 items-center justify-center rounded-md border shadow-xs transition-colors focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 border-border bg-background text-muted-foreground hover:bg-accent hover:text-accent-foreground hidden sm:inline-flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun size-4" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg></button><button data-slot="sheet-trigger" data-variant="outline" data-size="icon" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*=&#x27;size-&#x27;])]:size-4 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-9 md:hidden" aria-label="Open navigation" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_r7R_j_" data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg></button></div></div></header><!--astro:end--></astro-island> <main class="mx-auto grid max-w-[1280px] gap-8 px-4 py-8 md:px-6 xl:grid-cols-[minmax(0,1fr)_260px]"><article class="min-w-0"><header class="mb-8"><span data-slot="badge" data-variant="secondary" class="inline-flex w-fit shrink-0 items-center justify-center gap-1 overflow-hidden rounded-full border border-transparent px-2.5 py-1 text-[0.78rem] font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;&gt;svg]:pointer-events-none [&amp;&gt;svg]:size-3 bg-secondary text-secondary-foreground [a&amp;]:hover:bg-secondary/90">Java / Maven</span><h1 class="mt-5 text-4xl font-bold tracking-tight md:text-5xl">Securely store Micronaut application secrets in Oracle Cloud Vault</h1><p class="mt-4 max-w-3xl text-lg leading-8 text-muted-foreground">Learn how to create secrets in Oracle Cloud Vault and easily access them in a Micronaut application.</p><div class="mt-5 flex flex-wrap gap-2 text-sm text-muted-foreground"><span>Burt Beckwith</span><span aria-hidden="true">/</span><span>40 min</span><span aria-hidden="true">/</span><a href="/micronaut-guides/latest/micronaut-cloud-secrets-oracle.html" class="text-brand no-underline hover:underline">All variants</a></div></header><div class="generated-docs-content generated-guides-content" data-generated-docs><link rel="stylesheet" data-docs-shiki="" href="../../_astro/inline/style.46fa2ca6814b30a2.css">
+<div class="sect1">
+<h2 id="getting-started">Getting Started</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this guide, we will create a Micronaut application written in Java.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="what-you-will-need">What you will need</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To complete this guide, you will need the following:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Some time on your hands</p>
+</li>
+<li>
+<p>A decent text editor or IDE (e.g. <a href="../micronaut-intellij-idea-ide-setup.html">IntelliJ IDEA</a>)</p>
+</li>
+<li>
+<p>JDK 21 or greater installed with <code>JAVA_HOME</code> <a href="https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux">configured appropriately</a></p>
+</li>
+<li>
+<p>An Oracle Cloud account (create a free trial account at <a href="https://signup.oraclecloud.com">signup.oraclecloud.com</a>)</p>
+</li>
+<li>
+<p><a href="https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm">Oracle Cloud CLI</a> installed with local access to Oracle Cloud configured by running <code>oci setup config</code></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="oracle-cloud-vault">Oracle Cloud Vault</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://docs.oracle.com/en-us/iaas/Content/KeyManagement/Concepts/keyoverview.htm">Oracle Cloud Vault</a> lets you securely store and retrieve secrets such as passwords or other information that shouldn’t be accessible in cleartext.</p>
+</div>
+<div class="paragraph">
+<p>In this guide, you will use Vault to store database connection information for a Micronaut application that uses MySQL, and use Micronaut support for Oracle Cloud to make the process seamless.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="the-application">The Application</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Download the complete solution for the <a href="../micronaut-data-jdbc-repository.html">Access a database with Micronaut Data JDBC</a> guide. You will use the sample application as a starting point.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="creating-an-oracle-cloud-vault">Creating an Oracle Cloud Vault</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You will create the vault with the Oracle Cloud CLI. See the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/kms.html">Vault CLI command reference</a> for more information.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tbody><tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If you prefer to use the Oracle Cloud web console to create the vault, follow the steps in the "Using Oracle Cloud Vault" section of the <a href="../micronaut-oracle-autonomous-db.html">Access an Oracle Autonomous Database</a> guide.
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="paragraph">
+<p>Some of the following commands use <a href="https://stedolan.github.io/jq/"><code>jq</code></a></p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>jq is a lightweight and flexible command-line JSON processor</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>There are three required parameters for the create command: compartment OCID, display name, and vault type.</p>
+</div>
+<div class="sect2">
+<h3 id="compartment-ocid">Compartment OCID</h3>
+<div class="paragraph">
+<p>Find the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/iam/compartment/list.html">OCID of the compartment</a> where we’ll be deploying. Run this to list all the compartments in your root compartment:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> iam</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> compartment</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> list</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>and find the compartment by the name or description in the JSON output. It should look like this:</p>
+</div>
+<div class="listingblock" data-lang="json">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-json shiki-code" data-lang="json"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">{</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "compartment-id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.tenancy.oc1..aaaaaaaaud4g4e5ovjaw..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "defined-tags"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {},</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "description"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"Micronaut guides"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "freeform-tags"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {},</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.compartment.oc1..aaaaaaaarkh3s2wcxbbm..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "inactive-status"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0550AE;--shiki-dark:#79C0FF">null</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "is-accessible"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0550AE;--shiki-dark:#79C0FF">null</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "lifecycle-state"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ACTIVE"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "name"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"micronaut-guides"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "time-created"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"2021-05-02T23:54:28.392000+00:00"</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">}</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Use the OCID from the <code>id</code> property; the <code>compartment-id</code> property is the parent compartment.</p>
+</div>
+<div class="paragraph">
+<p>For convenience, save the compartment OCID as an environment variable. For Linux or Mac, run</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">export</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> C</span><span style="color:#CF222E;--shiki-dark:#FF7B72">=</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">ocid1.compartment.oc1..aaaaaaaarkh3s2wcxbbm...</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>or for Windows, if using <code>cmd</code> run</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">set</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> C=ocid1.compartment.oc1..aaaaaaaarkh3s2wcxbbm...</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>and if using PowerShell run</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">$C = </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.compartment.oc1..aaaaaaaarkh3s2wcxbbm..."</span></span></code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tbody><tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+In the examples below we use Linux/Mac syntax for environment variables, e.g. <code>-c $C</code>. If you use Windows <code>cmd</code>, change those to <code>-c %C%</code> (but no change needed if using PowerShell)
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="create-the-vault">Create the Vault</h3>
+<div class="paragraph">
+<p>Choose a display name (1-100 characters) and a vault type, either <code>DEFAULT</code> or <code>VIRTUAL_PRIVATE</code>. We recommend that you choose <code>DEFAULT</code> to avoid the cost of a virtual private vault.</p>
+</div>
+<div class="paragraph">
+<p>Run the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/kms/management/vault/create.html">create command</a> with the compartment OCID, display name, and vault type substituted:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> kms</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> management</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> vault</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> create</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -c</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $C </span><span style="color:#CF222E;--shiki-dark:#FF7B72">\</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --display-name</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> mn_guide_vault</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --vault-type</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> DEFAULT</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">    |</span><span style="color:#953800;--shiki-dark:#FFA657"> jq</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> '.data.id'</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>jq</code> utility will extract the vault OCID from the <code>id</code> property in the response. This is the unique identifier for your vault, which you’ll need later. Store the value as the <code>VAULT_ID</code> environment variable:</p>
+</div>
+<div class="listingblock" data-lang="text">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-text shiki-code" data-lang="text"><span class="line"><span>export VAULT_ID=ocid1.vault.oc1.iad.b5re3....abuwcljryp5dmxbu3si7...</span></span></code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tbody><tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>If you use Linux or Mac, you can combine both commands into one, creating the vault and setting the environment variable at the same time:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">export</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> VAULT_ID</span><span style="color:#CF222E;--shiki-dark:#FF7B72">=</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">$(</span><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> kms</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> management</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> vault</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> create</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -c</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $C </span><span style="color:#CF222E;--shiki-dark:#FF7B72">\</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --display-name</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> mn_guide_vault</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --vault-type</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> DEFAULT</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">    |</span><span style="color:#953800;--shiki-dark:#FFA657"> jq</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> '.data.id'</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span></code></pre>
+</div>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="sect3">
+<h4 id="create-a-master-encryption-key">Create a Master Encryption Key</h4>
+<div class="paragraph">
+<p>Next, <a href="https://docs.oracle.com/en-us/iaas/Content/KeyManagement/Tasks/managingkeys.htm">create a master encryption key</a>.</p>
+</div>
+<div class="paragraph">
+<p>For this, you need the management endpoint URL that was not available yet in the response from the vault <code>create</code> command. Run the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/kms/management/vault/get.html">get command</a>:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> kms</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> management</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> vault</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> get</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> --vault-id</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $VAULT_ID</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The response should look like this:</p>
+</div>
+<div class="listingblock" data-lang="json">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-json shiki-code" data-lang="json"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">{</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "data"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "compartment-id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.tenancy.oc1..aaaaaaaaixksuiqo3rx6..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "crypto-endpoint"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"https://b5re3...-crypto.kms.us-ashburn-1.oraclecloud.com"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#82071E;--shiki-light-font-style:italic;--shiki-dark:#FFA198;--shiki-dark-font-style:italic">    ...</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "display-name"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"mn_guide_vault"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.vault.oc1.iad.b5re3....abuwcljryp5dmxbu3si7..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "is-primary"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0550AE;--shiki-dark:#79C0FF">true</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "lifecycle-state"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ACTIVE"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "management-endpoint"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"https://b5re3...-management.kms.us-ashburn-1.oraclecloud.com"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#82071E;--shiki-light-font-style:italic;--shiki-dark:#FFA198;--shiki-dark-font-style:italic">    ...</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  }</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">}</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>It will take a few minutes for the vault to finish provisioning. Re-run the <code>get</code> command until the value of <code>lifecycle-state</code> is <code>ACTIVE</code>. The URL is available in the <code>management-endpoint</code> property.</p>
+</div>
+<div class="paragraph">
+<p>Store the URL as the <code>VAULT_ENDPOINT</code> environment variable:</p>
+</div>
+<div class="listingblock" data-lang="text">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-text shiki-code" data-lang="text"><span class="line"><span>export VAULT_ENDPOINT=https://b5re3...-management.kms.us-ashburn-1.oraclecloud.com</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Choose a name for the key, e.g., "mn-guide-encryption-key", and a "Protection Mode", either <code>SOFTWARE</code> or <code>HSM</code>. We recommend that you choose <code>SOFTWARE</code> to avoid the cost of using a hardware security module (HSM). You also need to decide on a key shape algorithm and key length; for this guide, use <code>AES</code> and a key length of 32 (256 bits).</p>
+</div>
+<div class="paragraph">
+<p>Run the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/kms/management/key/create.html">create command</a> with the compartment OCID, display name, protection mode, key shape, and management endpoint substituted:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> kms</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> management</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> key</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> create</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -c</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $C </span><span style="color:#CF222E;--shiki-dark:#FF7B72">\</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --display-name</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> mn-guide-encryption-key</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --protection-mode</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> SOFTWARE</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --key-shape</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> '{"algorithm":"AES","length":"32"}'</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --endpoint</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $VAULT_ENDPOINT </span><span style="color:#CF222E;--shiki-dark:#FF7B72">\</span></span>
+<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">    |</span><span style="color:#953800;--shiki-dark:#FFA657"> jq</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> '.data.id'</span></span></code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tbody><tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If you use Windows, escape the inner double quotes in the value for <code>key-shape</code>: <code>'{\"algorithm\":\"AES\",\"length\":\"32\"}'</code>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="paragraph">
+<p>The <code>jq</code> utility will extract the <code>id</code> value from the response:</p>
+</div>
+<div class="listingblock" data-lang="text">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-text shiki-code" data-lang="text"><span class="line"><span>ocid1.key.oc1.iad.b5re3.....abuwcljrcuie7t6gctc6...</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Store the key ID as the <code>VAULT_KEY_ID</code> environment variable:</p>
+</div>
+<div class="listingblock" data-lang="text">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-text shiki-code" data-lang="text"><span class="line"><span>export VAULT_KEY_ID=ocid1.key.oc1.iad.b5re3.....abuwcljrcuie7t6gctc6...</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="using-vault-with-micronaut">Using Vault with Micronaut</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="micronaut-oraclecloud-vault-dependency">micronaut-oraclecloud-vault Dependency</h3>
+<div class="paragraph">
+<p>The <a href="https://micronaut-projects.github.io/micronaut-oracle-cloud/latest/guide/#vault">micronaut-oracle-cloud</a> subproject provides integration between Micronaut apps and Oracle Cloud, including using Vault as a distributed configuration source. Add a dependency to your build for the <code>micronaut-oraclecloud-vault</code> library to add Vault support:</p>
+</div>
+<div class="docs-snippet-external-header my-0 mt-[1.35rem] mb-[0.45rem]"><div class="docs-snippet-external-header-title my-0 text-[0.95rem] leading-[1.45] font-bold text-foreground [overflow-wrap:anywhere] [&amp;_code]:whitespace-normal">Dependency</div></div><div data-slot="card" class="docs-snippet-template docs-code-block my-5 flex flex-col gap-0 overflow-hidden rounded-xl border border-code-border bg-code-tab py-0 text-code-foreground shadow-sm shadow-black/[0.03] dark:shadow-black/20 docs-properties-template docs-dependency-template" id="generated-docs-snippet-0" data-snippet-kind="dependency"><div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6 docs-code-toolbar docs-snippet-card-header !flex min-h-10 items-center justify-between gap-3 border-b border-code-border bg-code-tab px-3 py-2 [.border-b]:!pb-2"><div class="docs-snippet-actions flex flex-wrap items-center justify-start justify-self-start gap-2"><div class="docs-snippet-tabs docs-code-tabs docs-code-tabs-multi flex flex-wrap items-center gap-1" role="tablist" aria-label="Dependency format"><button data-slot="button" data-variant="ghost" data-size="xs" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-6 gap-1 rounded-md px-2 text-xs has-[>svg]:px-1.5 [&amp;_svg:not([class*='size-'])]:size-3 docs-code-language language-option inline-flex h-6 items-center gap-1 align-middle leading-none text-code-muted aria-selected:font-semibold aria-selected:text-code-foreground" type="button" id="generated-docs-snippet-0-tab-0" role="tab" aria-controls="generated-docs-snippet-0-panel-0" aria-selected="true" data-lang="maven" tabindex="0"><span class="docs-code-language-text inline-flex items-center leading-none">Maven</span></button></div></div><div data-slot="card-action" class="col-start-2 row-span-2 row-start-1 ml-auto self-center justify-self-auto"><button data-slot="button" data-variant="ghost" data-size="icon-xs" class="docs-snippet-copy docs-code-copy inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-6 rounded-md [&amp;_svg:not([class*='size-'])]:size-3 text-code-muted hover:bg-code-border hover:text-code-foreground dark:hover:bg-code-border docs-snippet-copy docs-code-copy" type="button" data-copy-active-snippet=""><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="sr-only">Copy code</span></button></div></div><div data-slot="card-content" class="docs-snippet-panels overflow-hidden bg-code px-0 text-code-foreground"><div id="generated-docs-snippet-0-panel-0" role="tabpanel" aria-labelledby="generated-docs-snippet-0-tab-0" aria-hidden="false" class="docs-code-content docs-snippet-card-content bg-code text-code-foreground">
+<pre class="shiki shiki-themes github-light-default github-dark-default !m-0 !max-w-full !overflow-x-auto !rounded-none !border-0 !bg-code !px-6 !py-4 text-sm !leading-6 !text-code-foreground" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-maven shiki-code grid min-w-max font-mono !text-[0.85rem] !leading-6 [&amp;_.line]:min-h-[1.5rem] dark:[&amp;_span[style]]:![color:var(--shiki-dark,var(--shiki-light,currentColor))] dark:[&amp;_span[style]]:![font-style:var(--shiki-dark-font-style,var(--shiki-light-font-style,inherit))] dark:[&amp;_span[style]]:![font-weight:var(--shiki-dark-font-weight,var(--shiki-light-font-weight,inherit))] dark:[&amp;_span[style]]:![text-decoration:var(--shiki-dark-text-decoration,var(--shiki-light-text-decoration,inherit))] [&amp;_.conum]:ml-1 [&amp;_.conum]:inline-flex [&amp;_.conum]:h-[1.05rem] [&amp;_.conum]:w-[1.05rem] [&amp;_.conum]:items-center [&amp;_.conum]:justify-center [&amp;_.conum]:rounded-full [&amp;_.conum]:[border:1px_solid_color-mix(in_oklab,var(--code-foreground)_82%,var(--code))] [&amp;_.conum]:bg-code-foreground [&amp;_.conum]:![color:var(--code)] [&amp;_.conum]:[font-family:var(--shell-font)] [&amp;_.conum]:text-[0.68rem] [&amp;_.conum]:leading-none [&amp;_.conum]:font-bold [&amp;_.conum]:not-italic [&amp;_.conum]:align-[0.08em] [&amp;_.conum::before]:content-[attr(data-value)]" data-lang="maven"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">&lt;</span><span style="color:#116329;--shiki-dark:#7EE787">dependency</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">&gt;</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    &lt;</span><span style="color:#116329;--shiki-dark:#7EE787">groupId</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">&gt;io.micronaut.oraclecloud&lt;/</span><span style="color:#116329;--shiki-dark:#7EE787">groupId</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">&gt;</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    &lt;</span><span style="color:#116329;--shiki-dark:#7EE787">artifactId</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">&gt;micronaut-oraclecloud-vault&lt;/</span><span style="color:#116329;--shiki-dark:#7EE787">artifactId</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">&gt;</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">&lt;/</span><span style="color:#116329;--shiki-dark:#7EE787">dependency</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">&gt;</span></span></code></pre>
+</div></div></div>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="distributed-configuration">Distributed Configuration</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="enable-distributed-configuration">Enable Distributed Configuration</h3>
+<div class="paragraph">
+<p>Create a <code>bootstrap.properties</code> file in the <code>resources</code> directory to <a href="https://docs.micronaut.io/latest/guide/#bootstrap">enable distributed configuration</a>.
+Add the following:</p>
+</div>
+<div class="title docs-snippet-external-title my-0 mt-[1.35rem] mb-[0.45rem] text-[0.95rem] leading-[1.45] font-bold text-foreground [overflow-wrap:anywhere] [&amp;_code]:whitespace-normal">src/main/resources/bootstrap.properties</div><div data-slot="card" class="docs-snippet-template docs-code-block my-5 flex flex-col gap-0 overflow-hidden rounded-xl border border-code-border bg-code-tab py-0 text-code-foreground shadow-sm shadow-black/[0.03] dark:shadow-black/20 docs-code-snippet-template docs-code-block-with-footer" id="generated-docs-snippet-1" data-snippet-kind="code"><div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6 docs-code-toolbar docs-snippet-card-header !flex min-h-10 items-center justify-between gap-3 border-b border-code-border bg-code-tab px-3 py-2 [.border-b]:!pb-2"><div class="docs-snippet-actions flex flex-wrap items-center justify-start justify-self-start gap-2"><div class="docs-snippet-tabs docs-code-tabs docs-code-tabs-multi flex flex-wrap items-center gap-1" role="tablist" aria-label="Code language"><button data-slot="button" data-variant="ghost" data-size="xs" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-6 gap-1 rounded-md px-2 text-xs has-[>svg]:px-1.5 [&amp;_svg:not([class*='size-'])]:size-3 docs-code-language language-option inline-flex h-6 items-center gap-1 align-middle leading-none text-code-muted aria-selected:font-semibold aria-selected:text-code-foreground" type="button" id="generated-docs-snippet-1-tab-0" role="tab" aria-controls="generated-docs-snippet-1-panel-0" aria-selected="true" data-lang="properties" tabindex="0"><span class="docs-code-language-text inline-flex items-center leading-none">Properties</span></button></div></div><div data-slot="card-action" class="col-start-2 row-span-2 row-start-1 ml-auto self-center justify-self-auto"><button data-slot="button" data-variant="ghost" data-size="icon-xs" class="docs-snippet-copy docs-code-copy inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-6 rounded-md [&amp;_svg:not([class*='size-'])]:size-3 text-code-muted hover:bg-code-border hover:text-code-foreground dark:hover:bg-code-border docs-snippet-copy docs-code-copy" type="button" data-copy-active-snippet=""><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="sr-only">Copy code</span></button></div></div><div data-slot="card-content" class="docs-snippet-panels overflow-hidden bg-code px-0 text-code-foreground"><div id="generated-docs-snippet-1-panel-0" role="tabpanel" aria-labelledby="generated-docs-snippet-1-tab-0" aria-hidden="false" class="docs-code-content docs-snippet-card-content bg-code text-code-foreground">
+<pre class="shiki shiki-themes github-light-default github-dark-default !m-0 !max-w-full !overflow-x-auto !rounded-none !border-0 !bg-code !px-6 !py-4 text-sm !leading-6 !text-code-foreground" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-properties shiki-code grid min-w-max font-mono !text-[0.85rem] !leading-6 [&amp;_.line]:min-h-[1.5rem] dark:[&amp;_span[style]]:![color:var(--shiki-dark,var(--shiki-light,currentColor))] dark:[&amp;_span[style]]:![font-style:var(--shiki-dark-font-style,var(--shiki-light-font-style,inherit))] dark:[&amp;_span[style]]:![font-weight:var(--shiki-dark-font-weight,var(--shiki-light-font-weight,inherit))] dark:[&amp;_span[style]]:![text-decoration:var(--shiki-dark-text-decoration,var(--shiki-light-text-decoration,inherit))] [&amp;_.conum]:ml-1 [&amp;_.conum]:inline-flex [&amp;_.conum]:h-[1.05rem] [&amp;_.conum]:w-[1.05rem] [&amp;_.conum]:items-center [&amp;_.conum]:justify-center [&amp;_.conum]:rounded-full [&amp;_.conum]:[border:1px_solid_color-mix(in_oklab,var(--code-foreground)_82%,var(--code))] [&amp;_.conum]:bg-code-foreground [&amp;_.conum]:![color:var(--code)] [&amp;_.conum]:[font-family:var(--shell-font)] [&amp;_.conum]:text-[0.68rem] [&amp;_.conum]:leading-none [&amp;_.conum]:font-bold [&amp;_.conum]:not-italic [&amp;_.conum]:align-[0.08em] [&amp;_.conum::before]:content-[attr(data-value)]" data-lang="properties"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">micronaut.application.name</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">=micronautguide <i class="conum" data-value="1"></i></span></span>
+<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">micronaut.config-client.enabled</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">=true <i class="conum" data-value="2"></i></span></span></code></pre>
+</div></div><div class="docs-snippet-card-footer docs-code-callouts block border-t border-code-border bg-code-tab px-6 py-3 text-sm leading-5 text-code-foreground [&amp;_code]:!rounded-none [&amp;_code]:!bg-code-foreground/10 [&amp;_code]:!p-0 [&amp;_code]:!text-[1em] [&amp;_code]:!leading-[inherit] [&amp;_code]:!text-code-foreground [&amp;_ol]:grid [&amp;_ol]:gap-[0.35rem] [&amp;_ol]:!m-0 [&amp;_ol]:!p-0 [&amp;_ol]:list-none [&amp;_ol]:[counter-reset:docs-code-callout] [&amp;_li]:grid [&amp;_li]:grid-cols-[auto_minmax(0,1fr)] [&amp;_li]:items-start [&amp;_li]:gap-[0.7rem] [&amp;_li]:[counter-increment:docs-code-callout] [&amp;_li+li]:!mt-0 [&amp;_li::before]:mt-[0.2rem] [&amp;_li::before]:inline-flex [&amp;_li::before]:h-[1.15rem] [&amp;_li::before]:w-[1.15rem] [&amp;_li::before]:items-center [&amp;_li::before]:justify-center [&amp;_li::before]:rounded-full [&amp;_li::before]:[border:1px_solid_color-mix(in_oklab,var(--code-foreground)_82%,var(--code))] [&amp;_li::before]:bg-code-foreground [&amp;_li::before]:text-code [&amp;_li::before]:text-[0.72rem] [&amp;_li::before]:leading-none [&amp;_li::before]:font-bold [&amp;_li::before]:content-[counter(docs-code-callout)] [&amp;_table]:w-full [&amp;_table]:border-collapse [&amp;_td]:align-top [&amp;_td:first-child]:w-[1.15rem] [&amp;_td:first-child]:pr-[0.7rem] [&amp;_td:first-child]:pt-[0.2rem] [&amp;_td:first-child_.conum]:ml-0 [&amp;_td:first-child_.conum]:inline-flex [&amp;_td:first-child_.conum]:h-[1.15rem] [&amp;_td:first-child_.conum]:w-[1.15rem] [&amp;_td:first-child_.conum]:items-center [&amp;_td:first-child_.conum]:justify-center [&amp;_td:first-child_.conum]:rounded-full [&amp;_td:first-child_.conum]:[border:1px_solid_color-mix(in_oklab,var(--code-foreground)_82%,var(--code))] [&amp;_td:first-child_.conum]:bg-code-foreground [&amp;_td:first-child_.conum]:text-code [&amp;_td:first-child_.conum]:[font-family:var(--shell-font)] [&amp;_td:first-child_.conum]:text-[0.72rem] [&amp;_td:first-child_.conum]:leading-none [&amp;_td:first-child_.conum]:font-bold [&amp;_td:first-child_.conum]:not-italic [&amp;_td:first-child_.conum::before]:content-[attr(data-value)] [&amp;_td:first-child_.conum+b]:hidden [&amp;_p]:!m-0" data-slot="card-footer">
+<table>
+<tbody><tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>Set the application name in <code>bootstrap.properties</code> instead of <code>application.properties</code> so that it is available when reading configuration from distributed sources.
+properties
+<div class="olist arabic asciidoc-manual-callouts">
+<ol class="arabic">
+<li>
+<p>Set <code>micronaut.config-client.enabled=true</code> which is used to read and resolve configuration from distributed sources.</p>
+</li>
+</ol>
+</div></td>
+</tr>
+</tbody></table>
+</div></div>
+
+
+
+</div>
+<div class="sect2">
+<h3 id="clean-up-application-configuration">Clean up Application Configuration</h3>
+<div class="paragraph">
+<p>If <code>application.properties</code> sets <code>micronaut.application.name</code>, remove it. You moved it to <code>bootstrap.properties</code>.</p>
+</div>
+<div class="listingblock" data-lang="diff">
+<div class="title">src/main/resources/application.properties</div>
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-diff shiki-code" data-lang="diff"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">micronaut.application.name=micronautguide</span></span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="disable-distributed-configuration-for-test">Disable Distributed Configuration for Test</h3>
+<div class="paragraph">
+<p>You can disable distributed configuration in a test by annotating a test with:</p>
+</div>
+<div class="listingblock" data-lang="java">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-java shiki-code" data-lang="java"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">@</span><span style="color:#CF222E;--shiki-dark:#FF7B72">Property</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">(</span><span style="color:#0550AE;--shiki-dark:#79C0FF">name</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> =</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> "micronaut.config-client.enabled"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">, </span><span style="color:#0550AE;--shiki-dark:#79C0FF">value</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> =</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> StringUtils.FALSE)</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">@</span><span style="color:#CF222E;--shiki-dark:#FF7B72">MicronautTest</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="configuration-changes">Configuration changes</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="bootstrap-oraclecloud-properties">bootstrap-oraclecloud.properties</h3>
+<div class="paragraph">
+<p>Then create <code>src/main/resources/bootstrap-oraclecloud.properties</code> with the following content:</p>
+</div>
+<div class="title docs-snippet-external-title my-0 mt-[1.35rem] mb-[0.45rem] text-[0.95rem] leading-[1.45] font-bold text-foreground [overflow-wrap:anywhere] [&amp;_code]:whitespace-normal">src/main/resources/bootstrap-oraclecloud.properties</div><div data-slot="card" class="docs-snippet-template docs-code-block my-5 flex flex-col gap-0 overflow-hidden rounded-xl border border-code-border bg-code-tab py-0 text-code-foreground shadow-sm shadow-black/[0.03] dark:shadow-black/20 docs-code-snippet-template docs-code-block-with-footer" id="generated-docs-snippet-2" data-snippet-kind="code"><div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6 docs-code-toolbar docs-snippet-card-header !flex min-h-10 items-center justify-between gap-3 border-b border-code-border bg-code-tab px-3 py-2 [.border-b]:!pb-2"><div class="docs-snippet-actions flex flex-wrap items-center justify-start justify-self-start gap-2"><div class="docs-snippet-tabs docs-code-tabs docs-code-tabs-multi flex flex-wrap items-center gap-1" role="tablist" aria-label="Code language"><button data-slot="button" data-variant="ghost" data-size="xs" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-6 gap-1 rounded-md px-2 text-xs has-[>svg]:px-1.5 [&amp;_svg:not([class*='size-'])]:size-3 docs-code-language language-option inline-flex h-6 items-center gap-1 align-middle leading-none text-code-muted aria-selected:font-semibold aria-selected:text-code-foreground" type="button" id="generated-docs-snippet-2-tab-0" role="tab" aria-controls="generated-docs-snippet-2-panel-0" aria-selected="true" data-lang="properties" tabindex="0"><span class="docs-code-language-text inline-flex items-center leading-none">Properties</span></button></div></div><div data-slot="card-action" class="col-start-2 row-span-2 row-start-1 ml-auto self-center justify-self-auto"><button data-slot="button" data-variant="ghost" data-size="icon-xs" class="docs-snippet-copy docs-code-copy inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 size-6 rounded-md [&amp;_svg:not([class*='size-'])]:size-3 text-code-muted hover:bg-code-border hover:text-code-foreground dark:hover:bg-code-border docs-snippet-copy docs-code-copy" type="button" data-copy-active-snippet=""><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="sr-only">Copy code</span></button></div></div><div data-slot="card-content" class="docs-snippet-panels overflow-hidden bg-code px-0 text-code-foreground"><div id="generated-docs-snippet-2-panel-0" role="tabpanel" aria-labelledby="generated-docs-snippet-2-tab-0" aria-hidden="false" class="docs-code-content docs-snippet-card-content bg-code text-code-foreground">
+<pre class="shiki shiki-themes github-light-default github-dark-default !m-0 !max-w-full !overflow-x-auto !rounded-none !border-0 !bg-code !px-6 !py-4 text-sm !leading-6 !text-code-foreground" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-properties shiki-code grid min-w-max font-mono !text-[0.85rem] !leading-6 [&amp;_.line]:min-h-[1.5rem] dark:[&amp;_span[style]]:![color:var(--shiki-dark,var(--shiki-light,currentColor))] dark:[&amp;_span[style]]:![font-style:var(--shiki-dark-font-style,var(--shiki-light-font-style,inherit))] dark:[&amp;_span[style]]:![font-weight:var(--shiki-dark-font-weight,var(--shiki-light-font-weight,inherit))] dark:[&amp;_span[style]]:![text-decoration:var(--shiki-dark-text-decoration,var(--shiki-light-text-decoration,inherit))] [&amp;_.conum]:ml-1 [&amp;_.conum]:inline-flex [&amp;_.conum]:h-[1.05rem] [&amp;_.conum]:w-[1.05rem] [&amp;_.conum]:items-center [&amp;_.conum]:justify-center [&amp;_.conum]:rounded-full [&amp;_.conum]:[border:1px_solid_color-mix(in_oklab,var(--code-foreground)_82%,var(--code))] [&amp;_.conum]:bg-code-foreground [&amp;_.conum]:![color:var(--code)] [&amp;_.conum]:[font-family:var(--shell-font)] [&amp;_.conum]:text-[0.68rem] [&amp;_.conum]:leading-none [&amp;_.conum]:font-bold [&amp;_.conum]:not-italic [&amp;_.conum]:align-[0.08em] [&amp;_.conum::before]:content-[attr(data-value)]" data-lang="properties"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">oci.config.instance-principal.enabled</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">=true <i class="conum" data-value="1"></i></span></span>
+<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">oci.vault.config.enabled</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">=true</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">oci.vault.vaults[0].</span><span style="color:#CF222E;--shiki-dark:#FF7B72">ocid</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">=${VAULT_ID} <i class="conum" data-value="2"></i></span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">oci.vault.vaults[0].</span><span style="color:#CF222E;--shiki-dark:#FF7B72">compartment-ocid</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">= <i class="conum" data-value="3"></i></span></span></code></pre>
+</div></div><div class="docs-snippet-card-footer docs-code-callouts block border-t border-code-border bg-code-tab px-6 py-3 text-sm leading-5 text-code-foreground [&amp;_code]:!rounded-none [&amp;_code]:!bg-code-foreground/10 [&amp;_code]:!p-0 [&amp;_code]:!text-[1em] [&amp;_code]:!leading-[inherit] [&amp;_code]:!text-code-foreground [&amp;_ol]:grid [&amp;_ol]:gap-[0.35rem] [&amp;_ol]:!m-0 [&amp;_ol]:!p-0 [&amp;_ol]:list-none [&amp;_ol]:[counter-reset:docs-code-callout] [&amp;_li]:grid [&amp;_li]:grid-cols-[auto_minmax(0,1fr)] [&amp;_li]:items-start [&amp;_li]:gap-[0.7rem] [&amp;_li]:[counter-increment:docs-code-callout] [&amp;_li+li]:!mt-0 [&amp;_li::before]:mt-[0.2rem] [&amp;_li::before]:inline-flex [&amp;_li::before]:h-[1.15rem] [&amp;_li::before]:w-[1.15rem] [&amp;_li::before]:items-center [&amp;_li::before]:justify-center [&amp;_li::before]:rounded-full [&amp;_li::before]:[border:1px_solid_color-mix(in_oklab,var(--code-foreground)_82%,var(--code))] [&amp;_li::before]:bg-code-foreground [&amp;_li::before]:text-code [&amp;_li::before]:text-[0.72rem] [&amp;_li::before]:leading-none [&amp;_li::before]:font-bold [&amp;_li::before]:content-[counter(docs-code-callout)] [&amp;_table]:w-full [&amp;_table]:border-collapse [&amp;_td]:align-top [&amp;_td:first-child]:w-[1.15rem] [&amp;_td:first-child]:pr-[0.7rem] [&amp;_td:first-child]:pt-[0.2rem] [&amp;_td:first-child_.conum]:ml-0 [&amp;_td:first-child_.conum]:inline-flex [&amp;_td:first-child_.conum]:h-[1.15rem] [&amp;_td:first-child_.conum]:w-[1.15rem] [&amp;_td:first-child_.conum]:items-center [&amp;_td:first-child_.conum]:justify-center [&amp;_td:first-child_.conum]:rounded-full [&amp;_td:first-child_.conum]:[border:1px_solid_color-mix(in_oklab,var(--code-foreground)_82%,var(--code))] [&amp;_td:first-child_.conum]:bg-code-foreground [&amp;_td:first-child_.conum]:text-code [&amp;_td:first-child_.conum]:[font-family:var(--shell-font)] [&amp;_td:first-child_.conum]:text-[0.72rem] [&amp;_td:first-child_.conum]:leading-none [&amp;_td:first-child_.conum]:font-bold [&amp;_td:first-child_.conum]:not-italic [&amp;_td:first-child_.conum::before]:content-[attr(data-value)] [&amp;_td:first-child_.conum+b]:hidden [&amp;_p]:!m-0" data-slot="card-footer">
+<table>
+<tbody><tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>Use <a href="https://micronaut-projects.github.io/micronaut-oracle-cloud/latest/guide/#instance-principals">Instance Principal authentication</a> to allow the Micronaut application to access Vault.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="2"></i><b>2</b></td>
+<td>Set the value of the <code>ocid</code> property with the vault OCID unique identifier you saved when creating the vault.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="3"></i><b>3</b></td>
+<td>Set the value of the <code>compartment-ocid</code> property with the OCID unique identifier of the compartment where you created the vault and secrets.</td>
+</tr>
+</tbody></table>
+</div></div>
+
+
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="mysql-database">MySQL Database</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Use the <a href="../micronaut-cloud-database-oracle.html">Deploy a Micronaut MySQL Database Application to Oracle Cloud</a> guide to create a MySQL database; follow the steps in the "Creating a MySQL DB System at Oracle Cloud" section.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="deploying-the-application">Deploying the Application</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Use the <a href="../micronaut-oracle-cloud.html">Deploy a Micronaut application to Oracle Cloud</a> guide to create a compute instance and deploy the application to it; follow the steps in the "Create an Oracle Cloud Compute Instance" and "Deploy to Oracle Cloud" sections up to the step where you start the application. You need to connect the application to the MySQL database before starting it.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tbody><tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+When creating the compute VM at Oracle Cloud, use the same subnet where you created the MySQL database; otherwise, the application will not be able to access the database.
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="configuring-mysql-access">Configuring MySQL Access</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Use the <a href="../micronaut-cloud-database-oracle.html">Deploy a Micronaut MySQL Database Application to Oracle Cloud</a> guide to configure access to the MySQL database; follow the steps in the "Configure MySQL" section. You will need the private IP address of the VM, the MySQL private IP address, and the admin username and password you chose when creating the database.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="creating-secrets">Creating Secrets</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In the <a href="../micronaut-data-jdbc-repository.html">Access a database with Micronaut Data JDBC</a> guide, the values for the JDBC URL, database username and password, and the JDBC driver class are externalized properties with default values:</p>
+</div>
+<div class="listingblock" data-lang="yaml">
+<div class="title">application.properties</div>
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-yaml shiki-code" data-lang="yaml"><span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">datasources.default.url=${JDBC_URL:`jdbc:mysql://localhost:3306/db`}</span></span>
+<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">datasources.default.username=${JDBC_USER:root}</span></span>
+<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">datasources.default.password=${JDBC_PASSWORD:}</span></span>
+<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">datasources.default.dialect=MYSQL</span></span>
+<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">datasources.default.driver-class-name=${JDBC_DRIVER:com.mysql.cj.jdbc.Driver}</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The guide recommends that you set environment variables to override the default values, but in this guide, you will go a step further and store some of those values in Oracle Cloud Vault. Leave the default for the driver class, but create vault secrets for <code>JDBC_USER</code>, <code>JDBC_PASSWORD</code>, and <code>JDBC_URL</code>.</p>
+</div>
+<div class="sect2">
+<h3 id="jdbc_user">JDBC_USER</h3>
+<div class="paragraph">
+<p>The first secret will be for the database username, so the secret name will be <code>JDBC_USER</code>.</p>
+</div>
+<div class="paragraph">
+<p>Secret values must be Base64-encoded. You can encode the value programmatically, e.g., <code>Base64.getEncoder().encodeToString("the value".getBytes())</code>, or use an online tool such as <a href="https://www.base64encode.org/" class="bare">https://www.base64encode.org/</a>.</p>
+</div>
+<div class="paragraph">
+<p>Run the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/vault/secret/create-base64.html">create-base64 command</a> with the compartment OCID, encryption key OCID, vault OCID, secret name, and Base64-encoded secret value substituted. If you use <code>guide_user</code> as the username, the Base64-encoded value will be <code>Z3VpZGVfdXNlcg==</code>.</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> vault</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> secret</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> create-base64</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -c</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $C </span><span style="color:#CF222E;--shiki-dark:#FF7B72">\</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --key-id</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $VAULT_KEY_ID </span><span style="color:#CF222E;--shiki-dark:#FF7B72">\</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --vault-id</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $VAULT_ID </span><span style="color:#CF222E;--shiki-dark:#FF7B72">\</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --secret-name</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> JDBC_USER</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --secret-content-content</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> Z3VpZGVfdXNlcg==</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Note that running that command will leave the Base64-encoded value in your shell history. To avoid this, you can create a JSON file containing the parameters and pass that as an argument to the command.</p>
+</div>
+<div class="paragraph">
+<p>To use this approach, create a file like this with values substituted, and save it as key.json:</p>
+</div>
+<div class="listingblock" data-lang="json">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-json shiki-code" data-lang="json"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">{</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">   "compartmentId"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.compartment.oc1..aaaaaaaarkh3s2wcxbbm..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">   "keyId"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.key.oc1.iad.b5re3.....abuwcljrcuie7t6gctc6..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">   "vaultId"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.vault.oc1.iad.b5re3....abuwcljryp5dmxbu3si7..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">   "secretName"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"JDBC_USER"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">   "secretContentContent"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"Z3VpZGVfdXNlcg=="</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">}</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>and run this <code>create-base64</code> command instead:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> vault</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> secret</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> create-base64</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> --from-json</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> file://key.json</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>With either approach the response should look like this:</p>
+</div>
+<div class="listingblock" data-lang="json">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-json shiki-code" data-lang="json"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">{</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">  "data"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "compartment-id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.compartment.oc1..aaaaaaaarkh3s2wcxbbm..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#82071E;--shiki-light-font-style:italic;--shiki-dark:#FFA198;--shiki-dark-font-style:italic">    ...</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.vaultsecret.oc1.iad.amaaaaaafzr7royabqgz..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "key-id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.key.oc1.iad.b5re3.....abuwcljrcuie7t6gctc6..."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "lifecycle-state"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"CREATING"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "secret-name"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"JDBC_USER"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line"><span style="color:#82071E;--shiki-light-font-style:italic;--shiki-dark:#FFA198;--shiki-dark-font-style:italic">    ...</span></span>
+<span class="line"><span style="color:#116329;--shiki-dark:#7EE787">    "vault-id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ocid1.vault.oc1.iad.b5re3....abuwcljryp5dmxbu3si7..."</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  }</span></span>
+<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">}</span></span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="jdbc_password">JDBC_PASSWORD</h3>
+<div class="paragraph">
+<p>Create a second secret with the name <code>JDBC_PASSWORD</code>. The value will be the Base64-encoded database user password you chose earlier.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="jdbc_url">JDBC_URL</h3>
+<div class="paragraph">
+<p>Create a third secret with the name <code>JDBC_URL</code>. The URL will be <code>jdbc:mysql://&lt;MySQL IP address&gt;:3306/micronaut</code> with the private IP address of your MySQL database substituted. Set the value of the secret as the Base64-encoded URL value.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="instance-principal-authentication">Instance Principal authentication</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Use <a href="https://micronaut-projects.github.io/micronaut-oracle-cloud/latest/guide/#instance-principals">Instance Principal authentication</a> to allow the Micronaut application to retrieve secrets from Vault. To use this, create a dynamic group and add a policy statement granting permission.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tbody><tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If you prefer to use the Oracle Cloud web console to create the dynamic group and policy statements, follow the steps in the "Instance Principal authentication" section of the <a href="../micronaut-oracle-cloud-streaming.html">Oracle Cloud Streaming and the Micronaut Framework - Event-Driven Applications at Scale</a> guide.
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="sect2">
+<h3 id="dynamic-group">Dynamic Group</h3>
+<div class="paragraph">
+<p>Choose a group name, e.g., "mn-guide-dg", and a matching rule, i.e., the logic that will be used to determine group membership. Make the rule fairly broad: use <code>ALL {instance.compartment.id = 'ocid1.compartment.oc1..aaaaaaaarkh3s2wcxbbm…​'}</code> replacing <code>ocid1.compartment.oc1..aaaaaaaarkh3s2wcxbbm…​</code> with the compartment OCID:</p>
+</div>
+<div class="paragraph">
+<p>Run the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/iam/dynamic-group/create.html">create command</a> with the compartment OCID substituted:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> iam</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> dynamic-group</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> create</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">   --name</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> mn-guide-dg</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">   --description</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> mn-guide-dg</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">   --matching-rule</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> "ALL {instance.compartment.id = 'ocid1.compartment.oc1..aaaaaaaarkh3s2wcxbbm...'}"</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">   |</span><span style="color:#953800;--shiki-dark:#FFA657"> jq</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> '.data."compartment-id"'</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>jq</code> utility will extract the <code>compartment-id</code> value from the response. Store the ID (the tenancy ID) as the <code>T</code> environment variable:</p>
+</div>
+<div class="listingblock" data-lang="text">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-text shiki-code" data-lang="text"><span class="line"><span>export T=ocid1.tenancy.oc1..aaaaaaaaud4g4e5ovjaw...</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>See the <a href="https://docs.oracle.com/en-us/iaas/Content/Identity/Tasks/managingdynamicgroups.htm">Dynamic Group docs</a> for more information.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="dynamic-group-policy-statements">Dynamic Group Policy Statements</h3>
+<div class="paragraph">
+<p>Next, create the policy granting read access to Vault.</p>
+</div>
+<div class="paragraph">
+<p>Create the policy in the root compartment, i.e., the tenancy, so use the tenancy OCID saved from the dynamic group creation response.</p>
+</div>
+<div class="paragraph">
+<p>Run the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/iam/policy/create.html">create command</a> with the tenancy OCID substituted:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> iam</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> policy</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> create</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -c</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $T </span><span style="color:#CF222E;--shiki-dark:#FF7B72">\</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --name</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> mn-guide-policy</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --description</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> mn-guide-policy</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --statements</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> '["allow dynamic-group mn-guide-dg to read secret-family in tenancy"]'</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">    |</span><span style="color:#953800;--shiki-dark:#FFA657"> jq</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> '.data.id'</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>jq</code> utility will extract the policy OCID from the <code>id</code> property in the response. Store the value as the <code>POLICY_ID</code> environment variable:</p>
+</div>
+<div class="listingblock" data-lang="text">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-text shiki-code" data-lang="text"><span class="line"><span>export POLICY_ID=ocid1.policy.oc1..aaaaaaaau7uhwxr3ynlr...</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="start-the-application">Start the application</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Finally, start the application. From the SSH session into your VM, run:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">java</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -jar</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> application.jar</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Verify that the application is working correctly with some cURL commands.</p>
+</div>
+<div class="paragraph">
+<p>Create a genre by running:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">curl</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -X</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> POST</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> http://</span><span style="color:#CF222E;--shiki-dark:#FF7B72">&#x3C;</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">VM</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> IP</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> addres</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">s</span><span style="color:#CF222E;--shiki-dark:#FF7B72">></span><span style="color:#0A3069;--shiki-dark:#A5D6FF">:8080/genres</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">     -H</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> 'Content-Type: application/json; charset=utf-8'</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">     -d</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> $'{ "name": "music" }'</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The response should look like this:</p>
+</div>
+<div class="listingblock" data-lang="json">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-json shiki-code" data-lang="json"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">{</span><span style="color:#116329;--shiki-dark:#7EE787">"id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">:</span><span style="color:#0550AE;--shiki-dark:#79C0FF">1</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span><span style="color:#116329;--shiki-dark:#7EE787">"name"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">:</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"music"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">}</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>List all genres by running:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">curl</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> http://</span><span style="color:#CF222E;--shiki-dark:#FF7B72">&#x3C;</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">VM</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> IP</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> addres</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">s</span><span style="color:#CF222E;--shiki-dark:#FF7B72">></span><span style="color:#0A3069;--shiki-dark:#A5D6FF">:8080/genres/list</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The response should look like this:</p>
+</div>
+<div class="listingblock" data-lang="json">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-json shiki-code" data-lang="json"><span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">[{</span><span style="color:#116329;--shiki-dark:#7EE787">"id"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">:</span><span style="color:#0550AE;--shiki-dark:#79C0FF">1</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span><span style="color:#116329;--shiki-dark:#7EE787">"name"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">:</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"music"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">}]</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="cleaning-up">Cleaning up</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After you finish this guide, you can clean up the resources you created.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/iam/policy/delete.html">Delete the policy</a> by running:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> iam</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> policy</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> delete</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> --policy-id</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $POLICY_ID</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To delete the dynamic group, find its OCID by running the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/iam/dynamic-group/list.html">list command</a>:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> iam</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> dynamic-group</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> list</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> |</span><span style="color:#953800;--shiki-dark:#FFA657"> jq</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> '.data[] | select(.name=="mn-guide-dg") | .id'</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>and run the <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/iam/dynamic-group/delete.html">delete command</a>, substituting the group OCID:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> iam</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> dynamic-group</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> delete</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> --dynamic-group-id</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> ocid1.dynamicgroup.oc1..aaaaaaaaipoabhhaqnj77urm...</span></span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Finally, delete the vault. You cannot delete it directly; instead, you can <a href="https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/kms/management/vault/schedule-deletion.html">request deletion</a> at a date at least seven days in the future. Run this, replacing the date with one seven days or more from now:</p>
+</div>
+<div class="listingblock" data-lang="bash">
+<div class="content">
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="language-bash shiki-code" data-lang="bash"><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">oci</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> kms</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> management</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> vault</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> schedule-deletion</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> \</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --vault-id</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> $VAULT_ID </span><span style="color:#CF222E;--shiki-dark:#FF7B72">\</span></span>
+<span class="line"><span style="color:#0550AE;--shiki-dark:#79C0FF">    --time-of-deletion</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> &#x3C;</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">YYYY-MM-D</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">D</span><span style="color:#CF222E;--shiki-dark:#FF7B72">></span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="next-steps">Next Steps</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Explore more features with <a href="https://micronaut.io/guides/">Micronaut Guides</a>.</p>
+</div>
+<div class="paragraph">
+<p>Read more about the <a href="https://micronaut-projects.github.io/micronaut-oracle-cloud/latest/guide/">Micronaut Oracle Cloud</a> integration.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="license">License</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tbody><tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+All guides are released with an <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a> for the code and a <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0</a> license for the writing and media (images).
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div><script src="../../_astro/inline/script.528a50be36d3b510.js"></script></article><aside class="hidden xl:block"><div class="sticky top-24 grid gap-1.5 text-[0.82rem]"><h2 class="m-0 font-medium">On this guide</h2><div data-orientation="horizontal" role="none" data-slot="separator" class="shrink-0 bg-border data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px opacity-70"></div><a href="#getting-started" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="getting-started">Getting Started</a><a href="#what-you-will-need" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="what-you-will-need">What you will need</a><a href="#oracle-cloud-vault" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="oracle-cloud-vault">Oracle Cloud Vault</a><a href="#the-application" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="the-application">The Application</a><a href="#creating-an-oracle-cloud-vault" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="creating-an-oracle-cloud-vault">Creating an Oracle Cloud Vault</a><a href="#using-vault-with-micronaut" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="using-vault-with-micronaut">Using Vault with Micronaut</a><a href="#distributed-configuration" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="distributed-configuration">Distributed Configuration</a><a href="#configuration-changes" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="configuration-changes">Configuration changes</a><a href="#mysql-database" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="mysql-database">MySQL Database</a><a href="#deploying-the-application" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="deploying-the-application">Deploying the Application</a><a href="#configuring-mysql-access" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="configuring-mysql-access">Configuring MySQL Access</a><a href="#creating-secrets" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="creating-secrets">Creating Secrets</a><a href="#instance-principal-authentication" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="instance-principal-authentication">Instance Principal authentication</a><a href="#start-the-application" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="start-the-application">Start the application</a><a href="#cleaning-up" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="cleaning-up">Cleaning up</a><a href="#next-steps" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="next-steps">Next Steps</a><a href="#license" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&.active]:bg-accent [&.active]:font-medium [&.active]:text-foreground" data-guide-section-link data-section-id="license">License</a><div data-orientation="horizontal" role="none" data-slot="separator" class="shrink-0 bg-border data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px opacity-70"></div><h3 class="m-0 font-medium">Different variants</h3><a href="/micronaut-guides/latest/micronaut-cloud-secrets-oracle-gradle-java.html" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground">Java / Gradle</a><a href="/micronaut-guides/latest/micronaut-cloud-secrets-oracle-gradle-kotlin.html" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground">Kotlin / Gradle</a><a href="/micronaut-guides/latest/micronaut-cloud-secrets-oracle-gradle-groovy.html" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground">Groovy / Gradle</a><a href="/micronaut-guides/latest/micronaut-cloud-secrets-oracle-maven-java.html" aria-current="page" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground bg-accent font-medium text-foreground">Java / Maven</a><a href="/micronaut-guides/latest/micronaut-cloud-secrets-oracle-maven-kotlin.html" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground">Kotlin / Maven</a><a href="/micronaut-guides/latest/micronaut-cloud-secrets-oracle-maven-groovy.html" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground">Groovy / Maven</a></div></aside></main><script src="../../_astro/inline/script.ea49c055482461db.js"></script><link rel="stylesheet" is:global="" href="../../_astro/inline/style.b84ae9cc2ebc0cef.css"> </div> </body></html>
