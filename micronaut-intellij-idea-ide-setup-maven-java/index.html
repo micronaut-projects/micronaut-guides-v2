@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="description" content="Micronaut web experience"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="color-scheme" content="light dark"><link rel="canonical" href="https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-intellij-idea-ide-setup-maven-java/"><script>(function(){const legacyThemeStorageKey = "micronaut-web-theme";
+const themeModeStorageKey = "micronaut-web-theme-mode";
+
+      (() => {
+        const root = document.documentElement;
+        const colorPreference = window.matchMedia("(prefers-color-scheme: dark)");
+        const preferredThemeMode = colorPreference.matches ? "dark" : "light";
+        const isThemeMode = (value) => value === "light" || value === "dark";
+        const resolveDark = (mode) => mode === "dark";
+        const applyThemeMode = (mode) => {
+          const dark = resolveDark(mode);
+          root.dataset.themeMode = mode;
+          root.classList.toggle("dark", dark);
+          root.style.colorScheme = dark ? "dark" : "light";
+        };
+        let themeMode = preferredThemeMode;
+        try {
+          const storedMode = localStorage.getItem(themeModeStorageKey);
+          const legacyMode = localStorage.getItem(legacyThemeStorageKey);
+          if (isThemeMode(storedMode)) {
+            themeMode = storedMode;
+          } else if (legacyMode === "light" || legacyMode === "dark") {
+            themeMode = legacyMode;
+            localStorage.setItem(themeModeStorageKey, legacyMode);
+          }
+        } catch {
+          themeMode = preferredThemeMode;
+        }
+        applyThemeMode(themeMode);
+      })();
+    })();</script><link rel="icon" href="https://micronaut-projects.github.io/micronaut-web/micronaut-assets/icons/micronaut-sally.svg"><link rel="stylesheet" href="https://micronaut-projects.github.io/micronaut-web/shell/site-header.css" data-micronaut-site-header-style><title>Using IntelliJ IDEA to develop Micronaut applications | Java / Maven</title><link rel="stylesheet" href="/micronaut-guides-v2/_astro/WebLayout.AZF46Flc.css"><link rel="stylesheet" href="/micronaut-guides-v2/_astro/generated-docs-content.CfWw-853.css"></head><body><div class="min-h-screen bg-background text-foreground"><div id="micronaut-site-header" data-micronaut-site-header data-surface="guides" data-main-url="https://micronaut-projects.github.io/micronaut-web/" data-docs-url="https://micronaut-projects.github.io/micronaut-docs-v2/" data-guides-url="https://micronaut-projects.github.io/micronaut-guides-v2/" data-docs-search-index-url="https://micronaut-projects.github.io/micronaut-docs-v2/latest/search-index.json" class="sticky top-0 z-40"><nav class="border-b bg-card/95 px-4 py-3 text-sm backdrop-blur-xl" aria-label="Micronaut navigation"><div class="mx-auto flex max-w-[var(--page-max)] flex-wrap items-center gap-3"><a class="font-semibold text-foreground no-underline" href="https://micronaut-projects.github.io/micronaut-web/">Micronaut</a><span class="ml-auto flex flex-wrap items-center gap-3"><a class="text-muted-foreground no-underline hover:text-foreground" href="https://micronaut-projects.github.io/micronaut-docs-v2/latest/">Docs</a><a class="text-muted-foreground no-underline hover:text-foreground" href="https://micronaut-projects.github.io/micronaut-guides-v2/">Guides</a><a class="text-muted-foreground no-underline hover:text-foreground" href="https://micronaut-projects.github.io/micronaut-web/blog/">Blog</a><a class="text-muted-foreground no-underline hover:text-foreground" href="https://launch.micronaut.io">Launch</a></span></div></nav></div><script src="https://micronaut-projects.github.io/micronaut-web/shell/site-header.js" defer></script><main class="mx-auto grid max-w-[1480px] gap-8 px-4 py-8 md:px-6 lg:grid-cols-[220px_minmax(0,1fr)_250px]"><aside class="hidden min-w-0 lg:block" aria-label="On this guide"><div class="sticky top-[calc(var(--topbar-height)+24px)] grid max-h-[calc(100vh-var(--topbar-height)-48px)] gap-1.5 overflow-y-auto pb-7 pr-2 text-[0.82rem] [scrollbar-width:thin]"><h2 class="m-0 font-medium">On this guide</h2><div data-orientation="horizontal" role="none" data-slot="separator" class="shrink-0 bg-border data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px opacity-70"></div><a href="#intellij-idea-features-for-micronaut-framework" aria-label="IntelliJ IDEA features for Micronaut Framework" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&amp;.active]:bg-accent [&amp;.active]:font-medium [&amp;.active]:text-foreground" data-guide-section-link data-section-id="intellij-idea-features-for-micronaut-framework">IntelliJ IDEA features for Micronaut Framework</a><a href="#intellij-idea-and-maven" aria-label="IntelliJ IDEA and Maven" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&amp;.active]:bg-accent [&amp;.active]:font-medium [&amp;.active]:text-foreground" data-guide-section-link data-section-id="intellij-idea-and-maven">IntelliJ IDEA and Maven</a><a href="#license" aria-label="License" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&amp;.active]:bg-accent [&amp;.active]:font-medium [&amp;.active]:text-foreground" data-guide-section-link data-section-id="license">License</a><div data-orientation="horizontal" role="none" data-slot="separator" class="shrink-0 bg-border data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px opacity-70"></div><h3 class="m-0 font-medium" aria-label="Different variants">Different variants</h3><a href="/micronaut-guides-v2/micronaut-intellij-idea-ide-setup-gradle-java.html" aria-label="Java / Gradle" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground">Java / Gradle</a><a href="/micronaut-guides-v2/micronaut-intellij-idea-ide-setup-maven-java.html" aria-label="Java / Maven" aria-current="page" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground bg-accent font-medium text-foreground">Java / Maven</a></div></aside><article class="min-w-0"><header class="mb-8"><span data-slot="badge" data-variant="secondary" class="inline-flex w-fit shrink-0 items-center justify-center gap-1 overflow-hidden rounded-full border border-transparent px-2.5 py-1 text-[0.78rem] font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;&gt;svg]:pointer-events-none [&amp;&gt;svg]:size-3 bg-secondary text-secondary-foreground [a&amp;]:hover:bg-secondary/90">Java / Maven</span><h1 class="mt-5 text-4xl font-bold tracking-tight md:text-5xl">Using IntelliJ IDEA to develop Micronaut applications</h1><p class="mt-4 max-w-3xl text-lg leading-8 text-muted-foreground">Delegate run and build actions to Gradle and Maven when working with IntelliJ IDEA</p><div class="mt-5 flex flex-wrap gap-2 text-sm text-muted-foreground"><span>Sergio del Amo</span><span aria-hidden="true">/</span><span>35 min</span></div></header><details class="mb-6 rounded-lg border bg-card p-3 lg:hidden" data-guide-mobile-guide-index><summary class="cursor-pointer text-sm font-medium">On this guide</summary><nav class="mt-3 grid gap-1 text-[0.86rem]" aria-label="On this guide"><a href="#intellij-idea-features-for-micronaut-framework" aria-label="IntelliJ IDEA features for Micronaut Framework" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&amp;.active]:bg-accent [&amp;.active]:font-medium [&amp;.active]:text-foreground" data-guide-section-link data-section-id="intellij-idea-features-for-micronaut-framework">IntelliJ IDEA features for Micronaut Framework</a><a href="#intellij-idea-and-maven" aria-label="IntelliJ IDEA and Maven" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&amp;.active]:bg-accent [&amp;.active]:font-medium [&amp;.active]:text-foreground" data-guide-section-link data-section-id="intellij-idea-and-maven">IntelliJ IDEA and Maven</a><a href="#license" aria-label="License" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&amp;.active]:bg-accent [&amp;.active]:font-medium [&amp;.active]:text-foreground" data-guide-section-link data-section-id="license">License</a><div data-orientation="horizontal" role="none" data-slot="separator" class="shrink-0 bg-border data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px my-1 opacity-70"></div><h3 class="m-0 text-sm font-medium" aria-label="Different variants">Different variants</h3><a href="/micronaut-guides-v2/micronaut-intellij-idea-ide-setup-gradle-java.html" aria-label="Java / Gradle" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground">Java / Gradle</a><a href="/micronaut-guides-v2/micronaut-intellij-idea-ide-setup-maven-java.html" aria-label="Java / Maven" aria-current="page" class="rounded-md px-2 py-1.5 leading-5 text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground bg-accent font-medium text-foreground">Java / Maven</a></nav></details><details class="mb-6 rounded-lg border bg-card p-3 lg:hidden" data-guide-mobile-index><summary class="cursor-pointer text-sm font-medium">In this section</summary><nav class="mt-3 grid gap-px border-l border-border pl-2.5" aria-label="Current guide sections"><a href="#intellij-idea-features-for-micronaut-framework" aria-label="IntelliJ IDEA features for Micronaut Framework" class="relative block min-w-0 rounded-md py-1 pr-2 text-[0.82rem] leading-[1.4] break-words text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground pl-2">IntelliJ IDEA features for Micronaut Framework</a><a href="#intellij-idea-and-maven" aria-label="IntelliJ IDEA and Maven" class="relative block min-w-0 rounded-md py-1 pr-2 text-[0.82rem] leading-[1.4] break-words text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground pl-2">IntelliJ IDEA and Maven</a><a href="#build-and-run-actions" aria-label="Build and run actions" class="relative block min-w-0 rounded-md py-1 pr-2 text-[0.82rem] leading-[1.4] break-words text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground pl-3.5">Build and run actions</a><a href="#enable-annotation-processing" aria-label="Enable annotation Processing" class="relative block min-w-0 rounded-md py-1 pr-2 text-[0.82rem] leading-[1.4] break-words text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground pl-3.5">Enable annotation Processing</a><a href="#license" aria-label="License" class="relative block min-w-0 rounded-md py-1 pr-2 text-[0.82rem] leading-[1.4] break-words text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground pl-2">License</a></nav></details><div class="generated-docs-content generated-guides-content" data-generated-docs><div class="paragraph">
+<p>This guide teaches you how to set up <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a> to develop Micronaut applications.</p>
+</div>
+<div class="sect1">
+<h2 id="intellij-idea-features-for-micronaut-framework">IntelliJ IDEA features for Micronaut Framework</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>IntelliJ IDEA comes in two flavors <a href="https://www.jetbrains.com/idea/download">Ultimate and Community Editions</a>. You can develop Micronaut applications with the community edition. However, the <a href="https://www.jetbrains.com/help/idea/micronaut.html">Ultimate edition has several extra features tailored to the Micronaut Framework</a>.</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>IntelliJ IDEA provides the following:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Coding assistance specific to the Micronaut API and the configuration file parameters. For example, when writing query methods, generating HTTP requests for defined endpoints, and so on.</p>
+</li>
+<li>
+<p>Integration with the Bean Validation and Endpoints tool windows.</p>
+</li>
+<li>
+<p>A dedicated project creation wizard based on launch.micronaut.io.</p>
+</li>
+<li>
+<p>A dedicated run configuration for Micronaut applications.</p>
+</li>
+</ul>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="intellij-idea-and-maven">IntelliJ IDEA and Maven</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can build Micronaut Framework with <a href="https://maven.apache.org/">Maven</a>. The <a href="https://micronaut-projects.github.io/micronaut-maven-plugin/latest/">Micronaut Maven Plugin</a> offers a great development experience.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.jetbrains.com/help/idea/maven-support.html">IntelliJ IDEA supports Maven</a> out of the box both in the community and ultimate editions.</p>
+</div>
+<div class="sect2">
+<h3 id="build-and-run-actions">Build and run actions</h3>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Some features such as <a href="https://micronaut-projects.github.io/micronaut-test-resources/latest/guide/">test resources</a> rely on the Micronaut Maven Plugin being used to run and test your application.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><a href="https://www.jetbrains.com/help/idea/delegate-build-and-run-actions-to-maven.html#delegate_to_maven">Delegate build and run actions to Maven</a></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img decoding="async" loading="lazy" src="../assets/shared/maven_settings_delegate.c584c9a941ee7fad.png" alt="maven settings delegate">
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Build a project with Maven</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Click Maven settings in the Maven tool window. Alternatively, from the main menu select File | Settings | Build, Execution, Deployment |Build Tools | Maven.</p>
+</li>
+<li>
+<p>Click Maven and from the list, select Runner.</p>
+</li>
+<li>
+<p>On the Runner page, select Delegate IDE build/run actions to maven.</p>
+</li>
+</ul>
+</div>
+</blockquote>
+</div>
+</div>
+<div class="sect2">
+<h3 id="enable-annotation-processing">Enable annotation Processing</h3>
+<div class="paragraph">
+<p>If you don&#8217;t delegate build and run actions to maven, make sure to enable annotation processing for Java and Kotlin applications</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img decoding="async" loading="lazy" src="../assets/shared/annotationprocessorsintellij.19cddc24b3aedc85.png" alt="annotationprocessorsintellij">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="license">License</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+All guides are released with an <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a> for the code and a <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0</a> license for the writing and media (images).
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div><script type="module" src="/micronaut-guides-v2/_astro/generated-docs-static-enhancer.astro_astro_type_script_index_0_lang.B7pGgJ_t.js"></script></article><aside class="hidden min-w-0 lg:block" aria-label="In this section" data-guide-page-index hidden><div class="sticky top-[calc(var(--topbar-height)+24px)] max-h-[calc(100vh-var(--topbar-height)-48px)] overflow-y-auto pb-7 pr-6 font-[var(--shell-font)] [scrollbar-width:thin]" data-guide-page-index-inner><div class="mb-2 flex items-center justify-between gap-2 text-[0.83rem] font-semibold leading-[1.4] text-foreground"><span>In this section</span><a class="inline-grid size-6 flex-none place-items-center rounded-md text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground" href="#intellij-idea-features-for-micronaut-framework" title="Back to top" aria-label="Back to top" data-guide-page-index-top><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up size-3.5" aria-hidden="true"><path d="m5 12 7-7 7 7"></path><path d="M12 19V5"></path></svg></a></div><nav class="grid gap-px border-l border-border pl-2.5" aria-label="Current guide sections" data-guide-page-index-nav><a href="#build-and-run-actions" aria-label="Build and run actions" class="relative block min-w-0 rounded-md py-1 pr-2 text-[0.78rem] leading-[1.4] break-words text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&amp;.active]:font-medium [&amp;.active]:text-foreground [&amp;.active]:before:absolute [&amp;.active]:before:bottom-[7px] [&amp;.active]:before:left-[-11px] [&amp;.active]:before:top-[7px] [&amp;.active]:before:w-0.5 [&amp;.active]:before:rounded-full [&amp;.active]:before:bg-brand [&amp;.active]:before:content-[''] pl-2" data-guide-page-index-link data-root-id="intellij-idea-and-maven" data-section-id="build-and-run-actions" hidden>Build and run actions</a><a href="#enable-annotation-processing" aria-label="Enable annotation Processing" class="relative block min-w-0 rounded-md py-1 pr-2 text-[0.78rem] leading-[1.4] break-words text-muted-foreground no-underline hover:bg-accent hover:text-accent-foreground focus-visible:bg-accent focus-visible:text-accent-foreground [&amp;.active]:font-medium [&amp;.active]:text-foreground [&amp;.active]:before:absolute [&amp;.active]:before:bottom-[7px] [&amp;.active]:before:left-[-11px] [&amp;.active]:before:top-[7px] [&amp;.active]:before:w-0.5 [&amp;.active]:before:rounded-full [&amp;.active]:before:bg-brand [&amp;.active]:before:content-[''] pl-2" data-guide-page-index-link data-root-id="intellij-idea-and-maven" data-section-id="enable-annotation-processing" hidden>Enable annotation Processing</a></nav></div></aside></main><script type="module" src="/micronaut-guides-v2/_astro/_slug_.astro_astro_type_script_index_0_lang.Da4KYhE0.js"></script></div></body></html>
