@@ -48,7 +48,7 @@ const themeModeStorageKey = "micronaut-web-theme-mode";
 <p>Some time on your hands</p>
 </li>
 <li>
-<p>A decent text editor or IDE (e.g. <a href="../micronaut-intellij-idea-ide-setup.html">IntelliJ IDEA</a>)</p>
+<p>A decent text editor or IDE (e.g. <a href="https://guides.micronaut.io/micronaut-intellij-idea-ide-setup.html">IntelliJ IDEA</a>)</p>
 </li>
 <li>
 <p>JDK 21 or greater installed with <code>JAVA_HOME</code> <a href="https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux">configured appropriately</a></p>
@@ -78,7 +78,7 @@ const themeModeStorageKey = "micronaut-web-theme-mode";
 <h2 id="the-application">The Application</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Download the complete solution for the <a href="../micronaut-data-jdbc-repository.html"></a> guide. You will use the sample application as a starting point.</p>
+<p>Download the complete solution for the <a href="https://guides.micronaut.io/micronaut-data-jdbc-repository.html"></a> guide. You will use the sample application as a starting point.</p>
 </div>
 </div>
 </div>
@@ -95,7 +95,7 @@ const themeModeStorageKey = "micronaut-web-theme-mode";
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-If you prefer to use the Oracle Cloud web console to create the vault, follow the steps in the "Using Oracle Cloud Vault" section of the <a href="../micronaut-oracle-autonomous-db.html"></a> guide.
+If you prefer to use the Oracle Cloud web console to create the vault, follow the steps in the "Using Oracle Cloud Vault" section of the <a href="https://guides.micronaut.io/micronaut-oracle-autonomous-db.html"></a> guide.
 </td>
 </tr>
 </table>
@@ -366,7 +366,7 @@ Add the following:</p>
 <h2 id="mysql-database">MySQL Database</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Use the <a href="../micronaut-cloud-database-oracle.html"></a> guide to create a MySQL database; follow the steps in the "Creating a MySQL DB System at Oracle Cloud" section.</p>
+<p>Use the <a href="https://guides.micronaut.io/micronaut-cloud-database-oracle.html"></a> guide to create a MySQL database; follow the steps in the "Creating a MySQL DB System at Oracle Cloud" section.</p>
 </div>
 </div>
 </div>
@@ -374,7 +374,7 @@ Add the following:</p>
 <h2 id="deploying-the-application">Deploying the Application</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Use the <a href="../micronaut-oracle-cloud.html"></a> guide to create a compute instance and deploy the application to it; follow the steps in the "Create an Oracle Cloud Compute Instance" and "Deploy to Oracle Cloud" sections up to the step where you start the application. You need to connect the application to the MySQL database before starting it.</p>
+<p>Use the <a href="https://guides.micronaut.io/micronaut-oracle-cloud.html"></a> guide to create a compute instance and deploy the application to it; follow the steps in the "Create an Oracle Cloud Compute Instance" and "Deploy to Oracle Cloud" sections up to the step where you start the application. You need to connect the application to the MySQL database before starting it.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -394,7 +394,7 @@ When creating the compute VM at Oracle Cloud, use the same subnet where you crea
 <h2 id="configuring-mysql-access">Configuring MySQL Access</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Use the <a href="../micronaut-cloud-database-oracle.html"></a> guide to configure access to the MySQL database; follow the steps in the "Configure MySQL" section. You will need the private IP address of the VM, the MySQL private IP address, and the admin username and password you chose when creating the database.</p>
+<p>Use the <a href="https://guides.micronaut.io/micronaut-cloud-database-oracle.html"></a> guide to configure access to the MySQL database; follow the steps in the "Configure MySQL" section. You will need the private IP address of the VM, the MySQL private IP address, and the admin username and password you chose when creating the database.</p>
 </div>
 </div>
 </div>
@@ -402,7 +402,7 @@ When creating the compute VM at Oracle Cloud, use the same subnet where you crea
 <h2 id="creating-secrets">Creating Secrets</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>In the <a href="../micronaut-data-jdbc-repository.html"></a> guide, the values for the JDBC URL, database username and password, and the JDBC driver class are externalized properties with default values:</p>
+<p>In the <a href="https://guides.micronaut.io/micronaut-data-jdbc-repository.html"></a> guide, the values for the JDBC URL, database username and password, and the JDBC driver class are externalized properties with default values:</p>
 </div>
 <div class="title docs-snippet-external-title"><span>application.properties</span></div><div data-slot="card" class="flex flex-col gap-6 rounded-xl border bg-card py-6 text-card-foreground shadow-sm shadow-black/[0.03] dark:shadow-black/20 docs-snippet-template docs-code-block docs-code-snippet-template" id="generated-listing-snippet-16" data-snippet-kind="code"><div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6 docs-code-toolbar docs-snippet-card-header"><div class="docs-snippet-actions"><div class="docs-snippet-tabs docs-code-tabs docs-code-tabs-multi" role="tablist" aria-label="Code language"><button data-slot="button" data-variant="ghost" data-size="xs" class="inline-flex shrink-0 items-center justify-center font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-6 gap-1 rounded-md px-2 text-xs has-[&gt;svg]:px-1.5 [&amp;_svg:not([class*=&#x27;size-&#x27;])]:size-3 docs-code-language language-option selected" id="generated-listing-snippet-16-tab-0" type="button" role="tab" aria-controls="generated-listing-snippet-16-panel-0" aria-selected="true" data-lang="yaml" tabindex="0"><span class="docs-code-language-icon docs-code-language-icon-yaml docs-code-language-icon-fill" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="m0 .97 4.111 6.453v4.09h2.638v-4.09L11.053.969H8.214L5.58 5.125 2.965.969Zm12.093.024-4.47 10.544h2.114l.97-2.345h4.775l.804 2.345h2.26L14.255.994Zm1.133 2.225 1.463 3.87h-3.096zm3.06 9.475v10.29H24v-2.199h-5.454v-8.091zm-12.175.002v10.335h2.217v-7.129l2.32 4.792h1.746l2.4-4.96v7.295h2.127V12.696h-2.904L9.44 17.37l-2.455-4.674Z"/></svg></span><span class="docs-code-language-text">YAML</span></button></div></div><div data-slot="card-action" class="col-start-2 row-span-2 row-start-1 self-start justify-self-end docs-snippet-card-action"><button data-slot="button" data-variant="ghost" data-size="icon-xs" class="inline-flex shrink-0 items-center justify-center gap-2 text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-6 rounded-md [&amp;_svg:not([class*=&#x27;size-&#x27;])]:size-3 docs-snippet-copy docs-code-copy" type="button" aria-label="Copy YAML" title="Copy YAML" data-copy-active-snippet=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy" aria-hidden="true" focusable="false"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="sr-only" aria-live="polite">Copy code</span></button></div></div><div data-slot="card-content" class="px-6 docs-snippet-panels"><div id="generated-listing-snippet-16-panel-0" role="tabpanel" aria-labelledby="generated-listing-snippet-16-tab-0" aria-hidden="false" class="docs-code-content docs-snippet-card-content"><pre class="docs-highlighted-pre" tabindex="0"><code class="language-yaml docs-highlighted-code" data-lang="yaml"><span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">datasources.default.url=${JDBC_URL:`jdbc:mysql://localhost:3306/db`}</span></span>
 <span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">datasources.default.username=${JDBC_USER:root}</span></span>
@@ -493,7 +493,7 @@ When creating the compute VM at Oracle Cloud, use the same subnet where you crea
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-If you prefer to use the Oracle Cloud web console to create the dynamic group and policy statements, follow the steps in the "Instance Principal authentication" section of the <a href="../micronaut-oracle-cloud-streaming.html"></a> guide.
+If you prefer to use the Oracle Cloud web console to create the dynamic group and policy statements, follow the steps in the "Instance Principal authentication" section of the <a href="https://guides.micronaut.io/micronaut-oracle-cloud-streaming.html"></a> guide.
 </td>
 </tr>
 </table>
