@@ -1,0 +1,1 @@
+import{a as e}from"./guide-variant-preference.Cqd6qWgc.js";document.addEventListener(`click`,t=>{let n=t.target;if(!(n instanceof Element))return;let r=n.closest(`a[data-guide-variant-language][data-guide-variant-build-tool]`),i=r?.dataset.guideVariantLanguage,a=r?.dataset.guideVariantBuildTool;i&&a&&e({language:i,buildTool:a})});
