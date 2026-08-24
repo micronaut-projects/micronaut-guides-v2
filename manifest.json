@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:29:32.189Z",
+  "generatedAt": "2026-08-24T15:58:43.805Z",
   "guideCount": 177,
   "guides": [
     {
@@ -67,17 +67,6 @@
           "file": "micronaut-data-h2-geospatial-nearby-drivers-maven-java.html",
           "fragment": "fragments/micronaut-data-h2-geospatial-nearby-drivers-maven-java.html",
           "zipUrl": "micronaut-data-h2-geospatial-nearby-drivers-maven-java.zip"
-        },
-        {
-          "id": "micronaut-data-h2-geospatial-nearby-drivers-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-h2-geospatial-nearby-drivers-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-h2-geospatial-nearby-drivers-maven-kotlin.html",
-          "zipUrl": "micronaut-data-h2-geospatial-nearby-drivers-maven-kotlin.zip"
         },
         {
           "id": "micronaut-data-h2-geospatial-nearby-drivers-maven-groovy",
@@ -159,17 +148,6 @@
           "zipUrl": "micronaut-data-mariadb-geospatial-nearby-drivers-maven-java.zip"
         },
         {
-          "id": "micronaut-data-mariadb-geospatial-nearby-drivers-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-mariadb-geospatial-nearby-drivers-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-mariadb-geospatial-nearby-drivers-maven-kotlin.html",
-          "zipUrl": "micronaut-data-mariadb-geospatial-nearby-drivers-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-data-mariadb-geospatial-nearby-drivers-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -247,17 +225,6 @@
           "file": "micronaut-data-mysql-geospatial-nearby-drivers-maven-java.html",
           "fragment": "fragments/micronaut-data-mysql-geospatial-nearby-drivers-maven-java.html",
           "zipUrl": "micronaut-data-mysql-geospatial-nearby-drivers-maven-java.zip"
-        },
-        {
-          "id": "micronaut-data-mysql-geospatial-nearby-drivers-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-mysql-geospatial-nearby-drivers-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-mysql-geospatial-nearby-drivers-maven-kotlin.html",
-          "zipUrl": "micronaut-data-mysql-geospatial-nearby-drivers-maven-kotlin.zip"
         },
         {
           "id": "micronaut-data-mysql-geospatial-nearby-drivers-maven-groovy",
@@ -339,17 +306,6 @@
           "zipUrl": "micronaut-data-postgres-geospatial-nearby-drivers-maven-java.zip"
         },
         {
-          "id": "micronaut-data-postgres-geospatial-nearby-drivers-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-postgres-geospatial-nearby-drivers-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-postgres-geospatial-nearby-drivers-maven-kotlin.html",
-          "zipUrl": "micronaut-data-postgres-geospatial-nearby-drivers-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-data-postgres-geospatial-nearby-drivers-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -429,17 +385,6 @@
           "zipUrl": "micronaut-data-sqlserver-geospatial-nearby-drivers-maven-java.zip"
         },
         {
-          "id": "micronaut-data-sqlserver-geospatial-nearby-drivers-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-sqlserver-geospatial-nearby-drivers-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-sqlserver-geospatial-nearby-drivers-maven-kotlin.html",
-          "zipUrl": "micronaut-data-sqlserver-geospatial-nearby-drivers-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-data-sqlserver-geospatial-nearby-drivers-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -517,17 +462,6 @@
           "file": "micronaut-data-oracle-geospatial-nearby-drivers-maven-java.html",
           "fragment": "fragments/micronaut-data-oracle-geospatial-nearby-drivers-maven-java.html",
           "zipUrl": "micronaut-data-oracle-geospatial-nearby-drivers-maven-java.zip"
-        },
-        {
-          "id": "micronaut-data-oracle-geospatial-nearby-drivers-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-oracle-geospatial-nearby-drivers-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-oracle-geospatial-nearby-drivers-maven-kotlin.html",
-          "zipUrl": "micronaut-data-oracle-geospatial-nearby-drivers-maven-kotlin.zip"
         },
         {
           "id": "micronaut-data-oracle-geospatial-nearby-drivers-maven-groovy",
@@ -763,17 +697,6 @@
           "zipUrl": "micronaut-security-test-maven-java.zip"
         },
         {
-          "id": "micronaut-security-test-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-security-test-maven-kotlin.html",
-          "fragment": "fragments/micronaut-security-test-maven-kotlin.html",
-          "zipUrl": "micronaut-security-test-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-security-test-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -930,17 +853,6 @@
           "file": "micronaut-oauth2-client-credentials-oracle-identity-domain-maven-java.html",
           "fragment": "fragments/micronaut-oauth2-client-credentials-oracle-identity-domain-maven-java.html",
           "zipUrl": "micronaut-oauth2-client-credentials-oracle-identity-domain-maven-java.zip"
-        },
-        {
-          "id": "micronaut-oauth2-client-credentials-oracle-identity-domain-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oauth2-client-credentials-oracle-identity-domain-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oauth2-client-credentials-oracle-identity-domain-maven-kotlin.html",
-          "zipUrl": "micronaut-oauth2-client-credentials-oracle-identity-domain-maven-kotlin.zip"
         },
         {
           "id": "micronaut-oauth2-client-credentials-oracle-identity-domain-maven-groovy",
@@ -1277,17 +1189,6 @@
           "file": "micronaut-azure-logging-maven-java.html",
           "fragment": "fragments/micronaut-azure-logging-maven-java.html",
           "zipUrl": "micronaut-azure-logging-maven-java.zip"
-        },
-        {
-          "id": "micronaut-azure-logging-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-azure-logging-maven-kotlin.html",
-          "fragment": "fragments/micronaut-azure-logging-maven-kotlin.html",
-          "zipUrl": "micronaut-azure-logging-maven-kotlin.zip"
         },
         {
           "id": "micronaut-azure-logging-maven-groovy",
@@ -1682,17 +1583,6 @@
           "file": "micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm-maven-java.html",
           "fragment": "fragments/micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm-maven-java.html",
           "zipUrl": "micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm-maven-java.zip"
-        },
-        {
-          "id": "micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm-maven-kotlin.html",
-          "fragment": "fragments/micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm-maven-kotlin.html",
-          "zipUrl": "micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm-maven-kotlin.zip"
         }
       ]
     },
@@ -1879,17 +1769,6 @@
           "zipUrl": "micronaut-server-filter-request-maven-java.zip"
         },
         {
-          "id": "micronaut-server-filter-request-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-server-filter-request-maven-kotlin.html",
-          "fragment": "fragments/micronaut-server-filter-request-maven-kotlin.html",
-          "zipUrl": "micronaut-server-filter-request-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-server-filter-request-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -1990,17 +1869,6 @@
           "file": "micronaut-content-negotiation-maven-java.html",
           "fragment": "fragments/micronaut-content-negotiation-maven-java.html",
           "zipUrl": "micronaut-content-negotiation-maven-java.zip"
-        },
-        {
-          "id": "micronaut-content-negotiation-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-content-negotiation-maven-kotlin.html",
-          "fragment": "fragments/micronaut-content-negotiation-maven-kotlin.html",
-          "zipUrl": "micronaut-content-negotiation-maven-kotlin.zip"
         },
         {
           "id": "micronaut-content-negotiation-maven-groovy",
@@ -2275,17 +2143,6 @@
           "file": "mn-serverless-function-aws-lambda-function-url-maven-java.html",
           "fragment": "fragments/mn-serverless-function-aws-lambda-function-url-maven-java.html",
           "zipUrl": "mn-serverless-function-aws-lambda-function-url-maven-java.zip"
-        },
-        {
-          "id": "mn-serverless-function-aws-lambda-function-url-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "mn-serverless-function-aws-lambda-function-url-maven-kotlin.html",
-          "fragment": "fragments/mn-serverless-function-aws-lambda-function-url-maven-kotlin.html",
-          "zipUrl": "mn-serverless-function-aws-lambda-function-url-maven-kotlin.zip"
         },
         {
           "id": "mn-serverless-function-aws-lambda-function-url-maven-groovy",
@@ -2571,17 +2428,6 @@
           "zipUrl": "micronaut-k8s-gcp-maven-java.zip"
         },
         {
-          "id": "micronaut-k8s-gcp-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-k8s-gcp-maven-kotlin.html",
-          "fragment": "fragments/micronaut-k8s-gcp-maven-kotlin.html",
-          "zipUrl": "micronaut-k8s-gcp-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-k8s-gcp-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -2658,17 +2504,6 @@
           "file": "micronaut-k8s-maven-java.html",
           "fragment": "fragments/micronaut-k8s-maven-java.html",
           "zipUrl": "micronaut-k8s-maven-java.zip"
-        },
-        {
-          "id": "micronaut-k8s-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-k8s-maven-kotlin.html",
-          "fragment": "fragments/micronaut-k8s-maven-kotlin.html",
-          "zipUrl": "micronaut-k8s-maven-kotlin.zip"
         },
         {
           "id": "micronaut-k8s-maven-groovy",
@@ -2750,17 +2585,6 @@
           "zipUrl": "micronaut-k8s-aws-maven-java.zip"
         },
         {
-          "id": "micronaut-k8s-aws-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-k8s-aws-maven-kotlin.html",
-          "fragment": "fragments/micronaut-k8s-aws-maven-kotlin.html",
-          "zipUrl": "micronaut-k8s-aws-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-k8s-aws-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -2840,17 +2664,6 @@
           "zipUrl": "micronaut-k8s-oci-maven-java.zip"
         },
         {
-          "id": "micronaut-k8s-oci-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-k8s-oci-maven-kotlin.html",
-          "fragment": "fragments/micronaut-k8s-oci-maven-kotlin.html",
-          "zipUrl": "micronaut-k8s-oci-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-k8s-oci-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -2925,17 +2738,6 @@
           "file": "micronaut-crac-google-cloud-platform-cloud-run-maven-java.html",
           "fragment": "fragments/micronaut-crac-google-cloud-platform-cloud-run-maven-java.html",
           "zipUrl": "micronaut-crac-google-cloud-platform-cloud-run-maven-java.zip"
-        },
-        {
-          "id": "micronaut-crac-google-cloud-platform-cloud-run-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-crac-google-cloud-platform-cloud-run-maven-kotlin.html",
-          "fragment": "fragments/micronaut-crac-google-cloud-platform-cloud-run-maven-kotlin.html",
-          "zipUrl": "micronaut-crac-google-cloud-platform-cloud-run-maven-kotlin.zip"
         },
         {
           "id": "micronaut-crac-google-cloud-platform-cloud-run-maven-groovy",
@@ -3045,17 +2847,6 @@
           "file": "micronaut-custom-validation-annotation-maven-java.html",
           "fragment": "fragments/micronaut-custom-validation-annotation-maven-java.html",
           "zipUrl": "micronaut-custom-validation-annotation-maven-java.zip"
-        },
-        {
-          "id": "micronaut-custom-validation-annotation-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-custom-validation-annotation-maven-kotlin.html",
-          "fragment": "fragments/micronaut-custom-validation-annotation-maven-kotlin.html",
-          "zipUrl": "micronaut-custom-validation-annotation-maven-kotlin.zip"
         }
       ]
     },
@@ -3160,17 +2951,6 @@
           "zipUrl": "micronaut-docker-image-maven-java.zip"
         },
         {
-          "id": "micronaut-docker-image-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-docker-image-maven-kotlin.html",
-          "fragment": "fragments/micronaut-docker-image-maven-kotlin.html",
-          "zipUrl": "micronaut-docker-image-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-docker-image-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -3242,17 +3022,6 @@
           "file": "micronaut-cors-maven-java.html",
           "fragment": "fragments/micronaut-cors-maven-java.html",
           "zipUrl": "micronaut-cors-maven-java.zip"
-        },
-        {
-          "id": "micronaut-cors-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cors-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cors-maven-kotlin.html",
-          "zipUrl": "micronaut-cors-maven-kotlin.zip"
         },
         {
           "id": "micronaut-cors-maven-groovy",
@@ -3375,17 +3144,6 @@
           "zipUrl": "micronaut-data-r2dbc-repository-maven-java.zip"
         },
         {
-          "id": "micronaut-data-r2dbc-repository-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-r2dbc-repository-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-r2dbc-repository-maven-kotlin.html",
-          "zipUrl": "micronaut-data-r2dbc-repository-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-data-r2dbc-repository-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -3449,17 +3207,6 @@
           "file": "micronaut-jms-aws-sqs-maven-java.html",
           "fragment": "fragments/micronaut-jms-aws-sqs-maven-java.html",
           "zipUrl": "micronaut-jms-aws-sqs-maven-java.zip"
-        },
-        {
-          "id": "micronaut-jms-aws-sqs-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-jms-aws-sqs-maven-kotlin.html",
-          "fragment": "fragments/micronaut-jms-aws-sqs-maven-kotlin.html",
-          "zipUrl": "micronaut-jms-aws-sqs-maven-kotlin.zip"
         }
       ]
     },
@@ -3524,17 +3271,6 @@
           "file": "micronaut-metrics-aws-maven-java.html",
           "fragment": "fragments/micronaut-metrics-aws-maven-java.html",
           "zipUrl": "micronaut-metrics-aws-maven-java.zip"
-        },
-        {
-          "id": "micronaut-metrics-aws-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-metrics-aws-maven-kotlin.html",
-          "fragment": "fragments/micronaut-metrics-aws-maven-kotlin.html",
-          "zipUrl": "micronaut-metrics-aws-maven-kotlin.zip"
         },
         {
           "id": "micronaut-metrics-aws-maven-groovy",
@@ -3610,17 +3346,6 @@
           "file": "micronaut-metrics-oci-maven-java.html",
           "fragment": "fragments/micronaut-metrics-oci-maven-java.html",
           "zipUrl": "micronaut-metrics-oci-maven-java.zip"
-        },
-        {
-          "id": "micronaut-metrics-oci-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-metrics-oci-maven-kotlin.html",
-          "fragment": "fragments/micronaut-metrics-oci-maven-kotlin.html",
-          "zipUrl": "micronaut-metrics-oci-maven-kotlin.zip"
         },
         {
           "id": "micronaut-metrics-oci-maven-groovy",
@@ -3784,17 +3509,6 @@
           "zipUrl": "micronaut-scope-types-maven-java.zip"
         },
         {
-          "id": "micronaut-scope-types-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-scope-types-maven-kotlin.html",
-          "fragment": "fragments/micronaut-scope-types-maven-kotlin.html",
-          "zipUrl": "micronaut-scope-types-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-scope-types-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -3903,17 +3617,6 @@
           "file": "micronaut-cloud-secrets-azure-maven-java.html",
           "fragment": "fragments/micronaut-cloud-secrets-azure-maven-java.html",
           "zipUrl": "micronaut-cloud-secrets-azure-maven-java.zip"
-        },
-        {
-          "id": "micronaut-cloud-secrets-azure-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-secrets-azure-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-secrets-azure-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-secrets-azure-maven-kotlin.zip"
         },
         {
           "id": "micronaut-cloud-secrets-azure-maven-groovy",
@@ -4029,17 +3732,6 @@
           "zipUrl": "executable-jar-maven-java.zip"
         },
         {
-          "id": "executable-jar-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "executable-jar-maven-kotlin.html",
-          "fragment": "fragments/executable-jar-maven-kotlin.html",
-          "zipUrl": "executable-jar-maven-kotlin.zip"
-        },
-        {
           "id": "executable-jar-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -4144,17 +3836,6 @@
           "file": "spring-boot-to-micronaut-uri-components-builder-vs-uri-builder-maven-java.html",
           "fragment": "fragments/spring-boot-to-micronaut-uri-components-builder-vs-uri-builder-maven-java.html",
           "zipUrl": "spring-boot-to-micronaut-uri-components-builder-vs-uri-builder-maven-java.zip"
-        },
-        {
-          "id": "spring-boot-to-micronaut-uri-components-builder-vs-uri-builder-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "spring-boot-to-micronaut-uri-components-builder-vs-uri-builder-maven-kotlin.html",
-          "fragment": "fragments/spring-boot-to-micronaut-uri-components-builder-vs-uri-builder-maven-kotlin.html",
-          "zipUrl": "spring-boot-to-micronaut-uri-components-builder-vs-uri-builder-maven-kotlin.zip"
         }
       ]
     },
@@ -4335,17 +4016,6 @@
           "zipUrl": "micronaut-dependency-injection-types-maven-java.zip"
         },
         {
-          "id": "micronaut-dependency-injection-types-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-dependency-injection-types-maven-kotlin.html",
-          "fragment": "fragments/micronaut-dependency-injection-types-maven-kotlin.html",
-          "zipUrl": "micronaut-dependency-injection-types-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-dependency-injection-types-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -4412,17 +4082,6 @@
           "file": "micronaut-hibernate-reactive-maven-java.html",
           "fragment": "fragments/micronaut-hibernate-reactive-maven-java.html",
           "zipUrl": "micronaut-hibernate-reactive-maven-java.zip"
-        },
-        {
-          "id": "micronaut-hibernate-reactive-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-hibernate-reactive-maven-kotlin.html",
-          "fragment": "fragments/micronaut-hibernate-reactive-maven-kotlin.html",
-          "zipUrl": "micronaut-hibernate-reactive-maven-kotlin.zip"
         }
       ]
     },
@@ -4482,17 +4141,6 @@
           "file": "micronaut-data-hibernate-reactive-maven-java.html",
           "fragment": "fragments/micronaut-data-hibernate-reactive-maven-java.html",
           "zipUrl": "micronaut-data-hibernate-reactive-maven-java.zip"
-        },
-        {
-          "id": "micronaut-data-hibernate-reactive-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-hibernate-reactive-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-hibernate-reactive-maven-kotlin.html",
-          "zipUrl": "micronaut-data-hibernate-reactive-maven-kotlin.zip"
         }
       ]
     },
@@ -4558,17 +4206,6 @@
           "file": "micronaut-health-endpoint-maven-java.html",
           "fragment": "fragments/micronaut-health-endpoint-maven-java.html",
           "zipUrl": "micronaut-health-endpoint-maven-java.zip"
-        },
-        {
-          "id": "micronaut-health-endpoint-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-health-endpoint-maven-kotlin.html",
-          "fragment": "fragments/micronaut-health-endpoint-maven-kotlin.html",
-          "zipUrl": "micronaut-health-endpoint-maven-kotlin.zip"
         },
         {
           "id": "micronaut-health-endpoint-maven-groovy",
@@ -4689,17 +4326,6 @@
           "zipUrl": "micronaut-cloud-trace-google-maven-java.zip"
         },
         {
-          "id": "micronaut-cloud-trace-google-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-trace-google-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-trace-google-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-trace-google-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-cloud-trace-google-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -4772,17 +4398,6 @@
           "file": "micronaut-cloud-trace-oci-maven-java.html",
           "fragment": "fragments/micronaut-cloud-trace-oci-maven-java.html",
           "zipUrl": "micronaut-cloud-trace-oci-maven-java.zip"
-        },
-        {
-          "id": "micronaut-cloud-trace-oci-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-trace-oci-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-trace-oci-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-trace-oci-maven-kotlin.zip"
         },
         {
           "id": "micronaut-cloud-trace-oci-maven-groovy",
@@ -4928,17 +4543,6 @@
           "zipUrl": "micronaut-microservices-distributed-tracing-zipkin-opentelemetry-maven-java.zip"
         },
         {
-          "id": "micronaut-microservices-distributed-tracing-zipkin-opentelemetry-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-microservices-distributed-tracing-zipkin-opentelemetry-maven-kotlin.html",
-          "fragment": "fragments/micronaut-microservices-distributed-tracing-zipkin-opentelemetry-maven-kotlin.html",
-          "zipUrl": "micronaut-microservices-distributed-tracing-zipkin-opentelemetry-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-microservices-distributed-tracing-zipkin-opentelemetry-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -5012,17 +4616,6 @@
           "file": "micronaut-metrics-maven-java.html",
           "fragment": "fragments/micronaut-metrics-maven-java.html",
           "zipUrl": "micronaut-metrics-maven-java.zip"
-        },
-        {
-          "id": "micronaut-metrics-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-metrics-maven-kotlin.html",
-          "fragment": "fragments/micronaut-metrics-maven-kotlin.html",
-          "zipUrl": "micronaut-metrics-maven-kotlin.zip"
         },
         {
           "id": "micronaut-metrics-maven-groovy",
@@ -5186,17 +4779,6 @@
           "zipUrl": "micronaut-turbo-native-maven-java.zip"
         },
         {
-          "id": "micronaut-turbo-native-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-turbo-native-maven-kotlin.html",
-          "fragment": "fragments/micronaut-turbo-native-maven-kotlin.html",
-          "zipUrl": "micronaut-turbo-native-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-turbo-native-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -5309,17 +4891,6 @@
           "file": "micronaut-rest-assured-maven-java.html",
           "fragment": "fragments/micronaut-rest-assured-maven-java.html",
           "zipUrl": "micronaut-rest-assured-maven-java.zip"
-        },
-        {
-          "id": "micronaut-rest-assured-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-rest-assured-maven-kotlin.html",
-          "fragment": "fragments/micronaut-rest-assured-maven-kotlin.html",
-          "zipUrl": "micronaut-rest-assured-maven-kotlin.zip"
         },
         {
           "id": "micronaut-rest-assured-maven-groovy",
@@ -5443,17 +5014,6 @@
           "zipUrl": "micronaut-oracle-email-delivery-maven-java.zip"
         },
         {
-          "id": "micronaut-oracle-email-delivery-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oracle-email-delivery-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oracle-email-delivery-maven-kotlin.html",
-          "zipUrl": "micronaut-oracle-email-delivery-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-oracle-email-delivery-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -5530,17 +5090,6 @@
           "file": "micronaut-cloud-secrets-oracle-maven-java.html",
           "fragment": "fragments/micronaut-cloud-secrets-oracle-maven-java.html",
           "zipUrl": "micronaut-cloud-secrets-oracle-maven-java.zip"
-        },
-        {
-          "id": "micronaut-cloud-secrets-oracle-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-secrets-oracle-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-secrets-oracle-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-secrets-oracle-maven-kotlin.zip"
         },
         {
           "id": "micronaut-cloud-secrets-oracle-maven-groovy",
@@ -5682,17 +5231,6 @@
           "file": "micronaut-patterns-composite-maven-java.html",
           "fragment": "fragments/micronaut-patterns-composite-maven-java.html",
           "zipUrl": "micronaut-patterns-composite-maven-java.zip"
-        },
-        {
-          "id": "micronaut-patterns-composite-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-patterns-composite-maven-kotlin.html",
-          "fragment": "fragments/micronaut-patterns-composite-maven-kotlin.html",
-          "zipUrl": "micronaut-patterns-composite-maven-kotlin.zip"
         },
         {
           "id": "micronaut-patterns-composite-maven-groovy",
@@ -5839,17 +5377,6 @@
           "zipUrl": "micronaut-data-mongodb-synchronous-maven-java.zip"
         },
         {
-          "id": "micronaut-data-mongodb-synchronous-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-mongodb-synchronous-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-mongodb-synchronous-maven-kotlin.html",
-          "zipUrl": "micronaut-data-mongodb-synchronous-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-data-mongodb-synchronous-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -5911,17 +5438,6 @@
           "file": "micronaut-jaxrs-jdbc-maven-java.html",
           "fragment": "fragments/micronaut-jaxrs-jdbc-maven-java.html",
           "zipUrl": "micronaut-jaxrs-jdbc-maven-java.zip"
-        },
-        {
-          "id": "micronaut-jaxrs-jdbc-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-jaxrs-jdbc-maven-kotlin.html",
-          "fragment": "fragments/micronaut-jaxrs-jdbc-maven-kotlin.html",
-          "zipUrl": "micronaut-jaxrs-jdbc-maven-kotlin.zip"
         }
       ]
     },
@@ -5984,17 +5500,6 @@
           "file": "micronaut-cloud-secret-manager-google-maven-java.html",
           "fragment": "fragments/micronaut-cloud-secret-manager-google-maven-java.html",
           "zipUrl": "micronaut-cloud-secret-manager-google-maven-java.zip"
-        },
-        {
-          "id": "micronaut-cloud-secret-manager-google-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-secret-manager-google-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-secret-manager-google-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-secret-manager-google-maven-kotlin.zip"
         },
         {
           "id": "micronaut-cloud-secret-manager-google-maven-groovy",
@@ -6072,17 +5577,6 @@
           "zipUrl": "localized-message-source-maven-java.zip"
         },
         {
-          "id": "localized-message-source-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "localized-message-source-maven-kotlin.html",
-          "fragment": "fragments/localized-message-source-maven-kotlin.html",
-          "zipUrl": "localized-message-source-maven-kotlin.zip"
-        },
-        {
           "id": "localized-message-source-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -6158,17 +5652,6 @@
           "zipUrl": "micronaut-cloud-oidc-oracle-maven-java.zip"
         },
         {
-          "id": "micronaut-cloud-oidc-oracle-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-oidc-oracle-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-oidc-oracle-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-oidc-oracle-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-cloud-oidc-oracle-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -6240,17 +5723,6 @@
           "file": "micronaut-cloud-database-aws-maven-java.html",
           "fragment": "fragments/micronaut-cloud-database-aws-maven-java.html",
           "zipUrl": "micronaut-cloud-database-aws-maven-java.zip"
-        },
-        {
-          "id": "micronaut-cloud-database-aws-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-database-aws-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-database-aws-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-database-aws-maven-kotlin.zip"
         },
         {
           "id": "micronaut-cloud-database-aws-maven-groovy",
@@ -6328,17 +5800,6 @@
           "zipUrl": "micronaut-mqtt-maven-java.zip"
         },
         {
-          "id": "micronaut-mqtt-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-mqtt-maven-kotlin.html",
-          "fragment": "fragments/micronaut-mqtt-maven-kotlin.html",
-          "zipUrl": "micronaut-mqtt-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-mqtt-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -6405,17 +5866,6 @@
           "file": "micronaut-graphql-todo-maven-java.html",
           "fragment": "fragments/micronaut-graphql-todo-maven-java.html",
           "zipUrl": "micronaut-graphql-todo-maven-java.zip"
-        },
-        {
-          "id": "micronaut-graphql-todo-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-graphql-todo-maven-kotlin.html",
-          "fragment": "fragments/micronaut-graphql-todo-maven-kotlin.html",
-          "zipUrl": "micronaut-graphql-todo-maven-kotlin.zip"
         }
       ]
     },
@@ -6527,17 +5977,6 @@
           "zipUrl": "micronaut-security-x509-maven-java.zip"
         },
         {
-          "id": "micronaut-security-x509-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-security-x509-maven-kotlin.html",
-          "fragment": "fragments/micronaut-security-x509-maven-kotlin.html",
-          "zipUrl": "micronaut-security-x509-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-security-x509-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -6613,17 +6052,6 @@
           "zipUrl": "micronaut-cloud-database-azure-maven-java.zip"
         },
         {
-          "id": "micronaut-cloud-database-azure-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-database-azure-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-database-azure-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-database-azure-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-cloud-database-azure-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -6697,17 +6125,6 @@
           "zipUrl": "micronaut-google-cloud-compute-maven-java.zip"
         },
         {
-          "id": "micronaut-google-cloud-compute-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-google-cloud-compute-maven-kotlin.html",
-          "fragment": "fragments/micronaut-google-cloud-compute-maven-kotlin.html",
-          "zipUrl": "micronaut-google-cloud-compute-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-google-cloud-compute-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -6779,17 +6196,6 @@
           "file": "micronaut-cloud-database-google-maven-java.html",
           "fragment": "fragments/micronaut-cloud-database-google-maven-java.html",
           "zipUrl": "micronaut-cloud-database-google-maven-java.zip"
-        },
-        {
-          "id": "micronaut-cloud-database-google-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-database-google-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-database-google-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-database-google-maven-kotlin.zip"
         },
         {
           "id": "micronaut-cloud-database-google-maven-groovy",
@@ -6867,17 +6273,6 @@
           "zipUrl": "micronaut-cloud-database-oracle-maven-java.zip"
         },
         {
-          "id": "micronaut-cloud-database-oracle-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cloud-database-oracle-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cloud-database-oracle-maven-kotlin.html",
-          "zipUrl": "micronaut-cloud-database-oracle-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-cloud-database-oracle-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -6951,17 +6346,6 @@
           "file": "micronaut-email-amazon-ses-maven-java.html",
           "fragment": "fragments/micronaut-email-amazon-ses-maven-java.html",
           "zipUrl": "micronaut-email-amazon-ses-maven-java.zip"
-        },
-        {
-          "id": "micronaut-email-amazon-ses-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-email-amazon-ses-maven-kotlin.html",
-          "fragment": "fragments/micronaut-email-amazon-ses-maven-kotlin.html",
-          "zipUrl": "micronaut-email-amazon-ses-maven-kotlin.zip"
         },
         {
           "id": "micronaut-email-amazon-ses-maven-groovy",
@@ -7039,17 +6423,6 @@
           "zipUrl": "micronaut-email-sendgrid-maven-java.zip"
         },
         {
-          "id": "micronaut-email-sendgrid-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-email-sendgrid-maven-kotlin.html",
-          "fragment": "fragments/micronaut-email-sendgrid-maven-kotlin.html",
-          "zipUrl": "micronaut-email-sendgrid-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-email-sendgrid-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -7125,17 +6498,6 @@
           "zipUrl": "micronaut-flyway-maven-java.zip"
         },
         {
-          "id": "micronaut-flyway-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-flyway-maven-kotlin.html",
-          "fragment": "fragments/micronaut-flyway-maven-kotlin.html",
-          "zipUrl": "micronaut-flyway-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-flyway-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -7209,17 +6571,6 @@
           "file": "micronaut-liquibase-maven-java.html",
           "fragment": "fragments/micronaut-liquibase-maven-java.html",
           "zipUrl": "micronaut-liquibase-maven-java.zip"
-        },
-        {
-          "id": "micronaut-liquibase-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-liquibase-maven-kotlin.html",
-          "fragment": "fragments/micronaut-liquibase-maven-kotlin.html",
-          "zipUrl": "micronaut-liquibase-maven-kotlin.zip"
         },
         {
           "id": "micronaut-liquibase-maven-groovy",
@@ -7343,17 +6694,6 @@
           "zipUrl": "micronaut-oauth2-client-credentials-auth0-maven-java.zip"
         },
         {
-          "id": "micronaut-oauth2-client-credentials-auth0-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oauth2-client-credentials-auth0-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oauth2-client-credentials-auth0-maven-kotlin.html",
-          "zipUrl": "micronaut-oauth2-client-credentials-auth0-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-oauth2-client-credentials-auth0-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -7427,17 +6767,6 @@
           "file": "micronaut-google-cloud-http-function-maven-java.html",
           "fragment": "fragments/micronaut-google-cloud-http-function-maven-java.html",
           "zipUrl": "micronaut-google-cloud-http-function-maven-java.zip"
-        },
-        {
-          "id": "micronaut-google-cloud-http-function-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-google-cloud-http-function-maven-kotlin.html",
-          "fragment": "fragments/micronaut-google-cloud-http-function-maven-kotlin.html",
-          "zipUrl": "micronaut-google-cloud-http-function-maven-kotlin.zip"
         },
         {
           "id": "micronaut-google-cloud-http-function-maven-groovy",
@@ -7519,17 +6848,6 @@
           "zipUrl": "micronaut-oauth2-client-credentials-cognito-maven-java.zip"
         },
         {
-          "id": "micronaut-oauth2-client-credentials-cognito-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oauth2-client-credentials-cognito-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oauth2-client-credentials-cognito-maven-kotlin.html",
-          "zipUrl": "micronaut-oauth2-client-credentials-cognito-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-oauth2-client-credentials-cognito-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -7603,17 +6921,6 @@
           "file": "micronaut-mongodb-asynchronous-maven-java.html",
           "fragment": "fragments/micronaut-mongodb-asynchronous-maven-java.html",
           "zipUrl": "micronaut-mongodb-asynchronous-maven-java.zip"
-        },
-        {
-          "id": "micronaut-mongodb-asynchronous-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-mongodb-asynchronous-maven-kotlin.html",
-          "fragment": "fragments/micronaut-mongodb-asynchronous-maven-kotlin.html",
-          "zipUrl": "micronaut-mongodb-asynchronous-maven-kotlin.zip"
         },
         {
           "id": "micronaut-mongodb-asynchronous-maven-groovy",
@@ -7691,17 +6998,6 @@
           "zipUrl": "micronaut-mongodb-synchronous-maven-java.zip"
         },
         {
-          "id": "micronaut-mongodb-synchronous-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-mongodb-synchronous-maven-kotlin.html",
-          "fragment": "fragments/micronaut-mongodb-synchronous-maven-kotlin.html",
-          "zipUrl": "micronaut-mongodb-synchronous-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-mongodb-synchronous-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -7777,17 +7073,6 @@
           "zipUrl": "micronaut-google-app-engine-maven-java.zip"
         },
         {
-          "id": "micronaut-google-app-engine-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-google-app-engine-maven-kotlin.html",
-          "fragment": "fragments/micronaut-google-app-engine-maven-kotlin.html",
-          "zipUrl": "micronaut-google-app-engine-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-google-app-engine-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -7852,17 +7137,6 @@
           "file": "micronaut-graalvm-native-image-google-cloud-platform-cloud-run-maven-java.html",
           "fragment": "fragments/micronaut-graalvm-native-image-google-cloud-platform-cloud-run-maven-java.html",
           "zipUrl": "micronaut-graalvm-native-image-google-cloud-platform-cloud-run-maven-java.zip"
-        },
-        {
-          "id": "micronaut-graalvm-native-image-google-cloud-platform-cloud-run-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-graalvm-native-image-google-cloud-platform-cloud-run-maven-kotlin.html",
-          "fragment": "fragments/micronaut-graalvm-native-image-google-cloud-platform-cloud-run-maven-kotlin.html",
-          "zipUrl": "micronaut-graalvm-native-image-google-cloud-platform-cloud-run-maven-kotlin.zip"
         }
       ]
     },
@@ -7927,17 +7201,6 @@
           "file": "micronaut-google-cloud-platform-cloud-run-maven-java.html",
           "fragment": "fragments/micronaut-google-cloud-platform-cloud-run-maven-java.html",
           "zipUrl": "micronaut-google-cloud-platform-cloud-run-maven-java.zip"
-        },
-        {
-          "id": "micronaut-google-cloud-platform-cloud-run-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-google-cloud-platform-cloud-run-maven-kotlin.html",
-          "fragment": "fragments/micronaut-google-cloud-platform-cloud-run-maven-kotlin.html",
-          "zipUrl": "micronaut-google-cloud-platform-cloud-run-maven-kotlin.zip"
         },
         {
           "id": "micronaut-google-cloud-platform-cloud-run-maven-groovy",
@@ -8016,17 +7279,6 @@
           "file": "micronaut-oauth2-auth0-maven-java.html",
           "fragment": "fragments/micronaut-oauth2-auth0-maven-java.html",
           "zipUrl": "micronaut-oauth2-auth0-maven-java.zip"
-        },
-        {
-          "id": "micronaut-oauth2-auth0-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oauth2-auth0-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oauth2-auth0-maven-kotlin.html",
-          "zipUrl": "micronaut-oauth2-auth0-maven-kotlin.zip"
         },
         {
           "id": "micronaut-oauth2-auth0-maven-groovy",
@@ -8146,17 +7398,6 @@
           "zipUrl": "micronaut-oracle-cloud-streaming-maven-java.zip"
         },
         {
-          "id": "micronaut-oracle-cloud-streaming-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oracle-cloud-streaming-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oracle-cloud-streaming-maven-kotlin.html",
-          "zipUrl": "micronaut-oracle-cloud-streaming-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-oracle-cloud-streaming-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -8233,17 +7474,6 @@
           "zipUrl": "micronaut-kafka-maven-java.zip"
         },
         {
-          "id": "micronaut-kafka-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-kafka-maven-kotlin.html",
-          "fragment": "fragments/micronaut-kafka-maven-kotlin.html",
-          "zipUrl": "micronaut-kafka-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-kafka-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -8315,17 +7545,6 @@
           "file": "micronaut-oracle-function-http-maven-java.html",
           "fragment": "fragments/micronaut-oracle-function-http-maven-java.html",
           "zipUrl": "micronaut-oracle-function-http-maven-java.zip"
-        },
-        {
-          "id": "micronaut-oracle-function-http-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oracle-function-http-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oracle-function-http-maven-kotlin.html",
-          "zipUrl": "micronaut-oracle-function-http-maven-kotlin.zip"
         },
         {
           "id": "micronaut-oracle-function-http-maven-groovy",
@@ -8403,17 +7622,6 @@
           "file": "micronaut-oracle-function-maven-java.html",
           "fragment": "fragments/micronaut-oracle-function-maven-java.html",
           "zipUrl": "micronaut-oracle-function-maven-java.zip"
-        },
-        {
-          "id": "micronaut-oracle-function-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oracle-function-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oracle-function-maven-kotlin.html",
-          "zipUrl": "micronaut-oracle-function-maven-kotlin.zip"
         },
         {
           "id": "micronaut-oracle-function-maven-groovy",
@@ -8494,17 +7702,6 @@
           "zipUrl": "micronaut-data-jdbc-repository-maven-java.zip"
         },
         {
-          "id": "micronaut-data-jdbc-repository-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-jdbc-repository-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-jdbc-repository-maven-kotlin.html",
-          "zipUrl": "micronaut-data-jdbc-repository-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-data-jdbc-repository-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -8579,17 +7776,6 @@
           "file": "micronaut-cli-jwkgen-maven-java.html",
           "fragment": "fragments/micronaut-cli-jwkgen-maven-java.html",
           "zipUrl": "micronaut-cli-jwkgen-maven-java.zip"
-        },
-        {
-          "id": "micronaut-cli-jwkgen-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cli-jwkgen-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cli-jwkgen-maven-kotlin.html",
-          "zipUrl": "micronaut-cli-jwkgen-maven-kotlin.zip"
         },
         {
           "id": "micronaut-cli-jwkgen-maven-groovy",
@@ -8667,17 +7853,6 @@
           "zipUrl": "micronaut-security-keys-jwks-maven-java.zip"
         },
         {
-          "id": "micronaut-security-keys-jwks-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-security-keys-jwks-maven-kotlin.html",
-          "fragment": "fragments/micronaut-security-keys-jwks-maven-kotlin.html",
-          "zipUrl": "micronaut-security-keys-jwks-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-security-keys-jwks-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -8742,17 +7917,6 @@
           "file": "micronaut-aws-lambda-eventbridge-event-maven-java.html",
           "fragment": "fragments/micronaut-aws-lambda-eventbridge-event-maven-java.html",
           "zipUrl": "micronaut-aws-lambda-eventbridge-event-maven-java.zip"
-        },
-        {
-          "id": "micronaut-aws-lambda-eventbridge-event-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-aws-lambda-eventbridge-event-maven-kotlin.html",
-          "fragment": "fragments/micronaut-aws-lambda-eventbridge-event-maven-kotlin.html",
-          "zipUrl": "micronaut-aws-lambda-eventbridge-event-maven-kotlin.zip"
         }
       ]
     },
@@ -8807,17 +7971,6 @@
           "file": "micronaut-aws-lambda-s3-event-maven-java.html",
           "fragment": "fragments/micronaut-aws-lambda-s3-event-maven-java.html",
           "zipUrl": "micronaut-aws-lambda-s3-event-maven-java.zip"
-        },
-        {
-          "id": "micronaut-aws-lambda-s3-event-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-aws-lambda-s3-event-maven-kotlin.html",
-          "fragment": "fragments/micronaut-aws-lambda-s3-event-maven-kotlin.html",
-          "zipUrl": "micronaut-aws-lambda-s3-event-maven-kotlin.zip"
         }
       ]
     },
@@ -8882,17 +8035,6 @@
           "file": "micronaut-graphql-maven-java.html",
           "fragment": "fragments/micronaut-graphql-maven-java.html",
           "zipUrl": "micronaut-graphql-maven-java.zip"
-        },
-        {
-          "id": "micronaut-graphql-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-graphql-maven-kotlin.html",
-          "fragment": "fragments/micronaut-graphql-maven-kotlin.html",
-          "zipUrl": "micronaut-graphql-maven-kotlin.zip"
         },
         {
           "id": "micronaut-graphql-maven-groovy",
@@ -8970,17 +8112,6 @@
           "zipUrl": "micronaut-oracle-autonomous-db-maven-java.zip"
         },
         {
-          "id": "micronaut-oracle-autonomous-db-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oracle-autonomous-db-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oracle-autonomous-db-maven-kotlin.html",
-          "zipUrl": "micronaut-oracle-autonomous-db-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-oracle-autonomous-db-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -9054,17 +8185,6 @@
           "file": "micronaut-azure-http-functions-maven-java.html",
           "fragment": "fragments/micronaut-azure-http-functions-maven-java.html",
           "zipUrl": "micronaut-azure-http-functions-maven-java.zip"
-        },
-        {
-          "id": "micronaut-azure-http-functions-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-azure-http-functions-maven-kotlin.html",
-          "fragment": "fragments/micronaut-azure-http-functions-maven-kotlin.html",
-          "zipUrl": "micronaut-azure-http-functions-maven-kotlin.zip"
         },
         {
           "id": "micronaut-azure-http-functions-maven-groovy",
@@ -9143,17 +8263,6 @@
           "zipUrl": "micronaut-oracle-cloud-maven-java.zip"
         },
         {
-          "id": "micronaut-oracle-cloud-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oracle-cloud-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oracle-cloud-maven-kotlin.html",
-          "zipUrl": "micronaut-oracle-cloud-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-oracle-cloud-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -9194,17 +8303,6 @@
           "file": "micronaut-kotlin-extension-fns-gradle-kotlin.html",
           "fragment": "fragments/micronaut-kotlin-extension-fns-gradle-kotlin.html",
           "zipUrl": "micronaut-kotlin-extension-fns-gradle-kotlin.zip"
-        },
-        {
-          "id": "micronaut-kotlin-extension-fns-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-kotlin-extension-fns-maven-kotlin.html",
-          "fragment": "fragments/micronaut-kotlin-extension-fns-maven-kotlin.html",
-          "zipUrl": "micronaut-kotlin-extension-fns-maven-kotlin.zip"
         }
       ]
     },
@@ -9273,17 +8371,6 @@
           "zipUrl": "micronaut-oauth2-linkedin-maven-java.zip"
         },
         {
-          "id": "micronaut-oauth2-linkedin-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oauth2-linkedin-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oauth2-linkedin-maven-kotlin.html",
-          "zipUrl": "micronaut-oauth2-linkedin-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-oauth2-linkedin-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -9347,17 +8434,6 @@
           "file": "mn-application-aws-lambda-graalvm-maven-java.html",
           "fragment": "fragments/mn-application-aws-lambda-graalvm-maven-java.html",
           "zipUrl": "mn-application-aws-lambda-graalvm-maven-java.zip"
-        },
-        {
-          "id": "mn-application-aws-lambda-graalvm-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "mn-application-aws-lambda-graalvm-maven-kotlin.html",
-          "fragment": "fragments/mn-application-aws-lambda-graalvm-maven-kotlin.html",
-          "zipUrl": "mn-application-aws-lambda-graalvm-maven-kotlin.zip"
         }
       ]
     },
@@ -9424,17 +8500,6 @@
           "zipUrl": "mn-application-aws-lambda-java-runtime-maven-java.zip"
         },
         {
-          "id": "mn-application-aws-lambda-java-runtime-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "mn-application-aws-lambda-java-runtime-maven-kotlin.html",
-          "fragment": "fragments/mn-application-aws-lambda-java-runtime-maven-kotlin.html",
-          "zipUrl": "mn-application-aws-lambda-java-runtime-maven-kotlin.zip"
-        },
-        {
           "id": "mn-application-aws-lambda-java-runtime-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -9499,17 +8564,6 @@
           "file": "mn-serverless-function-aws-lambda-graalvm-maven-java.html",
           "fragment": "fragments/mn-serverless-function-aws-lambda-graalvm-maven-java.html",
           "zipUrl": "mn-serverless-function-aws-lambda-graalvm-maven-java.zip"
-        },
-        {
-          "id": "mn-serverless-function-aws-lambda-graalvm-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "mn-serverless-function-aws-lambda-graalvm-maven-kotlin.html",
-          "fragment": "fragments/mn-serverless-function-aws-lambda-graalvm-maven-kotlin.html",
-          "zipUrl": "mn-serverless-function-aws-lambda-graalvm-maven-kotlin.zip"
         }
       ]
     },
@@ -9575,17 +8629,6 @@
           "file": "mn-serverless-function-aws-lambda-maven-java.html",
           "fragment": "fragments/mn-serverless-function-aws-lambda-maven-java.html",
           "zipUrl": "mn-serverless-function-aws-lambda-maven-java.zip"
-        },
-        {
-          "id": "mn-serverless-function-aws-lambda-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "mn-serverless-function-aws-lambda-maven-kotlin.html",
-          "fragment": "fragments/mn-serverless-function-aws-lambda-maven-kotlin.html",
-          "zipUrl": "mn-serverless-function-aws-lambda-maven-kotlin.zip"
         },
         {
           "id": "mn-serverless-function-aws-lambda-maven-groovy",
@@ -9663,17 +8706,6 @@
           "file": "micronaut-oauth2-github-maven-java.html",
           "fragment": "fragments/micronaut-oauth2-github-maven-java.html",
           "zipUrl": "micronaut-oauth2-github-maven-java.zip"
-        },
-        {
-          "id": "micronaut-oauth2-github-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oauth2-github-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oauth2-github-maven-kotlin.html",
-          "zipUrl": "micronaut-oauth2-github-maven-kotlin.zip"
         },
         {
           "id": "micronaut-oauth2-github-maven-groovy",
@@ -9755,17 +8787,6 @@
           "zipUrl": "micronaut-oauth2-cognito-maven-java.zip"
         },
         {
-          "id": "micronaut-oauth2-cognito-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oauth2-cognito-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oauth2-cognito-maven-kotlin.html",
-          "zipUrl": "micronaut-oauth2-cognito-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-oauth2-cognito-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -9841,17 +8862,6 @@
           "file": "micronaut-cache-maven-java.html",
           "fragment": "fragments/micronaut-cache-maven-java.html",
           "zipUrl": "micronaut-cache-maven-java.zip"
-        },
-        {
-          "id": "micronaut-cache-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-cache-maven-kotlin.html",
-          "fragment": "fragments/micronaut-cache-maven-kotlin.html",
-          "zipUrl": "micronaut-cache-maven-kotlin.zip"
         },
         {
           "id": "micronaut-cache-maven-groovy",
@@ -9932,17 +8942,6 @@
           "zipUrl": "micronaut-configuration-maven-java.zip"
         },
         {
-          "id": "micronaut-configuration-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-configuration-maven-kotlin.html",
-          "fragment": "fragments/micronaut-configuration-maven-kotlin.html",
-          "zipUrl": "micronaut-configuration-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-configuration-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -10019,17 +9018,6 @@
           "file": "micronaut-oauth2-oidc-google-maven-java.html",
           "fragment": "fragments/micronaut-oauth2-oidc-google-maven-java.html",
           "zipUrl": "micronaut-oauth2-oidc-google-maven-java.zip"
-        },
-        {
-          "id": "micronaut-oauth2-oidc-google-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oauth2-oidc-google-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oauth2-oidc-google-maven-kotlin.html",
-          "zipUrl": "micronaut-oauth2-oidc-google-maven-kotlin.zip"
         },
         {
           "id": "micronaut-oauth2-oidc-google-maven-groovy",
@@ -10138,17 +9126,6 @@
           "zipUrl": "micronaut-aws-secretsmanager-maven-java.zip"
         },
         {
-          "id": "micronaut-aws-secretsmanager-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-aws-secretsmanager-maven-kotlin.html",
-          "fragment": "fragments/micronaut-aws-secretsmanager-maven-kotlin.html",
-          "zipUrl": "micronaut-aws-secretsmanager-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-aws-secretsmanager-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -10224,17 +9201,6 @@
           "file": "micronaut-rabbitmq-rpc-maven-java.html",
           "fragment": "fragments/micronaut-rabbitmq-rpc-maven-java.html",
           "zipUrl": "micronaut-rabbitmq-rpc-maven-java.zip"
-        },
-        {
-          "id": "micronaut-rabbitmq-rpc-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-rabbitmq-rpc-maven-kotlin.html",
-          "fragment": "fragments/micronaut-rabbitmq-rpc-maven-kotlin.html",
-          "zipUrl": "micronaut-rabbitmq-rpc-maven-kotlin.zip"
         },
         {
           "id": "micronaut-rabbitmq-rpc-maven-groovy",
@@ -10316,17 +9282,6 @@
           "zipUrl": "micronaut-data-access-mybatis-maven-java.zip"
         },
         {
-          "id": "micronaut-data-access-mybatis-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-data-access-mybatis-maven-kotlin.html",
-          "fragment": "fragments/micronaut-data-access-mybatis-maven-kotlin.html",
-          "zipUrl": "micronaut-data-access-mybatis-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-data-access-mybatis-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -10405,17 +9360,6 @@
           "zipUrl": "micronaut-oauth2-okta-maven-java.zip"
         },
         {
-          "id": "micronaut-oauth2-okta-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-oauth2-okta-maven-kotlin.html",
-          "fragment": "fragments/micronaut-oauth2-okta-maven-kotlin.html",
-          "zipUrl": "micronaut-oauth2-okta-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-oauth2-okta-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -10492,17 +9436,6 @@
           "zipUrl": "micronaut-rabbitmq-maven-java.zip"
         },
         {
-          "id": "micronaut-rabbitmq-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-rabbitmq-maven-kotlin.html",
-          "fragment": "fragments/micronaut-rabbitmq-maven-kotlin.html",
-          "zipUrl": "micronaut-rabbitmq-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-rabbitmq-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -10567,17 +9500,6 @@
           "file": "micronaut-creating-first-graal-app-maven-java.html",
           "fragment": "fragments/micronaut-creating-first-graal-app-maven-java.html",
           "zipUrl": "micronaut-creating-first-graal-app-maven-java.zip"
-        },
-        {
-          "id": "micronaut-creating-first-graal-app-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-creating-first-graal-app-maven-kotlin.html",
-          "fragment": "fragments/micronaut-creating-first-graal-app-maven-kotlin.html",
-          "zipUrl": "micronaut-creating-first-graal-app-maven-kotlin.zip"
         }
       ]
     },
@@ -10650,17 +9572,6 @@
           "zipUrl": "micronaut-error-handling-maven-java.zip"
         },
         {
-          "id": "micronaut-error-handling-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-error-handling-maven-kotlin.html",
-          "fragment": "fragments/micronaut-error-handling-maven-kotlin.html",
-          "zipUrl": "micronaut-error-handling-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-error-handling-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -10724,17 +9635,6 @@
           "file": "micronaut-aws-parameter-store-maven-java.html",
           "fragment": "fragments/micronaut-aws-parameter-store-maven-java.html",
           "zipUrl": "micronaut-aws-parameter-store-maven-java.zip"
-        },
-        {
-          "id": "micronaut-aws-parameter-store-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-aws-parameter-store-maven-kotlin.html",
-          "fragment": "fragments/micronaut-aws-parameter-store-maven-kotlin.html",
-          "zipUrl": "micronaut-aws-parameter-store-maven-kotlin.zip"
         }
       ]
     },
@@ -10800,17 +9700,6 @@
           "file": "micronaut-elasticbeanstalk-maven-java.html",
           "fragment": "fragments/micronaut-elasticbeanstalk-maven-java.html",
           "zipUrl": "micronaut-elasticbeanstalk-maven-java.zip"
-        },
-        {
-          "id": "micronaut-elasticbeanstalk-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-elasticbeanstalk-maven-kotlin.html",
-          "fragment": "fragments/micronaut-elasticbeanstalk-maven-kotlin.html",
-          "zipUrl": "micronaut-elasticbeanstalk-maven-kotlin.zip"
         },
         {
           "id": "micronaut-elasticbeanstalk-maven-groovy",
@@ -10891,17 +9780,6 @@
           "zipUrl": "micronaut-token-propagation-maven-java.zip"
         },
         {
-          "id": "micronaut-token-propagation-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-token-propagation-maven-kotlin.html",
-          "fragment": "fragments/micronaut-token-propagation-maven-kotlin.html",
-          "zipUrl": "micronaut-token-propagation-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-token-propagation-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -10978,17 +9856,6 @@
           "file": "micronaut-file-download-excel-maven-java.html",
           "fragment": "fragments/micronaut-file-download-excel-maven-java.html",
           "zipUrl": "micronaut-file-download-excel-maven-java.zip"
-        },
-        {
-          "id": "micronaut-file-download-excel-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-file-download-excel-maven-kotlin.html",
-          "fragment": "fragments/micronaut-file-download-excel-maven-kotlin.html",
-          "zipUrl": "micronaut-file-download-excel-maven-kotlin.zip"
         },
         {
           "id": "micronaut-file-download-excel-maven-groovy",
@@ -11131,17 +9998,6 @@
           "zipUrl": "micronaut-microservices-distributed-tracing-jaeger-maven-java.zip"
         },
         {
-          "id": "micronaut-microservices-distributed-tracing-jaeger-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-microservices-distributed-tracing-jaeger-maven-kotlin.html",
-          "fragment": "fragments/micronaut-microservices-distributed-tracing-jaeger-maven-kotlin.html",
-          "zipUrl": "micronaut-microservices-distributed-tracing-jaeger-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-microservices-distributed-tracing-jaeger-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -11217,17 +10073,6 @@
           "file": "micronaut-microservices-distributed-tracing-zipkin-maven-java.html",
           "fragment": "fragments/micronaut-microservices-distributed-tracing-zipkin-maven-java.html",
           "zipUrl": "micronaut-microservices-distributed-tracing-zipkin-maven-java.zip"
-        },
-        {
-          "id": "micronaut-microservices-distributed-tracing-zipkin-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-microservices-distributed-tracing-zipkin-maven-kotlin.html",
-          "fragment": "fragments/micronaut-microservices-distributed-tracing-zipkin-maven-kotlin.html",
-          "zipUrl": "micronaut-microservices-distributed-tracing-zipkin-maven-kotlin.zip"
         },
         {
           "id": "micronaut-microservices-distributed-tracing-zipkin-maven-groovy",
@@ -11307,17 +10152,6 @@
           "zipUrl": "micronaut-microservices-services-discover-consul-maven-java.zip"
         },
         {
-          "id": "micronaut-microservices-services-discover-consul-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-microservices-services-discover-consul-maven-kotlin.html",
-          "fragment": "fragments/micronaut-microservices-services-discover-consul-maven-kotlin.html",
-          "zipUrl": "micronaut-microservices-services-discover-consul-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-microservices-services-discover-consul-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -11394,17 +10228,6 @@
           "file": "micronaut-microservices-services-discover-eureka-maven-java.html",
           "fragment": "fragments/micronaut-microservices-services-discover-eureka-maven-java.html",
           "zipUrl": "micronaut-microservices-services-discover-eureka-maven-java.zip"
-        },
-        {
-          "id": "micronaut-microservices-services-discover-eureka-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-microservices-services-discover-eureka-maven-kotlin.html",
-          "fragment": "fragments/micronaut-microservices-services-discover-eureka-maven-kotlin.html",
-          "zipUrl": "micronaut-microservices-services-discover-eureka-maven-kotlin.zip"
         },
         {
           "id": "micronaut-microservices-services-discover-eureka-maven-groovy",
@@ -11486,17 +10309,6 @@
           "zipUrl": "micronaut-http-client-maven-java.zip"
         },
         {
-          "id": "micronaut-http-client-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-http-client-maven-kotlin.html",
-          "fragment": "fragments/micronaut-http-client-maven-kotlin.html",
-          "zipUrl": "micronaut-http-client-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-http-client-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -11570,17 +10382,6 @@
           "file": "adding-commit-info-maven-java.html",
           "fragment": "fragments/adding-commit-info-maven-java.html",
           "zipUrl": "adding-commit-info-maven-java.zip"
-        },
-        {
-          "id": "adding-commit-info-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "adding-commit-info-maven-kotlin.html",
-          "fragment": "fragments/adding-commit-info-maven-kotlin.html",
-          "zipUrl": "adding-commit-info-maven-kotlin.zip"
         },
         {
           "id": "adding-commit-info-maven-groovy",
@@ -11694,17 +10495,6 @@
           "zipUrl": "micronaut-security-basicauth-maven-java.zip"
         },
         {
-          "id": "micronaut-security-basicauth-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-security-basicauth-maven-kotlin.html",
-          "fragment": "fragments/micronaut-security-basicauth-maven-kotlin.html",
-          "zipUrl": "micronaut-security-basicauth-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-security-basicauth-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -11782,17 +10572,6 @@
           "file": "micronaut-security-jwt-maven-java.html",
           "fragment": "fragments/micronaut-security-jwt-maven-java.html",
           "zipUrl": "micronaut-security-jwt-maven-java.zip"
-        },
-        {
-          "id": "micronaut-security-jwt-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-security-jwt-maven-kotlin.html",
-          "fragment": "fragments/micronaut-security-jwt-maven-kotlin.html",
-          "zipUrl": "micronaut-security-jwt-maven-kotlin.zip"
         },
         {
           "id": "micronaut-security-jwt-maven-groovy",
@@ -11874,17 +10653,6 @@
           "zipUrl": "micronaut-security-jwt-cookie-maven-java.zip"
         },
         {
-          "id": "micronaut-security-jwt-cookie-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-security-jwt-cookie-maven-kotlin.html",
-          "fragment": "fragments/micronaut-security-jwt-cookie-maven-kotlin.html",
-          "zipUrl": "micronaut-security-jwt-cookie-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-security-jwt-cookie-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -11959,17 +10727,6 @@
           "file": "micronaut-scheduled-maven-java.html",
           "fragment": "fragments/micronaut-scheduled-maven-java.html",
           "zipUrl": "micronaut-scheduled-maven-java.zip"
-        },
-        {
-          "id": "micronaut-scheduled-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-scheduled-maven-kotlin.html",
-          "fragment": "fragments/micronaut-scheduled-maven-kotlin.html",
-          "zipUrl": "micronaut-scheduled-maven-kotlin.zip"
         },
         {
           "id": "micronaut-scheduled-maven-groovy",
@@ -12052,17 +10809,6 @@
           "zipUrl": "micronaut-security-session-maven-java.zip"
         },
         {
-          "id": "micronaut-security-session-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "micronaut-security-session-maven-kotlin.html",
-          "fragment": "fragments/micronaut-security-session-maven-kotlin.html",
-          "zipUrl": "micronaut-security-session-maven-kotlin.zip"
-        },
-        {
           "id": "micronaut-security-session-maven-groovy",
           "label": "Groovy / Maven",
           "language": "groovy",
@@ -12137,17 +10883,6 @@
           "file": "creating-your-first-micronaut-app-maven-java.html",
           "fragment": "fragments/creating-your-first-micronaut-app-maven-java.html",
           "zipUrl": "creating-your-first-micronaut-app-maven-java.zip"
-        },
-        {
-          "id": "creating-your-first-micronaut-app-maven-kotlin",
-          "label": "Kotlin / Maven",
-          "language": "kotlin",
-          "languageLabel": "Kotlin",
-          "buildTool": "maven",
-          "buildToolLabel": "Maven",
-          "file": "creating-your-first-micronaut-app-maven-kotlin.html",
-          "fragment": "fragments/creating-your-first-micronaut-app-maven-kotlin.html",
-          "zipUrl": "creating-your-first-micronaut-app-maven-kotlin.zip"
         },
         {
           "id": "creating-your-first-micronaut-app-maven-groovy",
