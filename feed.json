@@ -571,6 +571,9 @@
       "date_published": "2022-05-05T00:00:00Z",
       "authors": [
         {
+          "name": "Sergio del Amo"
+        },
+        {
           "name": "John Shingler"
         }
       ],
@@ -596,6 +599,12 @@
       "content_text": "Learn how to create secrets in Azure Key Vault and easily access them in a Micronaut application.",
       "date_published": "2022-09-20T00:00:00Z",
       "authors": [
+        {
+          "name": "Sergio del Amo"
+        },
+        {
+          "name": "John Shingler"
+        },
         {
           "name": "Slavko Bodvanski"
         }
@@ -2075,6 +2084,9 @@
       "date_published": "2022-10-10T00:00:00Z",
       "authors": [
         {
+          "name": "Burt Beckwith"
+        },
+        {
           "name": "Nemanja Mikic"
         }
       ],
@@ -2097,6 +2109,9 @@
       "content_text": "Learn how to collect standard and custom metrics with the Micronaut framework and monitor them on Oracle Cloud.",
       "date_published": "2022-10-10T00:00:00Z",
       "authors": [
+        {
+          "name": "Burt Beckwith"
+        },
         {
           "name": "Nemanja Mikic"
         }
