@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T12:55:21.319Z",
+  "generatedAt": "2026-08-26T13:31:04.896Z",
   "guideCount": 177,
   "guides": [
     {
@@ -14,7 +14,12 @@
         "micronaut-data",
         "jdbc",
         "h2",
-        "geospatial"
+        "geospatial",
+        "data-jdbc",
+        "liquibase",
+        "h2gis",
+        "serialization-jackson",
+        "validation"
       ],
       "categories": [
         "Data JDBC"
@@ -93,7 +98,11 @@
         "micronaut-data",
         "jdbc",
         "mariadb",
-        "geospatial"
+        "geospatial",
+        "data-jdbc",
+        "liquibase",
+        "serialization-jackson",
+        "validation"
       ],
       "categories": [
         "Data JDBC"
@@ -172,7 +181,11 @@
         "micronaut-data",
         "jdbc",
         "mysql",
-        "geospatial"
+        "geospatial",
+        "data-jdbc",
+        "liquibase",
+        "serialization-jackson",
+        "validation"
       ],
       "categories": [
         "Data JDBC"
@@ -251,7 +264,11 @@
         "micronaut-data",
         "jdbc",
         "postgres",
-        "geospatial"
+        "geospatial",
+        "data-jdbc",
+        "liquibase",
+        "serialization-jackson",
+        "validation"
       ],
       "categories": [
         "Data JDBC"
@@ -330,7 +347,11 @@
         "micronaut-data",
         "jdbc",
         "sqlserver",
-        "geospatial"
+        "geospatial",
+        "data-jdbc",
+        "liquibase",
+        "serialization-jackson",
+        "validation"
       ],
       "categories": [
         "Data JDBC"
@@ -409,7 +430,11 @@
         "micronaut-data",
         "jdbc",
         "oracle",
-        "geospatial"
+        "geospatial",
+        "data-jdbc",
+        "liquibase",
+        "serialization-jackson",
+        "validation"
       ],
       "categories": [
         "Data JDBC"
@@ -483,7 +508,13 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "mcp-http",
+        "mcp-client-java-sdk",
+        "json-schema",
+        "http-client",
+        "mcp"
+      ],
       "categories": [
         "MCP"
       ],
@@ -523,7 +554,12 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "mcp-stdio",
+        "json-schema",
+        "http-client",
+        "mcp"
+      ],
       "categories": [
         "MCP"
       ],
@@ -563,7 +599,10 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "mcp-stdio",
+        "mcp"
+      ],
       "categories": [
         "MCP"
       ],
@@ -603,7 +642,11 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "mcp-http",
+        "mcp-client-java-sdk",
+        "mcp"
+      ],
       "categories": [
         "MCP"
       ],
@@ -643,7 +686,11 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "security",
+        "graalvm",
+        "micronaut-security"
+      ],
       "categories": [
         "Micronaut Security"
       ],
@@ -716,7 +763,14 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "data-jdbc",
+        "liquibase",
+        "mysql",
+        "validation",
+        "graalvm",
+        "database-modeling"
+      ],
       "categories": [
         "Database Modeling"
       ],
@@ -756,7 +810,14 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "data-jdbc",
+        "liquibase",
+        "oracle",
+        "validation",
+        "graalvm",
+        "database-modeling"
+      ],
       "categories": [
         "Database Modeling"
       ],
@@ -800,7 +861,15 @@
         "oauth2",
         "oidc",
         "security",
-        "client-credentials"
+        "client-credentials",
+        "security-jwt",
+        "security-oauth2",
+        "management",
+        "serialization-jackson",
+        "graalvm",
+        "reactor",
+        "retry",
+        "http-client"
       ],
       "categories": [
         "Client Credentials"
@@ -875,7 +944,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "docker"
+        "docker",
+        "registry"
       ],
       "categories": [
         "Registry"
@@ -906,7 +976,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "docker"
+        "docker",
+        "registry"
       ],
       "categories": [
         "Registry"
@@ -937,7 +1008,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "docker"
+        "docker",
+        "registry"
       ],
       "categories": [
         "Registry"
@@ -970,7 +1042,12 @@
       "tags": [
         "oauth2",
         "oidc",
-        "security"
+        "security",
+        "thymeleaf",
+        "security-jwt",
+        "security-oauth2",
+        "graalvm",
+        "authorization-code"
       ],
       "categories": [
         "Authorization Code"
@@ -1014,7 +1091,12 @@
       "tags": [
         "oauth2",
         "oidc",
-        "security"
+        "security",
+        "thymeleaf",
+        "security-jwt",
+        "security-oauth2",
+        "graalvm",
+        "authorization-code"
       ],
       "categories": [
         "Authorization Code"
@@ -1055,7 +1137,13 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "data-jdbc",
+        "liquibase",
+        "h2",
+        "graalvm",
+        "database-modeling"
+      ],
       "categories": [
         "Database Modeling"
       ],
@@ -1095,7 +1183,10 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "validation",
+        "json-schema"
+      ],
       "categories": [
         "JSON Schema"
       ],
@@ -1136,7 +1227,8 @@
         "Burt Beckwith"
       ],
       "tags": [
-        "cloud"
+        "cloud",
+        "logging"
       ],
       "categories": [
         "Logging"
@@ -1211,7 +1303,8 @@
         "Tomas Stupka"
       ],
       "tags": [
-        "junit"
+        "junit",
+        "graalpy"
       ],
       "categories": [
         "GraalPy"
@@ -1242,7 +1335,8 @@
         "Tomas Stupka"
       ],
       "tags": [
-        "junit"
+        "junit",
+        "graalpy"
       ],
       "categories": [
         "GraalPy"
@@ -1273,7 +1367,18 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "spring-boot"
+        "spring-boot",
+        "spring-boot-starter-web",
+        "h2",
+        "spring-boot-data-jdbc",
+        "spring-boot-starter-security",
+        "json-path",
+        "assertj",
+        "data-jdbc",
+        "json-smart",
+        "security",
+        "spring-security-crypto",
+        "boot-to-micronaut-building-a-rest-api"
       ],
       "categories": [
         "Boot to Micronaut Building a REST API"
@@ -1304,7 +1409,15 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "spring-boot"
+        "spring-boot",
+        "spring-boot-starter-web",
+        "h2",
+        "spring-boot-data-jdbc",
+        "json-path",
+        "assertj",
+        "data-jdbc",
+        "json-smart",
+        "boot-to-micronaut-building-a-rest-api"
       ],
       "categories": [
         "Boot to Micronaut Building a REST API"
@@ -1334,7 +1447,15 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "spring-boot-starter-web",
+        "h2",
+        "spring-boot-data-jdbc",
+        "json-path",
+        "assertj",
+        "data-jdbc",
+        "boot-to-micronaut-building-a-rest-api"
+      ],
       "categories": [
         "Boot to Micronaut Building a REST API"
       ],
@@ -1364,7 +1485,14 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "spring-boot"
+        "spring-boot",
+        "spring-boot-starter-web",
+        "h2",
+        "spring-boot-data-jdbc",
+        "json-path",
+        "assertj",
+        "data-jdbc",
+        "boot-to-micronaut-building-a-rest-api"
       ],
       "categories": [
         "Boot to Micronaut Building a REST API"
@@ -1395,7 +1523,12 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "spring-boot"
+        "spring-boot",
+        "spring-boot-starter-web",
+        "json-path",
+        "assertj",
+        "jackson-databind",
+        "boot-to-micronaut-building-a-rest-api"
       ],
       "categories": [
         "Boot to Micronaut Building a REST API"
@@ -1426,7 +1559,12 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "spring-boot"
+        "spring-boot",
+        "spring-boot-starter-web",
+        "json-path",
+        "assertj",
+        "jackson-databind",
+        "boot-to-micronaut-building-a-rest-api"
       ],
       "categories": [
         "Boot to Micronaut Building a REST API"
@@ -1501,7 +1639,11 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "jackson-databind",
+        "jackson-xml",
+        "beyond-json"
+      ],
       "categories": [
         "Beyond JSON"
       ],
@@ -1541,7 +1683,10 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "aws-lambda",
+        "graalvm"
+      ],
       "categories": [
         "AWS Lambda",
         "GraalVM"
@@ -1593,7 +1738,9 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "aws-lambda"
+      ],
       "categories": [
         "AWS Lambda"
       ],
@@ -1633,7 +1780,10 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "thymeleaf",
+        "views"
+      ],
       "categories": [
         "Views"
       ],
@@ -1674,7 +1824,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "openpdf"
+        "openpdf",
+        "beyond-json"
       ],
       "categories": [
         "Beyond JSON"
@@ -1715,7 +1866,9 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "logging"
+      ],
       "categories": [
         "Logging"
       ],
@@ -1788,7 +1941,10 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "reactor-http-client",
+        "http-client"
+      ],
       "categories": [
         "HTTP Client"
       ],
@@ -1817,7 +1973,10 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "thymeleaf",
+        "http-server"
+      ],
       "categories": [
         "HTTP Server"
       ],
@@ -1891,7 +2050,10 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "static-resources"
+        "static-resources",
+        "openapi",
+        "openapi-adoc",
+        "validation"
       ],
       "categories": [
         "OpenAPI"
@@ -1922,7 +2084,10 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "static-resources"
+        "static-resources",
+        "openapi",
+        "swagger-ui",
+        "validation"
       ],
       "categories": [
         "OpenAPI"
@@ -1963,7 +2128,16 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "data-jdbc",
+        "flyway",
+        "postgres",
+        "thymeleaf",
+        "validation",
+        "security-session",
+        "reactor",
+        "micronaut-security"
+      ],
       "categories": [
         "Micronaut Security"
       ],
@@ -2004,7 +2178,10 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "endpoint-info"
+        "endpoint-info",
+        "crac",
+        "management",
+        "coordinated-restore-at-checkpoint"
       ],
       "categories": [
         "Coordinated Restore at Checkpoint"
@@ -2048,7 +2225,11 @@
       ],
       "tags": [
         "database",
-        "eclipsestore"
+        "eclipsestore",
+        "properties",
+        "serialization-jackson",
+        "validation",
+        "data-access"
       ],
       "categories": [
         "Data Access"
@@ -2090,7 +2271,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "aws-lambda-function-url"
+        "aws-lambda-function-url",
+        "aws-lambda"
       ],
       "categories": [
         "AWS Lambda"
@@ -2164,7 +2346,12 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "thymeleaf",
+        "http-client",
+        "graalvm",
+        "views"
+      ],
       "categories": [
         "Views"
       ],
@@ -2204,7 +2391,14 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "data-jpa",
+        "h2",
+        "testcontainers",
+        "postgres",
+        "data-jdbc",
+        "testing"
+      ],
       "categories": [
         "Testing"
       ],
@@ -2244,7 +2438,9 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "graalvm"
+      ],
       "categories": [
         "GraalVM"
       ],
@@ -2285,7 +2481,13 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "testcontainers"
+        "testcontainers",
+        "assertj",
+        "data-jpa",
+        "kafka",
+        "mysql",
+        "awaitility",
+        "testing"
       ],
       "categories": [
         "Testing"
@@ -2327,7 +2529,10 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "testcontainers"
+        "testcontainers",
+        "http-client",
+        "test-rest-assured",
+        "testing"
       ],
       "categories": [
         "Testing"
@@ -2371,7 +2576,17 @@
       "tags": [
         "kubernetes",
         "service-discovery",
-        "GKE"
+        "GKE",
+        "distributed-configuration",
+        "discovery-kubernetes",
+        "management",
+        "security",
+        "serialization-jackson",
+        "validation",
+        "graalvm",
+        "http-client",
+        "mockito",
+        "kapt"
       ],
       "categories": [
         "Kubernetes",
@@ -2449,7 +2664,17 @@
       ],
       "tags": [
         "kubernetes",
-        "service-discovery"
+        "service-discovery",
+        "discovery-kubernetes",
+        "management",
+        "security",
+        "serialization-jackson",
+        "validation",
+        "graalvm",
+        "http-client",
+        "mockito",
+        "kapt",
+        "distributed-configuration"
       ],
       "categories": [
         "Kubernetes",
@@ -2528,7 +2753,17 @@
       "tags": [
         "kubernetes",
         "service-discovery",
-        "EKS"
+        "EKS",
+        "distributed-configuration",
+        "discovery-kubernetes",
+        "management",
+        "security",
+        "serialization-jackson",
+        "validation",
+        "graalvm",
+        "http-client",
+        "mockito",
+        "kapt"
       ],
       "categories": [
         "Kubernetes",
@@ -2607,7 +2842,17 @@
       "tags": [
         "kubernetes",
         "service-discovery",
-        "OKE"
+        "OKE",
+        "distributed-configuration",
+        "discovery-kubernetes",
+        "management",
+        "security",
+        "serialization-jackson",
+        "validation",
+        "graalvm",
+        "http-client",
+        "mockito",
+        "kapt"
       ],
       "categories": [
         "Kubernetes",
@@ -2684,7 +2929,10 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "cloudrun"
+        "cloudrun",
+        "crac",
+        "coordinated-restore-at-checkpoint",
+        "distribution"
       ],
       "categories": [
         "Coordinated Restore at Checkpoint",
@@ -2763,7 +3011,12 @@
         "oauth2",
         "keycloak",
         "oidc",
-        "security"
+        "security",
+        "thymeleaf",
+        "security-jwt",
+        "security-oauth2",
+        "graalvm",
+        "authorization-code"
       ],
       "categories": [
         "Authorization Code"
@@ -2805,7 +3058,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "validation"
+        "validation",
+        "junit-params"
       ],
       "categories": [
         "Validation"
@@ -2857,7 +3111,9 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "development"
+      ],
       "categories": [
         "Development"
       ],
@@ -2897,7 +3153,12 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "crac",
+        "aot",
+        "graalvm",
+        "distribution"
+      ],
       "categories": [
         "Distribution"
       ],
@@ -2970,7 +3231,10 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "graalvm",
+        "http-server"
+      ],
       "categories": [
         "HTTP Server"
       ],
@@ -3045,7 +3309,9 @@
       ],
       "tags": [
         "security",
-        "graal"
+        "graal",
+        "graalvm",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -3089,7 +3355,14 @@
       "tags": [
         "database",
         "micronaut-data",
-        "r2dbc"
+        "r2dbc",
+        "data-r2dbc",
+        "flyway",
+        "mysql",
+        "test-resources",
+        "jdbc-hikari",
+        "serialization-jackson",
+        "graalvm"
       ],
       "categories": [
         "Data R2DBC"
@@ -3165,7 +3438,11 @@
       ],
       "tags": [
         "jms",
-        "messaging"
+        "messaging",
+        "jms-sqs",
+        "testcontainers",
+        "testcontainers-floci",
+        "awaitility"
       ],
       "categories": [
         "Messaging"
@@ -3218,7 +3495,14 @@
         "Nemanja Mikic"
       ],
       "tags": [
-        "metrics"
+        "metrics",
+        "micrometer-cloudwatch",
+        "micrometer-annotation",
+        "data-jdbc",
+        "flyway",
+        "validation",
+        "http-client",
+        "graalvm"
       ],
       "categories": [
         "Metrics"
@@ -3293,7 +3577,14 @@
         "Nemanja Mikic"
       ],
       "tags": [
-        "metrics"
+        "metrics",
+        "micrometer-oracle-cloud",
+        "micrometer-annotation",
+        "data-jdbc",
+        "flyway",
+        "validation",
+        "http-client",
+        "graalvm"
       ],
       "categories": [
         "Metrics"
@@ -3368,7 +3659,10 @@
         "Álvaro Sánchez-Mariscal"
       ],
       "tags": [
-        "object-storage"
+        "object-storage",
+        "object-storage-gcp",
+        "graalvm",
+        "cloud"
       ],
       "categories": [
         "Object Storage"
@@ -3412,7 +3706,9 @@
       "tags": [
         "oracle",
         "cloud",
-        "object-storage"
+        "object-storage",
+        "object-storage-oracle-cloud",
+        "graalvm"
       ],
       "categories": [
         "Object Storage"
@@ -3454,7 +3750,11 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "di"
+        "di",
+        "management",
+        "validation",
+        "junit-params",
+        "core-basics"
       ],
       "categories": [
         "Core Basics"
@@ -3531,7 +3831,9 @@
       "tags": [
         "spring-boot",
         "micronaut-data",
-        "h2"
+        "h2",
+        "spring-boot-starter-web",
+        "spring-boot-micronaut-data"
       ],
       "categories": [
         "Spring Boot"
@@ -3564,7 +3866,17 @@
       "tags": [
         "cloud",
         "secrets",
-        "mysql"
+        "mysql",
+        "validation",
+        "secrets-manager",
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "data-jdbc",
+        "flyway",
+        "jdbc-hikari",
+        "serialization-jackson",
+        "graalvm"
       ],
       "categories": [
         "Secrets Manager"
@@ -3638,7 +3950,12 @@
       "authors": [
         "Álvaro Sánchez-Mariscal"
       ],
-      "tags": [],
+      "tags": [
+        "object-storage-aws",
+        "graalvm",
+        "object-storage",
+        "cloud"
+      ],
       "categories": [
         "Object Storage"
       ],
@@ -3678,7 +3995,9 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "distribution"
+      ],
       "categories": [
         "Distribution"
       ],
@@ -3752,7 +4071,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "spring-boot"
+        "spring-boot",
+        "spring-boot-starter-web"
       ],
       "categories": [
         "Spring Boot"
@@ -3794,7 +4114,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "spring-boot"
+        "spring-boot",
+        "spring-boot-starter-web"
       ],
       "categories": [
         "Spring Boot"
@@ -3847,7 +4168,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "spring-boot"
+        "spring-boot",
+        "spring-boot-starter-web"
       ],
       "categories": [
         "Spring Boot"
@@ -3889,7 +4211,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "spring-boot"
+        "spring-boot",
+        "spring-boot-starter-web"
       ],
       "categories": [
         "Spring Boot"
@@ -3930,7 +4253,14 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "flyway",
+        "jooq",
+        "postgres",
+        "testcontainers",
+        "assertj",
+        "testing"
+      ],
       "categories": [
         "Testing"
       ],
@@ -3961,7 +4291,9 @@
       ],
       "tags": [
         "junit",
-        "di"
+        "di",
+        "junit-params",
+        "core-basics"
       ],
       "categories": [
         "Core Basics"
@@ -4040,7 +4372,11 @@
         "database",
         "hibernate",
         "mysql",
-        "reactive"
+        "reactive",
+        "hibernate-reactive-jpa",
+        "serialization-jackson",
+        "validation",
+        "data-jpa"
       ],
       "categories": [
         "Data JPA"
@@ -4099,7 +4435,14 @@
         "hibernate",
         "hibernate-reactive",
         "mysql",
-        "reactive"
+        "reactive",
+        "data-hibernate-reactive",
+        "reactor",
+        "serialization-jackson",
+        "awaitility",
+        "validation",
+        "graalvm",
+        "data-jpa"
       ],
       "categories": [
         "Data JPA"
@@ -4153,7 +4496,10 @@
         "Dean Wette"
       ],
       "tags": [
-        "health"
+        "health",
+        "management",
+        "graalvm",
+        "http-server"
       ],
       "categories": [
         "HTTP Server"
@@ -4231,7 +4577,15 @@
         "xray",
         "open-telemetry",
         "validation",
-        "distributed-tracing"
+        "distributed-tracing",
+        "ksuid",
+        "dynamodb",
+        "testcontainers",
+        "management",
+        "tracing-opentelemetry-xray",
+        "reactor",
+        "retry",
+        "http-client"
       ],
       "categories": [
         "Distributed Tracing"
@@ -4272,7 +4626,13 @@
       "authors": [
         "John Shingler"
       ],
-      "tags": [],
+      "tags": [
+        "tracing-opentelemetry-gcp",
+        "http-client",
+        "distributed-tracing",
+        "cloud",
+        "tracing-opentelemetry-http"
+      ],
       "categories": [
         "Distributed Tracing"
       ],
@@ -4346,7 +4706,13 @@
         "Nemanja Mikic",
         "John Shingler"
       ],
-      "tags": [],
+      "tags": [
+        "tracing-opentelemetry-zipkin",
+        "http-client",
+        "distributed-tracing",
+        "cloud",
+        "tracing-opentelemetry-http"
+      ],
       "categories": [
         "Distributed Tracing"
       ],
@@ -4422,7 +4788,13 @@
       "tags": [
         "jaeger",
         "validation",
-        "distributed-tracing"
+        "distributed-tracing",
+        "management",
+        "tracing-opentelemetry-http",
+        "tracing-opentelemetry-exporter-otlp",
+        "reactor",
+        "retry",
+        "http-client"
       ],
       "categories": [
         "Distributed Tracing"
@@ -4488,7 +4860,12 @@
       "tags": [
         "distributed-tracing",
         "zipkin",
-        "validation"
+        "validation",
+        "management",
+        "tracing-opentelemetry-zipkin",
+        "reactor",
+        "retry",
+        "http-client"
       ],
       "categories": [
         "Distributed Tracing"
@@ -4563,7 +4940,13 @@
         "Burt Beckwith"
       ],
       "tags": [
-        "metrics"
+        "metrics",
+        "micrometer-annotation",
+        "data-jdbc",
+        "flyway",
+        "validation",
+        "http-client",
+        "graalvm"
       ],
       "categories": [
         "Metrics"
@@ -4637,7 +5020,13 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "dynamodb",
+        "ksuid",
+        "test-resources",
+        "serialization-jackson",
+        "data-access"
+      ],
       "categories": [
         "Data Access"
       ],
@@ -4680,7 +5069,18 @@
       "tags": [
         "hotwire",
         "turbo",
-        "websocket"
+        "websocket",
+        "thymeleaf",
+        "data-jdbc",
+        "flyway",
+        "jdbc-hikari",
+        "mysql",
+        "junit-params",
+        "serialization-jackson",
+        "validation",
+        "graalvm",
+        "reactor",
+        "awaitility"
       ],
       "categories": [
         "Turbo"
@@ -4724,7 +5124,12 @@
       ],
       "tags": [
         "views",
-        "hotwire"
+        "hotwire",
+        "thymeleaf",
+        "turbo",
+        "security-session",
+        "reactor",
+        "serialization-jackson"
       ],
       "categories": [
         "Turbo"
@@ -4798,7 +5203,12 @@
       "authors": [
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "spring-web",
+        "spring-boot",
+        "thymeleaf",
+        "validation"
+      ],
       "categories": [
         "Spring Boot"
       ],
@@ -4839,7 +5249,11 @@
         "Sergio del Amo",
         "Dean Wette"
       ],
-      "tags": [],
+      "tags": [
+        "test-rest-assured",
+        "graalvm",
+        "testing"
+      ],
       "categories": [
         "Testing"
       ],
@@ -4915,7 +5329,10 @@
       ],
       "tags": [
         "openapi",
-        "client"
+        "client",
+        "reactor",
+        "validation",
+        "http-client"
       ],
       "categories": [
         "OpenAPI"
@@ -4959,7 +5376,13 @@
       ],
       "tags": [
         "oracle",
-        "cloud"
+        "cloud",
+        "email-javamail",
+        "email-template",
+        "thymeleaf",
+        "serialization-jackson",
+        "validation",
+        "email"
       ],
       "categories": [
         "Email"
@@ -5037,7 +5460,8 @@
         "oracle",
         "cloud",
         "secrets",
-        "mysql"
+        "mysql",
+        "secrets-manager"
       ],
       "categories": [
         "Secrets Manager"
@@ -5113,7 +5537,12 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "websocket"
+        "websocket",
+        "validation",
+        "reactor",
+        "awaitility",
+        "graalvm",
+        "websockets"
       ],
       "categories": [
         "WebSockets"
@@ -5178,7 +5607,8 @@
       ],
       "tags": [
         "ordered",
-        "functional-interface"
+        "functional-interface",
+        "patterns"
       ],
       "categories": [
         "Patterns"
@@ -5256,7 +5686,9 @@
         "database",
         "micronaut-data",
         "mongodb",
-        "async"
+        "async",
+        "data-mongodb-reactive",
+        "reactor"
       ],
       "categories": [
         "MongoDB"
@@ -5322,7 +5754,8 @@
       "tags": [
         "database",
         "micronaut-data",
-        "mongodb"
+        "mongodb",
+        "data-mongodb"
       ],
       "categories": [
         "MongoDB"
@@ -5397,7 +5830,15 @@
         "Dan Hollingsworth",
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "jax-rs",
+        "data-jdbc",
+        "mysql",
+        "flyway",
+        "serialization-jackson",
+        "validation",
+        "graalvm"
+      ],
       "categories": [
         "JAX-RS"
       ],
@@ -5448,7 +5889,19 @@
       "authors": [
         "John Shingler"
       ],
-      "tags": [],
+      "tags": [
+        "secrets-manager",
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "data-jdbc",
+        "flyway",
+        "jdbc-hikari",
+        "mysql",
+        "serialization-jackson",
+        "validation",
+        "graalvm"
+      ],
       "categories": [
         "Secrets Manager"
       ],
@@ -5522,7 +5975,8 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "i18n"
+        "i18n",
+        "graalvm"
       ],
       "categories": [
         "i18n"
@@ -5597,7 +6051,17 @@
         "Burt Beckwith"
       ],
       "tags": [
-        "oracle"
+        "oracle",
+        "authorization-code",
+        "cloud",
+        "security",
+        "oauth2",
+        "oidc",
+        "openid-connect",
+        "security-oauth2",
+        "security-jwt",
+        "security-session",
+        "thymeleaf"
       ],
       "categories": [
         "Authorization Code"
@@ -5671,7 +6135,15 @@
       "authors": [
         "Álvaro Sánchez-Mariscal"
       ],
-      "tags": [],
+      "tags": [
+        "data-jdbc",
+        "cloud",
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "flyway",
+        "mysql"
+      ],
       "categories": [
         "Data JDBC"
       ],
@@ -5745,7 +6217,11 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "messaging"
+        "messaging",
+        "mqtt",
+        "graalvm",
+        "awaitility",
+        "kapt"
       ],
       "categories": [
         "Messaging"
@@ -5824,7 +6300,11 @@
         "flyway",
         "micronaut-data",
         "jdbc",
-        "graphql"
+        "graphql",
+        "data-jdbc",
+        "postgres",
+        "validation",
+        "graalvm"
       ],
       "categories": [
         "GraphQL"
@@ -5879,7 +6359,15 @@
       "tags": [
         "openapi",
         "server",
-        "criteria"
+        "criteria",
+        "validation",
+        "security",
+        "reactor",
+        "data-jdbc",
+        "flyway",
+        "jdbc-hikari",
+        "postgres",
+        "graalvm"
       ],
       "categories": [
         "OpenAPI"
@@ -5922,7 +6410,10 @@
       ],
       "tags": [
         "security",
-        "x509"
+        "x509",
+        "reactor",
+        "graalvm",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -5997,7 +6488,14 @@
         "Graeme Rocher"
       ],
       "tags": [
-        "Azure"
+        "Azure",
+        "data-jdbc",
+        "cloud",
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "flyway",
+        "mysql"
       ],
       "categories": [
         "Data JDBC"
@@ -6071,7 +6569,9 @@
       "authors": [
         "John Shingler"
       ],
-      "tags": [],
+      "tags": [
+        "distribution"
+      ],
       "categories": [
         "Distribution"
       ],
@@ -6144,7 +6644,15 @@
       "authors": [
         "John Shingler"
       ],
-      "tags": [],
+      "tags": [
+        "data-jdbc",
+        "cloud",
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "flyway",
+        "mysql"
+      ],
       "categories": [
         "Data JDBC"
       ],
@@ -6218,7 +6726,14 @@
         "Burt Beckwith"
       ],
       "tags": [
-        "oracle"
+        "oracle",
+        "data-jdbc",
+        "cloud",
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "flyway",
+        "mysql"
       ],
       "categories": [
         "Data JDBC"
@@ -6293,7 +6808,13 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "ses"
+        "ses",
+        "email-amazon-ses",
+        "aws-v2-sdk",
+        "validation",
+        "graalvm",
+        "email",
+        "reactor"
       ],
       "categories": [
         "Email"
@@ -6368,7 +6889,12 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "sendgrid"
+        "sendgrid",
+        "email-sendgrid",
+        "validation",
+        "graalvm",
+        "email",
+        "reactor"
       ],
       "categories": [
         "Email"
@@ -6443,7 +6969,15 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "database-migration"
+        "database-migration",
+        "data-jdbc",
+        "flyway",
+        "mysql",
+        "management",
+        "jackson-databind",
+        "validation",
+        "graalvm",
+        "schema-migration"
       ],
       "categories": [
         "Schema Migration"
@@ -6518,7 +7052,14 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "database-migration"
+        "database-migration",
+        "data-jdbc",
+        "liquibase",
+        "postgres",
+        "management",
+        "validation",
+        "graalvm",
+        "schema-migration"
       ],
       "categories": [
         "Schema Migration"
@@ -6593,7 +7134,13 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "record"
+        "record",
+        "data-jdbc",
+        "liquibase",
+        "postgres",
+        "serialization-jackson",
+        "validation",
+        "graalvm"
       ],
       "categories": [
         "Data JDBC"
@@ -6639,7 +7186,15 @@
         "auth0",
         "oidc",
         "security",
-        "client-credentials"
+        "client-credentials",
+        "security-jwt",
+        "security-oauth2",
+        "management",
+        "serialization-jackson",
+        "graalvm",
+        "reactor",
+        "retry",
+        "http-client"
       ],
       "categories": [
         "Client Credentials"
@@ -6714,7 +7269,9 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "cloudfunctions"
+        "cloudfunctions",
+        "google-cloud-function",
+        "serverless"
       ],
       "categories": [
         "Serverless"
@@ -6793,7 +7350,15 @@
         "cognito",
         "oidc",
         "security",
-        "client-credentials"
+        "client-credentials",
+        "security-jwt",
+        "security-oauth2",
+        "management",
+        "serialization-jackson",
+        "graalvm",
+        "reactor",
+        "retry",
+        "http-client"
       ],
       "categories": [
         "Client Credentials"
@@ -6868,7 +7433,12 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "mongodb"
+        "mongodb",
+        "mongo-reactive",
+        "reactor",
+        "serialization-bson",
+        "serialization-jackson",
+        "graalvm"
       ],
       "categories": [
         "MongoDB"
@@ -6943,7 +7513,11 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "mongodb"
+        "mongodb",
+        "mongo-sync",
+        "serialization-bson",
+        "serialization-jackson",
+        "graalvm"
       ],
       "categories": [
         "MongoDB"
@@ -7018,7 +7592,9 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "appengine"
+        "appengine",
+        "google-app-engine-gradle",
+        "distribution"
       ],
       "categories": [
         "Distribution"
@@ -7093,7 +7669,11 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "cloudrun"
+        "cloudrun",
+        "docker-push-native-gcr",
+        "graalvm",
+        "distribution",
+        "scale-to-zero-containers"
       ],
       "categories": [
         "Distribution",
@@ -7148,7 +7728,9 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "cloudrun"
+        "cloudrun",
+        "docker-push-gcr",
+        "scale-to-zero-containers"
       ],
       "categories": [
         "Scale to Zero Containers"
@@ -7226,7 +7808,12 @@
         "oauth2",
         "auth0",
         "oidc",
-        "security"
+        "security",
+        "thymeleaf",
+        "security-jwt",
+        "security-oauth2",
+        "graalvm",
+        "authorization-code"
       ],
       "categories": [
         "Authorization Code"
@@ -7302,7 +7889,12 @@
       ],
       "tags": [
         "lambda",
-        "function"
+        "function",
+        "aws-lambda",
+        "aws-secrets-manager",
+        "nimbus-jose-jwt",
+        "junit-params",
+        "secrets-manager"
       ],
       "categories": [
         "AWS Lambda",
@@ -7344,7 +7936,20 @@
       "authors": [
         "Burt Beckwith"
       ],
-      "tags": [],
+      "tags": [
+        "kafka",
+        "reactor",
+        "testcontainers",
+        "testcontainers-kafka",
+        "validation",
+        "graalvm",
+        "awaitility",
+        "data-jdbc",
+        "flyway",
+        "oracle-cloud-atp",
+        "testcontainers-oracle-xe",
+        "messaging"
+      ],
       "categories": [
         "Messaging"
       ],
@@ -7419,7 +8024,10 @@
       ],
       "tags": [
         "kafka",
-        "messaging"
+        "messaging",
+        "reactor",
+        "awaitility",
+        "graalvm"
       ],
       "categories": [
         "Messaging"
@@ -7493,7 +8101,13 @@
       "authors": [
         "Burt Beckwith"
       ],
-      "tags": [],
+      "tags": [
+        "oracle-function",
+        "oracle-cloud-sdk",
+        "oci-java-sdk-core",
+        "graalvm",
+        "serverless"
+      ],
       "categories": [
         "Serverless"
       ],
@@ -7569,7 +8183,10 @@
       "tags": [
         "oracle",
         "cloud",
-        "function"
+        "function",
+        "oracle-function",
+        "graalvm",
+        "serverless"
       ],
       "categories": [
         "Serverless"
@@ -7647,7 +8264,14 @@
       "tags": [
         "database",
         "micronaut-data",
-        "jdbc"
+        "jdbc",
+        "data-jdbc",
+        "flyway",
+        "jdbc-hikari",
+        "mysql",
+        "serialization-jackson",
+        "validation",
+        "graalvm"
       ],
       "categories": [
         "Data JDBC"
@@ -7723,7 +8347,10 @@
       ],
       "tags": [
         "jwk",
-        "graalvm"
+        "graalvm",
+        "nimbus-jose-jwt",
+        "kapt",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -7798,7 +8425,11 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "jwk"
+        "jwk",
+        "security-jwt",
+        "management",
+        "graalvm",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -7874,7 +8505,10 @@
       ],
       "tags": [
         "lambda",
-        "eventbridge"
+        "eventbridge",
+        "aws-lambda-scheduled-event",
+        "aws-lambda",
+        "scheduling"
       ],
       "categories": [
         "AWS Lambda",
@@ -7929,7 +8563,12 @@
       ],
       "tags": [
         "lambda",
-        "s3"
+        "s3",
+        "validation",
+        "aws-lambda-s3-event-notification",
+        "thumbnailator",
+        "serialization-jackson",
+        "aws-lambda"
       ],
       "categories": [
         "AWS Lambda"
@@ -7982,7 +8621,9 @@
         "Iván López"
       ],
       "tags": [
-        "graphql"
+        "graphql",
+        "serialization-jackson",
+        "graalvm"
       ],
       "categories": [
         "GraphQL"
@@ -8057,7 +8698,13 @@
         "Burt Beckwith"
       ],
       "tags": [
-        "autonomous"
+        "autonomous",
+        "data-jdbc",
+        "flyway",
+        "http-client",
+        "oracle-cloud-atp",
+        "graalvm",
+        "data-access"
       ],
       "categories": [
         "Data Access"
@@ -8132,7 +8779,9 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "function"
+        "function",
+        "azure-function",
+        "serverless"
       ],
       "categories": [
         "Serverless"
@@ -8208,7 +8857,9 @@
       ],
       "tags": [
         "oracle",
-        "cloud"
+        "cloud",
+        "graalvm",
+        "distribution"
       ],
       "categories": [
         "Distribution"
@@ -8283,7 +8934,12 @@
         "Will Buck"
       ],
       "tags": [
-        "extensions"
+        "extensions",
+        "kotlin-extension-functions",
+        "reactor",
+        "http-client",
+        "graalvm",
+        "kotlin"
       ],
       "categories": [
         "Kotlin"
@@ -8316,7 +8972,15 @@
       "tags": [
         "oauth2",
         "linkedin",
-        "security"
+        "security",
+        "security-oauth2",
+        "security-jwt",
+        "thymeleaf",
+        "reactor",
+        "serialization-jackson",
+        "http-client",
+        "graalvm",
+        "authorization-code"
       ],
       "categories": [
         "Authorization Code"
@@ -8391,7 +9055,9 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "lambda"
+        "lambda",
+        "aws-lambda",
+        "graalvm"
       ],
       "categories": [
         "AWS Lambda",
@@ -8445,7 +9111,9 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "lambda"
+        "lambda",
+        "aws-lambda",
+        "amazon-api-gateway"
       ],
       "categories": [
         "AWS Lambda"
@@ -8521,7 +9189,9 @@
       ],
       "tags": [
         "lambda",
-        "function"
+        "function",
+        "aws-lambda",
+        "graalvm"
       ],
       "categories": [
         "AWS Lambda",
@@ -8576,7 +9246,8 @@
       ],
       "tags": [
         "lambda",
-        "function"
+        "function",
+        "aws-lambda"
       ],
       "categories": [
         "AWS Lambda"
@@ -8653,7 +9324,15 @@
       "tags": [
         "oauth2",
         "github",
-        "security"
+        "security",
+        "thymeleaf",
+        "security-oauth2",
+        "security-jwt",
+        "reactor",
+        "serialization-jackson",
+        "http-client",
+        "graalvm",
+        "authorization-code"
       ],
       "categories": [
         "Authorization Code"
@@ -8732,7 +9411,12 @@
         "oauth2",
         "cognito",
         "oidc",
-        "security"
+        "security",
+        "thymeleaf",
+        "security-jwt",
+        "security-oauth2",
+        "graalvm",
+        "authorization-code"
       ],
       "categories": [
         "Authorization Code"
@@ -8809,7 +9493,10 @@
       "tags": [
         "cache",
         "caffeine",
-        "graal"
+        "graal",
+        "cache-caffeine",
+        "serialization-jackson",
+        "graalvm"
       ],
       "categories": [
         "Cache"
@@ -8887,7 +9574,11 @@
         "configuration",
         "builder",
         "properties",
-        "eachproperty"
+        "eachproperty",
+        "serialization-jackson",
+        "graalvm",
+        "kapt",
+        "core-basics"
       ],
       "categories": [
         "Core Basics"
@@ -8965,7 +9656,12 @@
         "oauth2",
         "google",
         "oidc",
-        "security"
+        "security",
+        "thymeleaf",
+        "security-jwt",
+        "security-oauth2",
+        "graalvm",
+        "authorization-code"
       ],
       "categories": [
         "Authorization Code"
@@ -9040,7 +9736,9 @@
         "Bruno Borges"
       ],
       "tags": [
-        "cloud"
+        "cloud",
+        "graalvm",
+        "distribution"
       ],
       "categories": [
         "Distribution"
@@ -9071,7 +9769,13 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "secrets"
+        "secrets",
+        "security-oauth2",
+        "aws-secrets-manager",
+        "graalvm",
+        "testcontainers",
+        "testcontainers-floci",
+        "secrets-manager"
       ],
       "categories": [
         "Secrets Manager"
@@ -9148,7 +9852,11 @@
       "tags": [
         "rabbitmq",
         "rpc",
-        "messaging"
+        "messaging",
+        "serialization-jackson",
+        "graalvm",
+        "validation",
+        "reactor"
       ],
       "categories": [
         "Messaging"
@@ -9227,7 +9935,12 @@
         "database",
         "mybatis",
         "h2",
-        "flyway"
+        "flyway",
+        "jdbc-hikari",
+        "serialization-jackson",
+        "validation",
+        "graalvm",
+        "data-access"
       ],
       "categories": [
         "Data Access"
@@ -9305,7 +10018,12 @@
         "oauth2",
         "okta",
         "oidc",
-        "security"
+        "security",
+        "thymeleaf",
+        "security-jwt",
+        "security-oauth2",
+        "graalvm",
+        "authorization-code"
       ],
       "categories": [
         "Authorization Code"
@@ -9381,7 +10099,12 @@
       ],
       "tags": [
         "rabbitmq",
-        "messaging"
+        "messaging",
+        "reactor",
+        "serialization-jackson",
+        "graalvm",
+        "mockito",
+        "kapt"
       ],
       "categories": [
         "Messaging"
@@ -9457,7 +10180,9 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "graal"
+        "graal",
+        "graalvm",
+        "distribution"
       ],
       "categories": [
         "Distribution",
@@ -9517,7 +10242,10 @@
         "velocity",
         "hibernate-validator",
         "error",
-        "exception"
+        "exception",
+        "serialization-jackson",
+        "validation",
+        "graalvm"
       ],
       "categories": [
         "Validation"
@@ -9593,7 +10321,11 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "parameter-store"
+        "parameter-store",
+        "aws-parameter-store",
+        "testcontainers",
+        "testcontainers-floci",
+        "distributed-configuration"
       ],
       "categories": [
         "Distributed Configuration"
@@ -9647,7 +10379,8 @@
       ],
       "tags": [
         "elasticbeanstalk",
-        "management"
+        "management",
+        "distribution"
       ],
       "categories": [
         "Distribution"
@@ -9725,7 +10458,13 @@
         "jwt",
         "token-propgation",
         "junit",
-        "security"
+        "security",
+        "security-jwt",
+        "reactor",
+        "management",
+        "http-client",
+        "graalvm",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -9803,7 +10542,12 @@
         "spreadsheet-builder-poi",
         "spock",
         "geb",
-        "excel"
+        "excel",
+        "spreadsheet-builder",
+        "thymeleaf",
+        "validation",
+        "graalvm",
+        "beyond-json"
       ],
       "categories": [
         "Beyond JSON"
@@ -9878,7 +10622,13 @@
         "Iván López",
         "Sergio del Amo"
       ],
-      "tags": [],
+      "tags": [
+        "h2",
+        "hibernate-jpa",
+        "serialization-jackson",
+        "validation",
+        "data-jpa"
+      ],
       "categories": [
         "Data JPA"
       ],
@@ -9943,7 +10693,12 @@
       "tags": [
         "jaeger",
         "validation",
-        "distributed-tracing"
+        "distributed-tracing",
+        "tracing-jaeger",
+        "management",
+        "reactor",
+        "retry",
+        "http-client"
       ],
       "categories": [
         "Distributed Tracing"
@@ -10020,7 +10775,13 @@
       "tags": [
         "distributed-tracing",
         "zipkin",
-        "validation"
+        "validation",
+        "tracing-zipkin",
+        "management",
+        "graalvm",
+        "reactor",
+        "retry",
+        "http-client"
       ],
       "categories": [
         "Distributed Tracing"
@@ -10097,7 +10858,14 @@
       "tags": [
         "consul",
         "validation",
-        "service-discovery"
+        "service-discovery",
+        "discovery-consul",
+        "management",
+        "serialization-jackson",
+        "graalvm",
+        "reactor",
+        "http-client",
+        "retry"
       ],
       "categories": [
         "Service Discovery"
@@ -10175,7 +10943,13 @@
         "eureka",
         "validation",
         "service-discovery",
-        "netflix"
+        "netflix",
+        "discovery-eureka",
+        "serialization-jackson",
+        "graalvm",
+        "reactor",
+        "http-client",
+        "retry"
       ],
       "categories": [
         "Service Discovery"
@@ -10254,7 +11028,9 @@
         "client",
         "rx",
         "flowable",
-        "json-streams"
+        "json-streams",
+        "http-client",
+        "graalvm"
       ],
       "categories": [
         "HTTP Client"
@@ -10329,7 +11105,10 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "git"
+        "git",
+        "management",
+        "git-properties",
+        "development"
       ],
       "categories": [
         "Development"
@@ -10407,7 +11186,15 @@
         "ldap",
         "authentication-provider",
         "h2",
-        "security"
+        "security",
+        "validation",
+        "security-jwt",
+        "security-ldap",
+        "data-jdbc",
+        "jdbc-hikari",
+        "spring-security-crypto",
+        "reactor",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -10440,7 +11227,9 @@
       "tags": [
         "basic-auth",
         "security",
-        "graal"
+        "graal",
+        "graalvm",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -10519,7 +11308,13 @@
         "security",
         "data",
         "jdbc",
-        "graal"
+        "graal",
+        "security-jwt",
+        "data-jdbc",
+        "reactor",
+        "validation",
+        "graalvm",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -10598,7 +11393,11 @@
         "geb",
         "cookie",
         "security",
-        "jwt"
+        "jwt",
+        "security-jwt",
+        "velocity",
+        "graalvm",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -10674,7 +11473,9 @@
       ],
       "tags": [
         "job",
-        "scheduled"
+        "scheduled",
+        "graalvm",
+        "scheduling"
       ],
       "categories": [
         "Scheduling"
@@ -10754,7 +11555,11 @@
         "session",
         "security",
         "views",
-        "velocity"
+        "velocity",
+        "security-session",
+        "reactor",
+        "graalvm",
+        "micronaut-security"
       ],
       "categories": [
         "Micronaut Security"
@@ -10830,7 +11635,9 @@
         "Sergio del Amo"
       ],
       "tags": [
-        "junit"
+        "junit",
+        "graalvm",
+        "getting-started"
       ],
       "categories": [
         "Getting Started"
