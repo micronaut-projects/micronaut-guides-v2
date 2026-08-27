@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:40:16.976Z",
+  "generatedAt": "2026-08-27T06:28:03.023Z",
   "guideCount": 177,
   "guides": [
     {
@@ -3492,7 +3492,6 @@
       "title": "Collect metrics with the Micronaut framework and monitor them on Amazon CloudWatch",
       "intro": "Learn how to collect standard and custom metrics with the Micronaut framework and monitor them on Amazon CloudWatch.",
       "authors": [
-        "Burt Beckwith",
         "Nemanja Mikic"
       ],
       "tags": [
@@ -3575,7 +3574,6 @@
       "title": "Collect metrics with the Micronaut Framework and monitor them on Oracle Cloud",
       "intro": "Learn how to collect standard and custom metrics with the Micronaut framework and monitor them on Oracle Cloud.",
       "authors": [
-        "Burt Beckwith",
         "Nemanja Mikic"
       ],
       "tags": [
@@ -3863,8 +3861,6 @@
       "title": "Securely store Micronaut application secrets in Azure Key Vault",
       "intro": "Learn how to create secrets in Azure Key Vault and easily access them in a Micronaut application.",
       "authors": [
-        "Sergio del Amo",
-        "John Shingler",
         "Slavko Bodvanski"
       ],
       "tags": [
@@ -5891,7 +5887,6 @@
       "title": "Use Google Secret Manager to Store MySQL Credentials",
       "intro": "Learn how to use Google Secret Manager.",
       "authors": [
-        "Sergio del Amo",
         "John Shingler"
       ],
       "tags": [
