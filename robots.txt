@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://micronaut-projects.github.io/micronaut-guides-v2/sitemap-index.xml
+Sitemap: https://guides.micronaut.io/sitemap-index.xml

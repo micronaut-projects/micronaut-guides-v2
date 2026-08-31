@@ -1,12 +1,12 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Micronaut Guides",
-  "home_page_url": "https://micronaut-projects.github.io/micronaut-guides-v2/",
-  "feed_url": "https://micronaut-projects.github.io/micronaut-guides-v2/feed.json",
+  "home_page_url": "https://guides.micronaut.io/",
+  "feed_url": "https://guides.micronaut.io/feed.json",
   "items": [
     {
       "id": "adding-commit-info",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/adding-commit-info-gradle-java/",
+      "url": "https://guides.micronaut.io/adding-commit-info-gradle-java/",
       "title": "Adding Commit Info to your Micronaut Application",
       "content_text": "Expose the exact version of code that your application is running.",
       "date_published": "2018-05-24T00:00:00Z",
@@ -25,7 +25,7 @@
     },
     {
       "id": "building-a-rest-api-spring-boot-vs-micronaut-data",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/building-a-rest-api-spring-boot-vs-micronaut-data-gradle-java/",
+      "url": "https://guides.micronaut.io/building-a-rest-api-spring-boot-vs-micronaut-data-gradle-java/",
       "title": "4. Data - Spring Boot vs Micronaut Framework - Building a REST API",
       "content_text": "This guide compares how to add Spring Data or Micronaut Data to power a GET endpoint in both Micronaut and Spring Boot applications.",
       "date_published": "2024-04-27T00:00:00Z",
@@ -47,7 +47,7 @@
     },
     {
       "id": "building-a-rest-api-spring-boot-vs-micronaut-get-list",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/building-a-rest-api-spring-boot-vs-micronaut-get-list-gradle-java/",
+      "url": "https://guides.micronaut.io/building-a-rest-api-spring-boot-vs-micronaut-get-list-gradle-java/",
       "title": "5. Paginated List - Spring Boot vs Micronaut Framework - Building a REST API",
       "content_text": "This guide compares how to create a GET endpoint that returns a paginated JSON Array in Micronaut and Spring Boot applications.",
       "date_published": "2024-04-28T00:00:00Z",
@@ -71,7 +71,7 @@
     },
     {
       "id": "building-a-rest-api-spring-boot-vs-micronaut-implemeting-get",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/building-a-rest-api-spring-boot-vs-micronaut-implemeting-get-gradle-java/",
+      "url": "https://guides.micronaut.io/building-a-rest-api-spring-boot-vs-micronaut-implemeting-get-gradle-java/",
       "title": "2. Implementing GET - Spring Boot vs Micronaut Framework - Building a REST API",
       "content_text": "This guide compares how to implement a GET endpoint with Micronaut Framework and Spring Boot.",
       "date_published": "2024-04-25T00:00:00Z",
@@ -92,7 +92,7 @@
     },
     {
       "id": "building-a-rest-api-spring-boot-vs-micronaut-post",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/building-a-rest-api-spring-boot-vs-micronaut-post-gradle-java/",
+      "url": "https://guides.micronaut.io/building-a-rest-api-spring-boot-vs-micronaut-post-gradle-java/",
       "title": "3. POST - Spring Boot vs Micronaut Framework - Building a REST API",
       "content_text": "This guide compares how to add POST endpoint in both Micronaut and Spring Boot applications.",
       "date_published": "2024-04-26T00:00:00Z",
@@ -115,7 +115,7 @@
     },
     {
       "id": "building-a-rest-api-spring-boot-vs-micronaut-security-basic-auth",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/building-a-rest-api-spring-boot-vs-micronaut-security-basic-auth-gradle-java/",
+      "url": "https://guides.micronaut.io/building-a-rest-api-spring-boot-vs-micronaut-security-basic-auth-gradle-java/",
       "title": "6. Security Basic Authentication - Spring Boot vs Micronaut Framework - Building a REST API",
       "content_text": "This guide compares how to secure a REST API with basic authentication in Micronaut and Spring Boot applications.",
       "date_published": "2024-04-29T00:00:00Z",
@@ -142,7 +142,7 @@
     },
     {
       "id": "building-a-rest-api-spring-boot-vs-micronaut-test-first",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/building-a-rest-api-spring-boot-vs-micronaut-test-first-gradle-java/",
+      "url": "https://guides.micronaut.io/building-a-rest-api-spring-boot-vs-micronaut-test-first-gradle-java/",
       "title": "1. Testing Serialization - Spring Boot vs Micronaut Framework - Building a REST API",
       "content_text": "This guide compares how to test serialization and deserialization with Micronaut Framework and Spring Boot.",
       "date_published": "2024-04-24T00:00:00Z",
@@ -163,7 +163,7 @@
     },
     {
       "id": "creating-your-first-micronaut-app",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/creating-your-first-micronaut-app-gradle-java/",
+      "url": "https://guides.micronaut.io/creating-your-first-micronaut-app-gradle-java/",
       "title": "Creating your first Micronaut application",
       "content_text": "Learn how to create a Hello World Micronaut application with a controller and a functional test.",
       "date_published": "2018-05-23T00:00:00Z",
@@ -184,7 +184,7 @@
     },
     {
       "id": "executable-jar",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/executable-jar-gradle-java/",
+      "url": "https://guides.micronaut.io/executable-jar-gradle-java/",
       "title": "Create an Executable JAR of a Micronaut application",
       "content_text": "Learn how to generate an executable JAR of a Micronaut application with Maven or Gradle.",
       "date_published": "2022-09-16T00:00:00Z",
@@ -200,7 +200,7 @@
     },
     {
       "id": "hotwire-turbo-micronaut-chat",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/hotwire-turbo-micronaut-chat-gradle-java/",
+      "url": "https://guides.micronaut.io/hotwire-turbo-micronaut-chat-gradle-java/",
       "title": "Hotwire Turbo Chat with Micronaut Views",
       "content_text": "This guide shows how to build a Micronaut Framework chat application such as the Rails application demonstrated in the Hotwire announcement screencast.",
       "date_published": "2022-06-20T00:00:00Z",
@@ -229,7 +229,7 @@
     },
     {
       "id": "localized-message-source",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/localized-message-source-gradle-java/",
+      "url": "https://guides.micronaut.io/localized-message-source-gradle-java/",
       "title": "Localize your application",
       "content_text": "Respond to a localized version of your application with LocalizedMessageSource.",
       "date_published": "2022-04-07T00:00:00Z",
@@ -246,7 +246,7 @@
     },
     {
       "id": "micronaut-aws-lambda-eventbridge-event",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-aws-lambda-eventbridge-event-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-aws-lambda-eventbridge-event-gradle-java/",
       "title": "Micronaut AWS Lambda and a Cron Job",
       "content_text": "Learn how to use a scheduled expression with an EventBridge trigger to execute a Micronaut AWS Lambda every 5 minutes",
       "date_published": "2021-05-27T00:00:00Z",
@@ -266,7 +266,7 @@
     },
     {
       "id": "micronaut-aws-lambda-s3-event",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-aws-lambda-s3-event-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-aws-lambda-s3-event-gradle-java/",
       "title": "Micronaut AWS Lambda and S3 Event",
       "content_text": "Learn how to generate thumbnails for images uploaded to an S3 bucket with AWS Lambda and the Micronaut framework",
       "date_published": "2021-05-27T00:00:00Z",
@@ -288,7 +288,7 @@
     },
     {
       "id": "micronaut-aws-parameter-store",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-aws-parameter-store-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-aws-parameter-store-gradle-java/",
       "title": "Micronaut AWS Parameter Store",
       "content_text": "Learn how to use AWS Parameter for Configuration Discovery in a Micronaut application.",
       "date_published": "2018-10-03T00:00:00Z",
@@ -311,7 +311,7 @@
     },
     {
       "id": "micronaut-aws-secretsmanager",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-aws-secretsmanager-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-aws-secretsmanager-gradle-java/",
       "title": "Distributed Configuration with AWS Secrets Manager and the Micronaut Framework",
       "content_text": "Learn how to load your secrets from AWS Secrets Manager in your Micronaut application",
       "date_published": "2019-05-15T00:00:00Z",
@@ -333,7 +333,7 @@
     },
     {
       "id": "micronaut-aws-secretsmanager-rotation",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-aws-secretsmanager-rotation-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-aws-secretsmanager-rotation-gradle-java/",
       "title": "Secret Rotation AWS Lambda and Secrets Manager",
       "content_text": "Learn how to create an AWS Lambda function with the Micronaut framework to rotate a secret stored in AWS Secrets Manager",
       "date_published": "2021-08-10T00:00:00Z",
@@ -355,7 +355,7 @@
     },
     {
       "id": "micronaut-azure-cloud",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-azure-cloud-maven-java/",
+      "url": "https://guides.micronaut.io/micronaut-azure-cloud-maven-java/",
       "title": "Deploy a Micronaut application to Microsoft Azure",
       "content_text": "Learn how to deploy a Micronaut application to Microsoft Azure.",
       "date_published": "2019-06-11T00:00:00Z",
@@ -373,7 +373,7 @@
     },
     {
       "id": "micronaut-azure-http-functions",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-azure-http-functions-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-azure-http-functions-gradle-java/",
       "title": "Micronaut Azure HTTP Functions",
       "content_text": "Learn how to create an Azure HTTP Function with the Micronaut framework",
       "date_published": "2021-05-08T00:00:00Z",
@@ -391,7 +391,7 @@
     },
     {
       "id": "micronaut-azure-logging",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-azure-logging-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-azure-logging-gradle-java/",
       "title": "Publish Micronaut application logs to Microsoft Azure Monitor Logs",
       "content_text": "Learn how to send your Micronaut application Logback logs to Microsoft Azure Monitor Logs.",
       "date_published": "2024-08-22T00:00:00Z",
@@ -408,7 +408,7 @@
     },
     {
       "id": "micronaut-cache",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cache-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cache-gradle-java/",
       "title": "Micronaut Cache",
       "content_text": "Learn how to use Micronaut caching annotations",
       "date_published": "2019-12-04T00:00:00Z",
@@ -429,7 +429,7 @@
     },
     {
       "id": "micronaut-cli-jwkgen",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cli-jwkgen-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cli-jwkgen-gradle-java/",
       "title": "JWK Generation with a Micronaut Command Line Application",
       "content_text": "Learn how to generate a JSON Web Key (JWK) with a Micronaut CLI (command-line interface) application",
       "date_published": "2021-05-27T00:00:00Z",
@@ -449,7 +449,7 @@
     },
     {
       "id": "micronaut-cloud-database-aws",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-database-aws-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-database-aws-gradle-java/",
       "title": "Connect a Micronaut Data JDBC Application to an AWS RDS MySQL Database",
       "content_text": "Learn how to connect to an AWS MySQL database.",
       "date_published": "2022-03-14T00:00:00Z",
@@ -471,7 +471,7 @@
     },
     {
       "id": "micronaut-cloud-database-azure",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-database-azure-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-database-azure-gradle-java/",
       "title": "Connect a Micronaut Data JDBC Application to Azure Database for MySQL",
       "content_text": "Learn how to connect a Micronaut Data JDBC application to Microsoft Azure Database for MySQL.",
       "date_published": "2022-02-17T00:00:00Z",
@@ -494,7 +494,7 @@
     },
     {
       "id": "micronaut-cloud-database-google",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-database-google-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-database-google-gradle-java/",
       "title": "Connect a Micronaut Data JDBC Application to a Google MySQL Database",
       "content_text": "Learn how to connect to a Google MySQL database.",
       "date_published": "2022-02-16T00:00:00Z",
@@ -516,7 +516,7 @@
     },
     {
       "id": "micronaut-cloud-database-oracle",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-database-oracle-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-database-oracle-gradle-java/",
       "title": "Deploy a Micronaut MySQL Database Application to Oracle Cloud",
       "content_text": "Learn how to deploy a Micronaut MySQL database application to Oracle Cloud.",
       "date_published": "2022-02-14T00:00:00Z",
@@ -539,7 +539,7 @@
     },
     {
       "id": "micronaut-cloud-oidc-oracle",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-oidc-oracle-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-oidc-oracle-gradle-java/",
       "title": "Authenticate Micronaut application users with OpenID Connect and Oracle IDCS",
       "content_text": "Learn how to create a secured Micronaut application and authenticate with OpenID Connect in Oracle Cloud.",
       "date_published": "2022-03-31T00:00:00Z",
@@ -565,7 +565,7 @@
     },
     {
       "id": "micronaut-cloud-secret-manager-google",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-secret-manager-google-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-secret-manager-google-gradle-java/",
       "title": "Use Google Secret Manager to Store MySQL Credentials",
       "content_text": "Learn how to use Google Secret Manager.",
       "date_published": "2022-05-05T00:00:00Z",
@@ -591,7 +591,7 @@
     },
     {
       "id": "micronaut-cloud-secrets-azure",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-secrets-azure-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-secrets-azure-gradle-java/",
       "title": "Securely store Micronaut application secrets in Azure Key Vault",
       "content_text": "Learn how to create secrets in Azure Key Vault and easily access them in a Micronaut application.",
       "date_published": "2022-09-20T00:00:00Z",
@@ -619,7 +619,7 @@
     },
     {
       "id": "micronaut-cloud-secrets-oracle",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-secrets-oracle-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-secrets-oracle-gradle-java/",
       "title": "Securely store Micronaut application secrets in Oracle Cloud Vault",
       "content_text": "Learn how to create secrets in Oracle Cloud Vault and easily access them in a Micronaut application.",
       "date_published": "2022-05-17T00:00:00Z",
@@ -639,7 +639,7 @@
     },
     {
       "id": "micronaut-cloud-trace-google",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-trace-google-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-trace-google-gradle-java/",
       "title": "OpenTelemetry Tracing with Google Cloud Trace and the Micronaut Framework",
       "content_text": "Use Google Cloud Trace to investigate the behavior of your Micronaut applications.",
       "date_published": "2022-08-04T00:00:00Z",
@@ -659,7 +659,7 @@
     },
     {
       "id": "micronaut-cloud-trace-oci",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cloud-trace-oci-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cloud-trace-oci-gradle-java/",
       "title": "OpenTelemetry Tracing with Oracle Cloud and the Micronaut Framework",
       "content_text": "Use Oracle Cloud to investigate the behavior of your Micronaut applications.",
       "date_published": "2022-08-04T00:00:00Z",
@@ -682,7 +682,7 @@
     },
     {
       "id": "micronaut-configuration",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-configuration-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-configuration-gradle-java/",
       "title": "@Configuration and @ConfigurationBuilder",
       "content_text": "Learn how to use @Configuration and @ConfigurationBuilder annotations to configure declared properties.",
       "date_published": "2019-12-03T00:00:00Z",
@@ -705,7 +705,7 @@
     },
     {
       "id": "micronaut-content-negotiation",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-content-negotiation-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-content-negotiation-gradle-java/",
       "title": "Content negotiation in a Micronaut application",
       "content_text": "Learn how to respond with HTML or JSON depending on the request Accept HTTP header.",
       "date_published": "2023-12-10T00:00:00Z",
@@ -722,7 +722,7 @@
     },
     {
       "id": "micronaut-cors",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-cors-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-cors-gradle-java/",
       "title": "Configure CORS in a Micronaut application",
       "content_text": "Learn how to configure Cross-Origin Resource Sharing (CORS) in a Micronaut application.",
       "date_published": "2023-02-09T00:00:00Z",
@@ -739,7 +739,7 @@
     },
     {
       "id": "micronaut-crac-google-cloud-platform-cloud-run",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-crac-google-cloud-platform-cloud-run-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-crac-google-cloud-platform-cloud-run-gradle-java/",
       "title": "Deploy CRaC Docker Image to Google Cloud Run",
       "content_text": "Deploy a Docker image containing a CRaC-enabled JDK and a pre-warmed, checkpointed application to Google Cloud Run, a fully managed serverless platform for containerized applications.",
       "date_published": "2023-04-12T00:00:00Z",
@@ -758,7 +758,7 @@
     },
     {
       "id": "micronaut-crac-helloworld",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-crac-helloworld-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-crac-helloworld-gradle-java/",
       "title": "Micronaut CRaC",
       "content_text": "Learn how to start using CRaC with a Micronaut application.",
       "date_published": "2023-11-22T00:00:00Z",
@@ -777,7 +777,7 @@
     },
     {
       "id": "micronaut-creating-first-graal-app",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-creating-first-graal-app-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-creating-first-graal-app-gradle-java/",
       "title": "Creating your first Micronaut Graal application",
       "content_text": "Learn how to create a Hello World Micronaut GraalVM application.",
       "date_published": "2018-10-03T00:00:00Z",
@@ -798,7 +798,7 @@
     },
     {
       "id": "micronaut-custom-validation-annotation",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-custom-validation-annotation-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-custom-validation-annotation-gradle-java/",
       "title": "Custom constraint annotation for validation",
       "content_text": "Learn how to create a custom constraint annotation for validation in your Micronaut application.",
       "date_published": "2023-02-13T00:00:00Z",
@@ -815,7 +815,7 @@
     },
     {
       "id": "micronaut-data-access-mybatis",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-access-mybatis-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-access-mybatis-gradle-java/",
       "title": "Access a database with MyBatis",
       "content_text": "Learn how to access a database with MyBatis using Micronaut Framework.",
       "date_published": "2019-03-11T00:00:00Z",
@@ -842,7 +842,7 @@
     },
     {
       "id": "micronaut-data-h2-geospatial-nearby-drivers",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-h2-geospatial-nearby-drivers-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-h2-geospatial-nearby-drivers-gradle-java/",
       "title": "Find Nearby Delivery Drivers with Micronaut Data JDBC and H2GIS",
       "content_text": "Learn how to use Micronaut Data JDBC and H2 spatial queries to find the closest available delivery driver within 5 km of a food delivery order.",
       "date_published": "2026-05-29T00:00:00Z",
@@ -867,7 +867,7 @@
     },
     {
       "id": "micronaut-data-hibernate-reactive",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-hibernate-reactive-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-hibernate-reactive-gradle-java/",
       "title": "Access a database with Micronaut Data and Hibernate Reactive",
       "content_text": "Learn how to use Micronaut Data and Hibernate Reactive.",
       "date_published": "2022-08-04T00:00:00Z",
@@ -900,7 +900,7 @@
     },
     {
       "id": "micronaut-data-jdbc-repository",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-jdbc-repository-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-jdbc-repository-gradle-java/",
       "title": "Access a database with Micronaut Data JDBC",
       "content_text": "Learn how to access a database with Micronaut JDBC repositories.",
       "date_published": "2021-05-28T00:00:00Z",
@@ -928,7 +928,7 @@
     },
     {
       "id": "micronaut-data-many-to-many-mysql",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-many-to-many-mysql-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-many-to-many-mysql-gradle-java/",
       "title": "Many-to-Many with Micronaut Data JDBC and MySQL",
       "content_text": "Learn how to map a many-to-many association with Micronaut Data JDBC and MySQL.",
       "date_published": "2025-11-12T00:00:00Z",
@@ -949,7 +949,7 @@
     },
     {
       "id": "micronaut-data-many-to-many-oracle",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-many-to-many-oracle-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-many-to-many-oracle-gradle-java/",
       "title": "Many-to-Many with Micronaut Data JDBC and Oracle",
       "content_text": "Learn how to map a many-to-many association with Micronaut Data JDBC and Oracle.",
       "date_published": "2025-11-12T00:00:00Z",
@@ -970,7 +970,7 @@
     },
     {
       "id": "micronaut-data-mariadb-geospatial-nearby-drivers",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-mariadb-geospatial-nearby-drivers-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-mariadb-geospatial-nearby-drivers-gradle-java/",
       "title": "Find Nearby Delivery Drivers with Micronaut Data JDBC and MariaDB Geospatial",
       "content_text": "Learn how to use Micronaut Data JDBC and MariaDB spatial queries to find the closest available delivery driver within 5 km of a food delivery order.",
       "date_published": "2026-05-29T00:00:00Z",
@@ -994,7 +994,7 @@
     },
     {
       "id": "micronaut-data-mongodb-asynchronous",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-mongodb-asynchronous-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-mongodb-asynchronous-gradle-java/",
       "title": "Access a MongoDB database asynchronously with Micronaut Data MongoDB and Reactive Streams",
       "content_text": "Learn how to access a MongoDB database asynchronously with Micronaut Data.",
       "date_published": "2022-05-05T00:00:00Z",
@@ -1015,7 +1015,7 @@
     },
     {
       "id": "micronaut-data-mongodb-synchronous",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-mongodb-synchronous-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-mongodb-synchronous-gradle-java/",
       "title": "Access a MongoDB database with Micronaut Data MongoDB",
       "content_text": "Learn how to access a MongoDB database with Micronaut Data and the MongoDB Sync driver.",
       "date_published": "2022-05-05T00:00:00Z",
@@ -1034,7 +1034,7 @@
     },
     {
       "id": "micronaut-data-mysql-geospatial-nearby-drivers",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-mysql-geospatial-nearby-drivers-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-mysql-geospatial-nearby-drivers-gradle-java/",
       "title": "Find Nearby Delivery Drivers with Micronaut Data JDBC and MySQL Geospatial",
       "content_text": "Learn how to use Micronaut Data JDBC and MySQL spatial queries to find the closest available delivery driver within 5 km of a food delivery order.",
       "date_published": "2026-05-29T00:00:00Z",
@@ -1058,7 +1058,7 @@
     },
     {
       "id": "micronaut-data-one-to-many",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-one-to-many-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-one-to-many-gradle-java/",
       "title": "One-to-Many with Micronaut Data JDBC",
       "content_text": "Learn how to map a one-to-many association with Micronaut Data JDBC.",
       "date_published": "2024-10-13T00:00:00Z",
@@ -1078,7 +1078,7 @@
     },
     {
       "id": "micronaut-data-oracle-geospatial-nearby-drivers",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-oracle-geospatial-nearby-drivers-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-oracle-geospatial-nearby-drivers-gradle-java/",
       "title": "Find Nearby Delivery Drivers with Micronaut Data JDBC and Oracle Geospatial",
       "content_text": "Learn how to use Micronaut Data JDBC and Oracle spatial queries to find the closest available delivery driver within 5 km of a food delivery order.",
       "date_published": "2026-05-22T00:00:00Z",
@@ -1102,7 +1102,7 @@
     },
     {
       "id": "micronaut-data-postgres-geospatial-nearby-drivers",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-postgres-geospatial-nearby-drivers-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-postgres-geospatial-nearby-drivers-gradle-java/",
       "title": "Find Nearby Delivery Drivers with Micronaut Data JDBC and PostGIS",
       "content_text": "Learn how to use Micronaut Data JDBC and PostgreSQL spatial queries to find the closest available delivery driver within 5 km of a food delivery order.",
       "date_published": "2026-05-29T00:00:00Z",
@@ -1126,7 +1126,7 @@
     },
     {
       "id": "micronaut-data-r2dbc-repository",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-r2dbc-repository-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-r2dbc-repository-gradle-java/",
       "title": "Access a database with Micronaut Data R2DBC",
       "content_text": "Learn how to access a database with Micronaut R2DBC repositories.",
       "date_published": "2023-01-04T00:00:00Z",
@@ -1151,7 +1151,7 @@
     },
     {
       "id": "micronaut-data-sqlserver-geospatial-nearby-drivers",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-data-sqlserver-geospatial-nearby-drivers-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-data-sqlserver-geospatial-nearby-drivers-gradle-java/",
       "title": "Find Nearby Delivery Drivers with Micronaut Data JDBC and SQL Server Geospatial",
       "content_text": "Learn how to use Micronaut Data JDBC and SQL Server spatial queries to find the closest available delivery driver within 5 km of a food delivery order.",
       "date_published": "2026-05-29T00:00:00Z",
@@ -1175,7 +1175,7 @@
     },
     {
       "id": "micronaut-database-authentication-provider",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-database-authentication-provider-gradle-groovy/",
+      "url": "https://guides.micronaut.io/micronaut-database-authentication-provider-gradle-groovy/",
       "title": "LDAP and database authentication providers",
       "content_text": "Learn how to create an LDAP and a database authentication provider in a Micronaut application.",
       "date_published": "2018-05-24T00:00:00Z",
@@ -1202,7 +1202,7 @@
     },
     {
       "id": "micronaut-dependency-injection-types",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-dependency-injection-types-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-dependency-injection-types-gradle-java/",
       "title": "Micronaut Dependency Injection Types",
       "content_text": "Constructor, field, and method parameter injection.",
       "date_published": "2022-09-09T00:00:00Z",
@@ -1221,7 +1221,7 @@
     },
     {
       "id": "micronaut-docker-image",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-docker-image-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-docker-image-gradle-java/",
       "title": "Building a Docker image of your Micronaut application",
       "content_text": "Micronaut build plugins offer several ways to build Docker images: JAR, GraalVM native executable, and CRaC.",
       "date_published": "2023-02-12T00:00:00Z",
@@ -1240,7 +1240,7 @@
     },
     {
       "id": "micronaut-dynamodb",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-dynamodb-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-dynamodb-gradle-java/",
       "title": "Using DynamoDB in a Micronaut application",
       "content_text": "Learn how to use DynamoDB as your persistence solution in a Micronaut application.",
       "date_published": "2022-07-05T00:00:00Z",
@@ -1260,7 +1260,7 @@
     },
     {
       "id": "micronaut-eclipsestore-persitence",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-eclipsestore-persitence-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-eclipsestore-persitence-gradle-java/",
       "title": "Using EclipseStore persistence with Micronaut",
       "content_text": "Learn how to use EclipseStore as a high-performance persistence layer.",
       "date_published": "2023-11-22T00:00:00Z",
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "micronaut-elasticbeanstalk",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-elasticbeanstalk-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-elasticbeanstalk-gradle-java/",
       "title": "Deploy a Micronaut application to AWS Elastic Beanstalk",
       "content_text": "Learn how easy it is to deploy a Micronaut application to Elastic Beanstalk.",
       "date_published": "2018-09-27T00:00:00Z",
@@ -1302,7 +1302,7 @@
     },
     {
       "id": "micronaut-email-amazon-ses",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-email-amazon-ses-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-email-amazon-ses-gradle-java/",
       "title": "Send Emails with Amazon SES from the Micronaut Framework",
       "content_text": "Learn how to send emails with Amazon SES from a Micronaut application.",
       "date_published": "2022-02-05T00:00:00Z",
@@ -1324,7 +1324,7 @@
     },
     {
       "id": "micronaut-email-sendgrid",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-email-sendgrid-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-email-sendgrid-gradle-java/",
       "title": "Send Emails with SendGrid from the Micronaut Framework",
       "content_text": "Learn how to send emails with SendGrid from a Micronaut application.",
       "date_published": "2022-02-05T00:00:00Z",
@@ -1345,7 +1345,7 @@
     },
     {
       "id": "micronaut-error-handling",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-error-handling-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-error-handling-gradle-java/",
       "title": "Error Handling",
       "content_text": "Learn about error handling in the Micronaut framework.",
       "date_published": "2018-10-03T00:00:00Z",
@@ -1370,7 +1370,7 @@
     },
     {
       "id": "micronaut-file-download-excel",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-file-download-excel-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-file-download-excel-gradle-java/",
       "title": "Download an Excel file in a Micronaut application",
       "content_text": "Learn how to download an Excel file with the Micronaut framework and Spreadsheet Builder library.",
       "date_published": "2018-09-03T00:00:00Z",
@@ -1394,7 +1394,7 @@
     },
     {
       "id": "micronaut-flyway",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-flyway-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-flyway-gradle-java/",
       "title": "Schema Migration with Flyway",
       "content_text": "Learn how to use Flyway to manage your schema migrations.",
       "date_published": "2021-11-22T00:00:00Z",
@@ -1418,7 +1418,7 @@
     },
     {
       "id": "micronaut-google-app-engine",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-google-app-engine-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-google-app-engine-gradle-java/",
       "title": "Deploy to Google App Engine",
       "content_text": "Learn how to deploy a Micronaut application to the Google App Engine Java flexible environment.",
       "date_published": "2021-10-11T00:00:00Z",
@@ -1436,7 +1436,7 @@
     },
     {
       "id": "micronaut-google-cloud-compute",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-google-cloud-compute-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-google-cloud-compute-gradle-java/",
       "title": "Deploy to Google Cloud Compute",
       "content_text": "Deploy a Micronaut application to a Google Cloud Compute instance.",
       "date_published": "2022-02-17T00:00:00Z",
@@ -1452,7 +1452,7 @@
     },
     {
       "id": "micronaut-google-cloud-http-function",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-google-cloud-http-function-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-google-cloud-http-function-gradle-java/",
       "title": "Deploy an HTTP Function to Google Cloud Functions",
       "content_text": "Deploy a Micronaut application as an HTTP Function to Google Cloud Functions, a scalable pay-as-you-go functions-as-a-service (FaaS) to run your code with zero server management.",
       "date_published": "2021-10-19T00:00:00Z",
@@ -1470,7 +1470,7 @@
     },
     {
       "id": "micronaut-google-cloud-platform-cloud-run",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-google-cloud-platform-cloud-run-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-google-cloud-platform-cloud-run-gradle-java/",
       "title": "Deploy to Google Cloud Run",
       "content_text": "Deploy a Micronaut application to Google Cloud Run, a fully managed serverless platform for containerized applications.",
       "date_published": "2021-10-01T00:00:00Z",
@@ -1488,7 +1488,7 @@
     },
     {
       "id": "micronaut-graalpy",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-graalpy-maven-java/",
+      "url": "https://guides.micronaut.io/micronaut-graalpy-maven-java/",
       "title": "Creating your first Micronaut GraalPy application",
       "content_text": "Learn how to create a Hello World Micronaut GraalPy application with a controller and a functional test.",
       "date_published": "2024-07-01T00:00:00Z",
@@ -1505,7 +1505,7 @@
     },
     {
       "id": "micronaut-graalpy-python-package",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-graalpy-python-package-maven-java/",
+      "url": "https://guides.micronaut.io/micronaut-graalpy-python-package-maven-java/",
       "title": "Creating a Micronaut GraalPy application using a Python package",
       "content_text": "Learn how to create a simple Micronaut GraalPy application using a third-party Python package.",
       "date_published": "2024-07-01T00:00:00Z",
@@ -1522,7 +1522,7 @@
     },
     {
       "id": "micronaut-graalvm-native-image-google-cloud-platform-cloud-run",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-graalvm-native-image-google-cloud-platform-cloud-run-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-graalvm-native-image-google-cloud-platform-cloud-run-gradle-java/",
       "title": "Deploy GraalVM Native Executable to Google Cloud Run",
       "content_text": "Deploy a GraalVM Native Executable of a Micronaut application to Google Cloud Run - a fully managed serverless platform for containerized applications.",
       "date_published": "2021-10-01T00:00:00Z",
@@ -1542,7 +1542,7 @@
     },
     {
       "id": "micronaut-graalvm-reflection",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-graalvm-reflection-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-graalvm-reflection-gradle-java/",
       "title": "Generate reflection metadata for GraalVM Native Image",
       "content_text": "In this guide, you will see several methods to provide the metadata required for reflection to be used in a Micronaut application distributed as a GraalVM Native executable.",
       "date_published": "2023-09-22T00:00:00Z",
@@ -1558,7 +1558,7 @@
     },
     {
       "id": "micronaut-graphql",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-graphql-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-graphql-gradle-java/",
       "title": "Micronaut GraphQL",
       "content_text": "Learn how to use Micronaut GraphQL.",
       "date_published": "2021-05-21T00:00:00Z",
@@ -1576,7 +1576,7 @@
     },
     {
       "id": "micronaut-graphql-todo",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-graphql-todo-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-graphql-todo-gradle-java/",
       "title": "Creating a ToDo application with Micronaut GraphQL",
       "content_text": "Build a TODO application with Micronaut GraphQL.",
       "date_published": "2022-03-10T00:00:00Z",
@@ -1602,7 +1602,7 @@
     },
     {
       "id": "micronaut-health-endpoint",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-health-endpoint-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-health-endpoint-gradle-java/",
       "title": "Exposing a Health endpoint for your Micronaut application",
       "content_text": "Learn how to expose a health endpoint for your Micronaut application.",
       "date_published": "2022-08-04T00:00:00Z",
@@ -1624,7 +1624,7 @@
     },
     {
       "id": "micronaut-hibernate-reactive",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-hibernate-reactive-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-hibernate-reactive-gradle-java/",
       "title": "Access a database with JPA and Hibernate Reactive",
       "content_text": "Learn how to use Hibernate Reactive with the Micronaut Framework.",
       "date_published": "2022-08-04T00:00:00Z",
@@ -1650,7 +1650,7 @@
     },
     {
       "id": "micronaut-http-client",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-http-client-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-http-client-gradle-java/",
       "title": "Micronaut HTTP Client",
       "content_text": "Learn how to use Micronaut low-level HTTP Client. Simplify your code with the declarative HTTP client.",
       "date_published": "2018-07-02T00:00:00Z",
@@ -1674,7 +1674,7 @@
     },
     {
       "id": "micronaut-intellij-idea-ide-setup",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-intellij-idea-ide-setup-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-intellij-idea-ide-setup-gradle-java/",
       "title": "Using IntelliJ IDEA to develop Micronaut applications",
       "content_text": "Delegate run and build actions to Gradle and Maven when working with IntelliJ IDEA",
       "date_published": "2023-02-13T00:00:00Z",
@@ -1690,7 +1690,7 @@
     },
     {
       "id": "micronaut-java-records",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-java-records-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-java-records-gradle-java/",
       "title": "Micronaut Data and Java Records",
       "content_text": "Learn how to leverage Java records for immutable configuration, Micronaut Data Mapped Entities and Projection DTOs",
       "date_published": "2021-11-20T00:00:00Z",
@@ -1712,7 +1712,7 @@
     },
     {
       "id": "micronaut-jaxrs-jdbc",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-jaxrs-jdbc-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-jaxrs-jdbc-gradle-java/",
       "title": "Micronaut JAX-RS",
       "content_text": "Expose endpoints using JAX-RS annotations in a Micronaut application",
       "date_published": "2022-05-05T00:00:00Z",
@@ -1737,7 +1737,7 @@
     },
     {
       "id": "micronaut-jms-aws-sqs",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-jms-aws-sqs-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-jms-aws-sqs-gradle-java/",
       "title": "Connect a Micronaut JMS Application to an AWS SQS Queue",
       "content_text": "Learn how to connect JMS Application to an AWS SQS Queue",
       "date_published": "2022-11-28T00:00:00Z",
@@ -1758,7 +1758,7 @@
     },
     {
       "id": "micronaut-jpa-hibernate",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-jpa-hibernate-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-jpa-hibernate-gradle-java/",
       "title": "Access a database with JPA and Hibernate",
       "content_text": "Learn how to access a database with JPA and Hibernate using the Micronaut framework.",
       "date_published": "2018-09-01T00:00:00Z",
@@ -1781,7 +1781,7 @@
     },
     {
       "id": "micronaut-json-schema",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-json-schema-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-json-schema-gradle-java/",
       "title": "Micronaut JSON Schema",
       "content_text": "Generate a JSON Schema specification of your Java objects at compilation thanks to Micronaut JSON Schema.",
       "date_published": "2024-10-07T00:00:00Z",
@@ -1798,7 +1798,7 @@
     },
     {
       "id": "micronaut-k8s",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-k8s-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-k8s-gradle-java/",
       "title": "Kubernetes service discovery and distributed configuration",
       "content_text": "How to use Kubernetes service discovery and distributed configuration in a Micronaut application",
       "date_published": "2023-05-24T00:00:00Z",
@@ -1825,7 +1825,7 @@
     },
     {
       "id": "micronaut-k8s-aws",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-k8s-aws-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-k8s-aws-gradle-java/",
       "title": "Service discovery and distributed configuration with Amazon Elastic Kubernetes Service (EKS)",
       "content_text": "Service discovery and distributed configuration in a Micronaut application with Amazon Elastic Kubernetes Service (EKS)",
       "date_published": "2023-05-23T00:00:00Z",
@@ -1853,7 +1853,7 @@
     },
     {
       "id": "micronaut-k8s-gcp",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-k8s-gcp-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-k8s-gcp-gradle-java/",
       "title": "Service discovery and distributed configuration with Google Kubernetes Engine (GKE)",
       "content_text": "Service discovery and distributed configuration in a Micronaut application with Google Kubernetes Engine (GKE)",
       "date_published": "2023-09-12T00:00:00Z",
@@ -1881,7 +1881,7 @@
     },
     {
       "id": "micronaut-k8s-oci",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-k8s-oci-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-k8s-oci-gradle-java/",
       "title": "Service discovery and distributed configuration with Oracle Cloud Container Engine for Kubernetes (OKE)",
       "content_text": "Service discovery and distributed configuration in a Micronaut application with Oracle Cloud Container Engine for Kubernetes (OKE)",
       "date_published": "2023-05-22T00:00:00Z",
@@ -1909,7 +1909,7 @@
     },
     {
       "id": "micronaut-kafka",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-kafka-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-kafka-gradle-java/",
       "title": "Kafka and the Micronaut Framework - Event-Driven Applications",
       "content_text": "Use Kafka to communicate between your Micronaut applications.",
       "date_published": "2021-07-13T00:00:00Z",
@@ -1929,7 +1929,7 @@
     },
     {
       "id": "micronaut-kotlin-extension-fns",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-kotlin-extension-fns-gradle-kotlin/",
+      "url": "https://guides.micronaut.io/micronaut-kotlin-extension-fns-gradle-kotlin/",
       "title": "Using Kotlin Extension Functions in the Micronaut Framework",
       "content_text": "Take a tour of the extension functions in the Micronaut framework and learn to write your own",
       "date_published": "2021-04-06T00:00:00Z",
@@ -1950,7 +1950,7 @@
     },
     {
       "id": "micronaut-liquibase",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-liquibase-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-liquibase-gradle-java/",
       "title": "Schema Migration with Liquibase",
       "content_text": "Learn how to use the Liquibase to manage your schema migrations.",
       "date_published": "2021-11-21T00:00:00Z",
@@ -1973,7 +1973,7 @@
     },
     {
       "id": "micronaut-mcp-diskspace-http",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-mcp-diskspace-http-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-mcp-diskspace-http-gradle-java/",
       "title": "Disk Space MCP Server with Streamable HTTP transport",
       "content_text": "Build an MCP Server with Streamable HTTP transport to expose your machine disk space.",
       "date_published": "2026-01-11T00:00:00Z",
@@ -1991,7 +1991,7 @@
     },
     {
       "id": "micronaut-mcp-diskspace-stdio",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-mcp-diskspace-stdio-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-mcp-diskspace-stdio-gradle-java/",
       "title": "Disk Space MCP Server with STDIO transport",
       "content_text": "Build an MCP Server with STDIO transport to expose your machine disk space.",
       "date_published": "2026-01-11T00:00:00Z",
@@ -2008,7 +2008,7 @@
     },
     {
       "id": "micronaut-mcp-weather-http",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-mcp-weather-http-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-mcp-weather-http-gradle-java/",
       "title": "MCP Weather Server with HTTP transport",
       "content_text": "Build an MCP weather server with HTTP transport.",
       "date_published": "2026-01-12T00:00:00Z",
@@ -2028,7 +2028,7 @@
     },
     {
       "id": "micronaut-mcp-weather-stdio",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-mcp-weather-stdio-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-mcp-weather-stdio-gradle-java/",
       "title": "MCP Weather Server with STDIO transport",
       "content_text": "Build an MCP weather server with STDIO transport.",
       "date_published": "2026-01-12T00:00:00Z",
@@ -2047,7 +2047,7 @@
     },
     {
       "id": "micronaut-metrics",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-metrics-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-metrics-gradle-java/",
       "title": "Collect Metrics with Micronaut",
       "content_text": "Learn how to collect standard and custom metrics with the Micronaut framework.",
       "date_published": "2022-08-01T00:00:00Z",
@@ -2069,7 +2069,7 @@
     },
     {
       "id": "micronaut-metrics-aws",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-metrics-aws-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-metrics-aws-gradle-java/",
       "title": "Collect metrics with the Micronaut framework and monitor them on Amazon CloudWatch",
       "content_text": "Learn how to collect standard and custom metrics with the Micronaut framework and monitor them on Amazon CloudWatch.",
       "date_published": "2022-10-10T00:00:00Z",
@@ -2092,7 +2092,7 @@
     },
     {
       "id": "micronaut-metrics-oci",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-metrics-oci-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-metrics-oci-gradle-java/",
       "title": "Collect metrics with the Micronaut Framework and monitor them on Oracle Cloud",
       "content_text": "Learn how to collect standard and custom metrics with the Micronaut framework and monitor them on Oracle Cloud.",
       "date_published": "2022-10-10T00:00:00Z",
@@ -2115,7 +2115,7 @@
     },
     {
       "id": "micronaut-microservices-distributed-tracing-jaeger",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-microservices-distributed-tracing-jaeger-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-microservices-distributed-tracing-jaeger-gradle-java/",
       "title": "Use OpenTracing with Jaeger and the Micronaut Framework for Microservice Distributed Tracing",
       "content_text": "Use Jaeger distributed tracing to investigate the behaviour of your Micronaut applications.",
       "date_published": "2018-08-13T00:00:00Z",
@@ -2138,7 +2138,7 @@
     },
     {
       "id": "micronaut-microservices-distributed-tracing-jaeger-opentelemetry",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-microservices-distributed-tracing-jaeger-opentelemetry-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-microservices-distributed-tracing-jaeger-opentelemetry-gradle-java/",
       "title": "Use OpenTelemetry with Jaeger and the Micronaut Framework for Microservice Distributed Tracing",
       "content_text": "Use Jaeger distributed tracing to investigate the behavior of your Micronaut applications.",
       "date_published": "2022-08-04T00:00:00Z",
@@ -2162,7 +2162,7 @@
     },
     {
       "id": "micronaut-microservices-distributed-tracing-xray",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-microservices-distributed-tracing-xray-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-microservices-distributed-tracing-xray-gradle-java/",
       "title": "Microservices Distributed Tracing with OpenTelemetry through X-Ray and the Micronaut Framework",
       "content_text": "Use AWS X-Ray distributed tracing to investigate the behavior of your Micronaut applications.",
       "date_published": "2022-08-04T00:00:00Z",
@@ -2189,7 +2189,7 @@
     },
     {
       "id": "micronaut-microservices-distributed-tracing-zipkin",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-microservices-distributed-tracing-zipkin-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-microservices-distributed-tracing-zipkin-gradle-java/",
       "title": "Use OpenTracing with Zipkin and the Micronaut Framework for Microservice Distributed Tracing",
       "content_text": "Use Zipkin distributed tracing to investigate the behaviour of your Micronaut applications.",
       "date_published": "2018-08-13T00:00:00Z",
@@ -2213,7 +2213,7 @@
     },
     {
       "id": "micronaut-microservices-distributed-tracing-zipkin-opentelemetry",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-microservices-distributed-tracing-zipkin-opentelemetry-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-microservices-distributed-tracing-zipkin-opentelemetry-gradle-java/",
       "title": "Use OpenTelemetry with Zipkin and the Micronaut Framework for Microservice Distributed Tracing",
       "content_text": "Use Zipkin distributed tracing to investigate the behavior of your Micronaut applications.",
       "date_published": "2022-08-04T00:00:00Z",
@@ -2236,7 +2236,7 @@
     },
     {
       "id": "micronaut-microservices-services-discover-consul",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-microservices-services-discover-consul-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-microservices-services-discover-consul-gradle-java/",
       "title": "Consul and the Micronaut Framework - Microservices Service Discovery",
       "content_text": "Use Consul service discovery to expose your Micronaut applications.",
       "date_published": "2018-07-27T00:00:00Z",
@@ -2261,7 +2261,7 @@
     },
     {
       "id": "micronaut-microservices-services-discover-eureka",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-microservices-services-discover-eureka-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-microservices-services-discover-eureka-gradle-java/",
       "title": "Eureka and the Micronaut Framework - Microservices Service Discovery",
       "content_text": "Use Netflix Eureka service discovery to expose your Micronaut applications.",
       "date_published": "2018-07-27T00:00:00Z",
@@ -2286,7 +2286,7 @@
     },
     {
       "id": "micronaut-mongodb-asynchronous",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-mongodb-asynchronous-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-mongodb-asynchronous-gradle-java/",
       "title": "Micronaut MongoDB Asynchronous",
       "content_text": "Learn how to use a non-blocking reactive streams MongoDB client with a Micronaut application",
       "date_published": "2021-10-13T00:00:00Z",
@@ -2307,7 +2307,7 @@
     },
     {
       "id": "micronaut-mongodb-synchronous",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-mongodb-synchronous-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-mongodb-synchronous-gradle-java/",
       "title": "Micronaut MongoDB Synchronous",
       "content_text": "Learn how to use a blocking MongoClient with a Micronaut application",
       "date_published": "2021-10-13T00:00:00Z",
@@ -2327,7 +2327,7 @@
     },
     {
       "id": "micronaut-mqtt",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-mqtt-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-mqtt-gradle-java/",
       "title": "Publishing and subscribing to MQTT Topics from a Micronaut Application",
       "content_text": "Learn how to use Mosquitto as an MQTT broker, create a Micronaut CLI application and publish an MQTT topic, and subscribe to the MQTT topic in a different Micronaut Messaging application.",
       "date_published": "2022-03-14T00:00:00Z",
@@ -2347,7 +2347,7 @@
     },
     {
       "id": "micronaut-oauth2-auth0",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-auth0-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-auth0-gradle-java/",
       "title": "Secure a Micronaut application with Auth0",
       "content_text": "Learn how to create a Micronaut application and secure it with an Authorization Server provided by Auth0.",
       "date_published": "2021-09-03T00:00:00Z",
@@ -2371,7 +2371,7 @@
     },
     {
       "id": "micronaut-oauth2-client-credentials-auth0",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-client-credentials-auth0-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-client-credentials-auth0-gradle-java/",
       "title": "Client Credentials Flow with Micronaut and Auth0",
       "content_text": "Learn how to use Client Credentials Flow between Micronaut microservices with an Authorization Server provided by Auth0.",
       "date_published": "2021-10-22T00:00:00Z",
@@ -2399,7 +2399,7 @@
     },
     {
       "id": "micronaut-oauth2-client-credentials-cognito",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-client-credentials-cognito-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-client-credentials-cognito-gradle-java/",
       "title": "Client Credentials Flow with Micronaut and Amazon Cognito",
       "content_text": "Learn how to use Client Credentials Flow between Micronaut microservices with an Authorization Server provided by Amazon Cognito.",
       "date_published": "2021-10-14T00:00:00Z",
@@ -2427,7 +2427,7 @@
     },
     {
       "id": "micronaut-oauth2-client-credentials-oracle-identity-domain",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-client-credentials-oracle-identity-domain-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-client-credentials-oracle-identity-domain-gradle-java/",
       "title": "Client Credentials Flow with Micronaut and Oracle Identity Domain",
       "content_text": "Learn how to use Client Credentials Flow between Micronaut microservices with an Authorization Server provided by Oracle Identity Domain.",
       "date_published": "2025-10-09T00:00:00Z",
@@ -2454,7 +2454,7 @@
     },
     {
       "id": "micronaut-oauth2-cognito",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-cognito-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-cognito-gradle-java/",
       "title": "Secure a Micronaut application with Cognito",
       "content_text": "Learn how to create a Micronaut application and secure it with an Authorization Server provided by Cognito.",
       "date_published": "2019-12-24T00:00:00Z",
@@ -2481,7 +2481,7 @@
     },
     {
       "id": "micronaut-oauth2-github",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-github-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-github-gradle-java/",
       "title": "Secure a Micronaut application with GitHub",
       "content_text": "Learn how to create a Micronaut application and secure it with an Authorization Server provided by GitHub. Learn how to write your own Authentication Mapper.",
       "date_published": "2019-12-26T00:00:00Z",
@@ -2507,7 +2507,7 @@
     },
     {
       "id": "micronaut-oauth2-keycloak",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-keycloak-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-keycloak-gradle-java/",
       "title": "Secure a Micronaut application with Keycloak",
       "content_text": "Learn how to create a Micronaut application and secure it with an Authorization Server provided by Keycloak.",
       "date_published": "2023-04-12T00:00:00Z",
@@ -2531,7 +2531,7 @@
     },
     {
       "id": "micronaut-oauth2-linkedin",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-linkedin-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-linkedin-gradle-java/",
       "title": "Secure a Micronaut application with LinkedIn",
       "content_text": "Learn how to create a Micronaut application and authenticate with LinkedIn.",
       "date_published": "2021-04-02T00:00:00Z",
@@ -2557,7 +2557,7 @@
     },
     {
       "id": "micronaut-oauth2-oidc-google",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-oidc-google-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-oidc-google-gradle-java/",
       "title": "Secure a Micronaut application with Google",
       "content_text": "Learn how to create a Micronaut application, secure it with Google, and provide authentication with OpenID Connect.",
       "date_published": "2019-07-01T00:00:00Z",
@@ -2581,7 +2581,7 @@
     },
     {
       "id": "micronaut-oauth2-oidc-oci",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-oidc-oci-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-oidc-oci-gradle-java/",
       "title": "Secure a Micronaut application with an OCI Identity Domain using idtoken authentication",
       "content_text": "Learn how to create a Micronaut application and secure it with an OCI (Oracle Cloud Infrastructure) Identity Domain.",
       "date_published": "2024-11-25T00:00:00Z",
@@ -2604,7 +2604,7 @@
     },
     {
       "id": "micronaut-oauth2-oidc-oci-authentication-cookie",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-oidc-oci-authentication-cookie-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-oidc-oci-authentication-cookie-gradle-java/",
       "title": "Secure a Micronaut application with an OCI Identity Domain using cookie authentication",
       "content_text": "Learn how to create a Micronaut application and secure it with an OCI (Oracle Cloud Infrastructure) Identity Domain.",
       "date_published": "2024-11-25T00:00:00Z",
@@ -2627,7 +2627,7 @@
     },
     {
       "id": "micronaut-oauth2-okta",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oauth2-okta-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oauth2-okta-gradle-java/",
       "title": "Secure a Micronaut application with Okta",
       "content_text": "Learn how to create a Micronaut application and secure it with an Authorization Server provided by Okta.",
       "date_published": "2019-03-01T00:00:00Z",
@@ -2651,7 +2651,7 @@
     },
     {
       "id": "micronaut-object-storage-aws",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-object-storage-aws-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-object-storage-aws-gradle-java/",
       "title": "Use the Micronaut Object Storage API to store files in Amazon S3",
       "content_text": "Learn how to upload and retrieve files from Amazon S3 using the Micronaut Object Storage API",
       "date_published": "2022-09-20T00:00:00Z",
@@ -2670,7 +2670,7 @@
     },
     {
       "id": "micronaut-object-storage-gcp",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-object-storage-gcp-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-object-storage-gcp-gradle-java/",
       "title": "Use the Micronaut Object Storage API to store files in Google Cloud Storage",
       "content_text": "Learn how to upload and retrieve files from Google Cloud Storage using the Micronaut Object Storage API",
       "date_published": "2022-10-07T00:00:00Z",
@@ -2689,7 +2689,7 @@
     },
     {
       "id": "micronaut-object-storage-oracle-cloud",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-object-storage-oracle-cloud-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-object-storage-oracle-cloud-gradle-java/",
       "title": "Use the Micronaut Object Storage API to store files in Oracle Cloud Infrastructure (OCI) Object Storage",
       "content_text": "Learn how to upload and retrieve files from Oracle Cloud Infrastructure (OCI) Object Storage using the Micronaut Object Storage API",
       "date_published": "2022-09-26T00:00:00Z",
@@ -2709,7 +2709,7 @@
     },
     {
       "id": "micronaut-openapi-adoc",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-openapi-adoc-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-openapi-adoc-gradle-java/",
       "title": "Generate API documentation in Asciidoc with the generated OpenAPI specification of your Micronaut application",
       "content_text": "Learn how to generate an OpenAPI specification of your Micronaut application at build time and generate it in Asciidoc format.",
       "date_published": "2023-12-04T00:00:00Z",
@@ -2728,7 +2728,7 @@
     },
     {
       "id": "micronaut-openapi-generator-client",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-openapi-generator-client-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-openapi-generator-client-gradle-java/",
       "title": "Use OpenAPI Definition to Generate a Micronaut Client",
       "content_text": "Learn how to generate a Declarative Micronaut Client API from an OpenAPI definition and how to use it in your application",
       "date_published": "2022-05-31T00:00:00Z",
@@ -2751,7 +2751,7 @@
     },
     {
       "id": "micronaut-openapi-generator-server",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-openapi-generator-server-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-openapi-generator-server-gradle-java/",
       "title": "Micronaut Server generation with OpenAPI",
       "content_text": "Learn how to write an OpenAPI definition, use it to generate a server template for a Micronaut application, and get it all to work",
       "date_published": "2022-03-03T00:00:00Z",
@@ -2777,7 +2777,7 @@
     },
     {
       "id": "micronaut-openapi-swagger-ui",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-openapi-swagger-ui-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-openapi-swagger-ui-gradle-java/",
       "title": "Visualize an OpenAPI specification of your Micronaut application with Swagger UI",
       "content_text": "Learn how to generate an OpenAPI specification of your Micronaut application at build time and visualize it with Swagger UI.",
       "date_published": "2023-11-30T00:00:00Z",
@@ -2796,7 +2796,7 @@
     },
     {
       "id": "micronaut-openpdf",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-openpdf-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-openpdf-gradle-java/",
       "title": "Download a PDF with OpenPDF",
       "content_text": "Learn how to generate a PDF in a Micronaut Controller with OpenPDF.",
       "date_published": "2024-01-03T00:00:00Z",
@@ -2813,7 +2813,7 @@
     },
     {
       "id": "micronaut-oracle-autonomous-db",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oracle-autonomous-db-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oracle-autonomous-db-gradle-java/",
       "title": "Access an Oracle Autonomous Database",
       "content_text": "Learn how to access an Oracle Autonomous Database using the Micronaut framework.",
       "date_published": "2021-05-17T00:00:00Z",
@@ -2835,7 +2835,7 @@
     },
     {
       "id": "micronaut-oracle-cloud",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oracle-cloud-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oracle-cloud-gradle-java/",
       "title": "Deploy a Micronaut application to Oracle Cloud",
       "content_text": "Learn how to deploy a Micronaut application to Oracle Cloud.",
       "date_published": "2021-05-03T00:00:00Z",
@@ -2854,7 +2854,7 @@
     },
     {
       "id": "micronaut-oracle-cloud-streaming",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oracle-cloud-streaming-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oracle-cloud-streaming-gradle-java/",
       "title": "Oracle Cloud Streaming and the Micronaut Framework - Event-Driven Applications at Scale",
       "content_text": "Use Oracle Cloud Streaming to communicate between your Micronaut applications.",
       "date_published": "2021-07-30T00:00:00Z",
@@ -2881,7 +2881,7 @@
     },
     {
       "id": "micronaut-oracle-email-delivery",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oracle-email-delivery-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oracle-email-delivery-gradle-java/",
       "title": "Oracle Cloud Infrastructure (OCI) Email Delivery using the Micronaut framework",
       "content_text": "Learn how to send an email with Oracle Cloud Infrastructure (OCI) Email Delivery using the Micronaut framework.",
       "date_published": "2022-05-17T00:00:00Z",
@@ -2907,7 +2907,7 @@
     },
     {
       "id": "micronaut-oracle-function",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oracle-function-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oracle-function-gradle-java/",
       "title": "Deploy a Micronaut Function (Serverless) application to Oracle Cloud",
       "content_text": "Learn how to deploy a Micronaut Function (Serverless) application to Oracle Cloud.",
       "date_published": "2021-06-07T00:00:00Z",
@@ -2928,7 +2928,7 @@
     },
     {
       "id": "micronaut-oracle-function-http",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-oracle-function-http-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-oracle-function-http-gradle-java/",
       "title": "Deploy a Micronaut HTTP API Gateway Function (Serverless) application to Oracle Cloud",
       "content_text": "Learn how to deploy a Micronaut HTTP API Gateway Function (Serverless) application to Oracle Cloud.",
       "date_published": "2021-06-26T00:00:00Z",
@@ -2948,7 +2948,7 @@
     },
     {
       "id": "micronaut-patterns-composite",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-patterns-composite-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-patterns-composite-gradle-java/",
       "title": "Micronaut Patterns - Composite",
       "content_text": "Learn how to use a Composite Pattern if you have multiple beans of particular type",
       "date_published": "2022-05-06T00:00:00Z",
@@ -2966,7 +2966,7 @@
     },
     {
       "id": "micronaut-produces-xml",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-produces-xml-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-produces-xml-gradle-java/",
       "title": "Render XML in a Micronaut Controller",
       "content_text": "Learn how to use Jackson to render XML in a Micronaut Controller",
       "date_published": "2024-01-15T00:00:00Z",
@@ -2984,7 +2984,7 @@
     },
     {
       "id": "micronaut-push-to-github-container-registry",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-push-to-github-container-registry-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-push-to-github-container-registry-gradle-java/",
       "title": "Push a Docker image of a Micronaut application to GitHub Packages Container registry",
       "content_text": "Learn how to push a Docker image of a Micronaut application to GitHub Packages Container registry",
       "date_published": "2025-03-16T00:00:00Z",
@@ -3001,7 +3001,7 @@
     },
     {
       "id": "micronaut-push-to-oracle-cloud-container-registry",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-push-to-oracle-cloud-container-registry-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-push-to-oracle-cloud-container-registry-gradle-java/",
       "title": "Push a Docker image of a Micronaut application to Oracle Cloud Container Registry",
       "content_text": "Learn how to push a Docker image of a Micronaut application to Oracle Cloud Container Registry",
       "date_published": "2025-03-16T00:00:00Z",
@@ -3018,7 +3018,7 @@
     },
     {
       "id": "micronaut-push-to-registry-docker-hub",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-push-to-registry-docker-hub-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-push-to-registry-docker-hub-gradle-java/",
       "title": "Push a Docker image of a Micronaut application to Docker Hub",
       "content_text": "Learn how to push a Docker image of a Micronaut application to Docker Hub",
       "date_published": "2025-03-16T00:00:00Z",
@@ -3035,7 +3035,7 @@
     },
     {
       "id": "micronaut-rabbitmq",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-rabbitmq-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-rabbitmq-gradle-java/",
       "title": "RabbitMQ and the Micronaut Framework - Event-Driven Applications",
       "content_text": "Use RabbitMQ to communicate between your Micronaut applications.",
       "date_published": "2019-02-25T00:00:00Z",
@@ -3057,7 +3057,7 @@
     },
     {
       "id": "micronaut-rabbitmq-rpc",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-rabbitmq-rpc-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-rabbitmq-rpc-gradle-java/",
       "title": "RabbitMQ RPC and the Micronaut Framework",
       "content_text": "Use RabbitMQ RPC to use request-reply pattern in your Micronaut applications.",
       "date_published": "2019-03-24T00:00:00Z",
@@ -3079,7 +3079,7 @@
     },
     {
       "id": "micronaut-reactor-streaming-http-client",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-reactor-streaming-http-client-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-reactor-streaming-http-client-gradle-java/",
       "title": "Download a big file with StreamingHttpClient",
       "content_text": "Learn how to stream responses with ReactorStreamingHttpClient",
       "date_published": "2023-12-14T00:00:00Z",
@@ -3096,7 +3096,7 @@
     },
     {
       "id": "micronaut-rest-assured",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-rest-assured-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-rest-assured-gradle-java/",
       "title": "Using Micronaut Test REST-Assured in a Micronaut application",
       "content_text": "Learn how to use Micronaut Test REST-Assured to test the REST API of your Micronaut application.",
       "date_published": "2022-06-03T00:00:00Z",
@@ -3117,7 +3117,7 @@
     },
     {
       "id": "micronaut-scheduled",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-scheduled-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-scheduled-gradle-java/",
       "title": "Schedule periodic tasks inside your Micronaut applications",
       "content_text": "Learn how to schedule periodic tasks inside your Micronaut microservices.",
       "date_published": "2018-05-24T00:00:00Z",
@@ -3136,7 +3136,7 @@
     },
     {
       "id": "micronaut-scope-types",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-scope-types-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-scope-types-gradle-java/",
       "title": "Micronaut Scope Types",
       "content_text": "Learn about the available scopes: Singleton, Prototype, Request, Refreshable, Context...",
       "date_published": "2022-09-21T00:00:00Z",
@@ -3156,7 +3156,7 @@
     },
     {
       "id": "micronaut-security-api-key",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-security-api-key-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-security-api-key-gradle-java/",
       "title": "Micronaut Security API Key",
       "content_text": "Learn how to secure a Micronaut application using an API Key.",
       "date_published": "2023-02-08T00:00:00Z",
@@ -3175,7 +3175,7 @@
     },
     {
       "id": "micronaut-security-basicauth",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-security-basicauth-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-security-basicauth-gradle-java/",
       "title": "Micronaut Basic Auth",
       "content_text": "Learn how to secure a Micronaut application using 'Basic' HTTP Authentication Scheme.",
       "date_published": "2018-05-24T00:00:00Z",
@@ -3195,7 +3195,7 @@
     },
     {
       "id": "micronaut-security-jwt",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-security-jwt-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-security-jwt-gradle-java/",
       "title": "Micronaut JWT Authentication",
       "content_text": "Learn how to secure a Micronaut application using JWT (JSON Web Token) Authentication.",
       "date_published": "2018-05-24T00:00:00Z",
@@ -3221,7 +3221,7 @@
     },
     {
       "id": "micronaut-security-jwt-cookie",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-security-jwt-cookie-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-security-jwt-cookie-gradle-java/",
       "title": "Micronaut JWT authentication via Cookies",
       "content_text": "Learn how to secure a Micronaut application using JWT (JSON Web Token) based authentication where the JWT tokens are transported via Cookies.",
       "date_published": "2018-05-24T00:00:00Z",
@@ -3245,7 +3245,7 @@
     },
     {
       "id": "micronaut-security-keys-jwks",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-security-keys-jwks-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-security-keys-jwks-gradle-java/",
       "title": "JWK Keys endpoint",
       "content_text": "Learn how to expose a keys endpoint with primary and secondary JSON Web Key (JWK)",
       "date_published": "2021-05-27T00:00:00Z",
@@ -3265,7 +3265,7 @@
     },
     {
       "id": "micronaut-security-session",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-security-session-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-security-session-gradle-java/",
       "title": "Session-based authentication",
       "content_text": "Learn how to secure a Micronaut application using session-based authentication.",
       "date_published": "2018-05-24T00:00:00Z",
@@ -3290,7 +3290,7 @@
     },
     {
       "id": "micronaut-security-session-database-authentication",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-security-session-database-authentication-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-security-session-database-authentication-gradle-java/",
       "title": "Database authentication",
       "content_text": "Learn how to secure a Micronaut application using Database authentication.",
       "date_published": "2023-11-28T00:00:00Z",
@@ -3313,7 +3313,7 @@
     },
     {
       "id": "micronaut-security-test",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-security-test-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-security-test-gradle-java/",
       "title": "Testing Micronaut Security",
       "content_text": "Learn how to test your application's behavior when a user with specific roles is authenticated",
       "date_published": "2026-01-11T00:00:00Z",
@@ -3331,7 +3331,7 @@
     },
     {
       "id": "micronaut-security-x509",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-security-x509-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-security-x509-gradle-java/",
       "title": "X.509 Mutual Authentication",
       "content_text": "Learn how to implement mutual authentication using SSL and X.509 certificates.",
       "date_published": "2022-03-01T00:00:00Z",
@@ -3351,7 +3351,7 @@
     },
     {
       "id": "micronaut-server-filter-request",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-server-filter-request-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-server-filter-request-gradle-java/",
       "title": "Log incoming HTTP Request headers with a Server Filter",
       "content_text": "Learn to log every HTTP Request header with a @ServerFilter and a method annotated with @FilterRequest.",
       "date_published": "2024-01-03T00:00:00Z",
@@ -3367,7 +3367,7 @@
     },
     {
       "id": "micronaut-serverless-function-aws-lambda-request-stream-handler",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-serverless-function-aws-lambda-request-stream-handler-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-serverless-function-aws-lambda-request-stream-handler-gradle-java/",
       "title": "Micronaut RequestStreamHandler to Lambda Java Runtime",
       "content_text": "Learn how to deploy a Micronaut function to AWS Lambda Java Runtime with an AWS Lambda RequestStreamHandler.",
       "date_published": "2024-01-11T00:00:00Z",
@@ -3383,7 +3383,7 @@
     },
     {
       "id": "micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-serverless-function-aws-lambda-request-stream-handler-graalvm-gradle-java/",
       "title": "Micronaut RequestStreamHandler as a GraalVM Native Executable to AWS Lambda",
       "content_text": "Learn how to distribute a Micronaut function with an AWS Lambda RequestStreamHandler built as a GraalVM native executable to an AWS Lambda custom runtime.",
       "date_published": "2024-01-11T00:00:00Z",
@@ -3400,7 +3400,7 @@
     },
     {
       "id": "micronaut-spring-boot",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-spring-boot-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-spring-boot-gradle-java/",
       "title": "Run a Spring Boot application as a Micronaut application",
       "content_text": "Write an application using Spring Boot annotations and compute it into a Micronaut application at compilation time.",
       "date_published": "2022-06-14T00:00:00Z",
@@ -3419,7 +3419,7 @@
     },
     {
       "id": "micronaut-static-resources",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-static-resources-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-static-resources-gradle-java/",
       "title": "Serving static resources in a Micronaut Framework application",
       "content_text": "Learn how to expose static resources such as CSS or images in a Micronaut Framework application.",
       "date_published": "2024-02-01T00:00:00Z",
@@ -3438,7 +3438,7 @@
     },
     {
       "id": "micronaut-token-propagation",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-token-propagation-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-token-propagation-gradle-java/",
       "title": "Micronaut Token Propagation",
       "content_text": "Learn how to leverage token propagation in the Micronaut framework to simplify your code while keeping your microservices secure.",
       "date_published": "2018-09-26T00:00:00Z",
@@ -3463,7 +3463,7 @@
     },
     {
       "id": "micronaut-turbo-native",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-turbo-native-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-turbo-native-gradle-java/",
       "title": "Turbo Native Demo with iOS/Android and a Micronaut Backend",
       "content_text": "Run the Turbo Native Demo with a Micronaut application as the backend.",
       "date_published": "2022-06-20T00:00:00Z",
@@ -3488,7 +3488,7 @@
     },
     {
       "id": "micronaut-views-thymeleaf",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-views-thymeleaf-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-views-thymeleaf-gradle-java/",
       "title": "Server-side HTML with Thymeleaf",
       "content_text": "Learn how to render an HTML page with Thymeleaf and Micronaut Views",
       "date_published": "2023-10-12T00:00:00Z",
@@ -3507,7 +3507,7 @@
     },
     {
       "id": "micronaut-webjars-stimulus",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-webjars-stimulus-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-webjars-stimulus-gradle-java/",
       "title": "Stimulus with WebJars",
       "content_text": "Learn how to load Stimulus Javascript library with WebJars",
       "date_published": "2024-01-08T00:00:00Z",
@@ -3524,7 +3524,7 @@
     },
     {
       "id": "micronaut-websocket",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/micronaut-websocket-gradle-java/",
+      "url": "https://guides.micronaut.io/micronaut-websocket-gradle-java/",
       "title": "Expose a WebSocket Server in a Micronaut Application",
       "content_text": "Build a chat application by exposing a WebSocket Server with the Micronaut Framework",
       "date_published": "2022-05-06T00:00:00Z",
@@ -3548,7 +3548,7 @@
     },
     {
       "id": "mn-application-aws-lambda-graalvm",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/mn-application-aws-lambda-graalvm-gradle-java/",
+      "url": "https://guides.micronaut.io/mn-application-aws-lambda-graalvm-gradle-java/",
       "title": "Deploy a Micronaut application as a GraalVM Native Executable to AWS Lambda",
       "content_text": "Learn how to distribute a Micronaut application built as a GraalVM native executable to an AWS Lambda custom runtime",
       "date_published": "2020-08-29T00:00:00Z",
@@ -3566,7 +3566,7 @@
     },
     {
       "id": "mn-application-aws-lambda-java-runtime",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/mn-application-aws-lambda-java-runtime-gradle-java/",
+      "url": "https://guides.micronaut.io/mn-application-aws-lambda-java-runtime-gradle-java/",
       "title": "Deploy a Micronaut application to AWS Lambda Java Runtime",
       "content_text": "Learn how to distribute a Micronaut application to AWS Lambda Runtime",
       "date_published": "2020-08-29T00:00:00Z",
@@ -3584,7 +3584,7 @@
     },
     {
       "id": "mn-serverless-function-aws-lambda",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/mn-serverless-function-aws-lambda-gradle-java/",
+      "url": "https://guides.micronaut.io/mn-serverless-function-aws-lambda-gradle-java/",
       "title": "Deploy a Serverless Micronaut function to AWS Lambda Java 17 Runtime",
       "content_text": "Learn how to distribute a serverless Micronaut function to AWS Lambda 17 Runtime\n\n",
       "date_published": "2020-08-29T00:00:00Z",
@@ -3602,7 +3602,7 @@
     },
     {
       "id": "mn-serverless-function-aws-lambda-function-url",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/mn-serverless-function-aws-lambda-function-url-gradle-java/",
+      "url": "https://guides.micronaut.io/mn-serverless-function-aws-lambda-function-url-gradle-java/",
       "title": "AWS Lambda Function URL and a Micronaut function",
       "content_text": "Deploy a Micronaut function to AWS Lambda Java 17 runtime and invoke it with a Lambda function URL.",
       "date_published": "2023-10-16T00:00:00Z",
@@ -3619,7 +3619,7 @@
     },
     {
       "id": "mn-serverless-function-aws-lambda-graalvm",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/mn-serverless-function-aws-lambda-graalvm-gradle-java/",
+      "url": "https://guides.micronaut.io/mn-serverless-function-aws-lambda-graalvm-gradle-java/",
       "title": "Deploy a Micronaut function as a GraalVM Native Executable to AWS Lambda",
       "content_text": "Learn how to distribute a Micronaut function built as a GraalVM native executable to an AWS Lambda custom runtime",
       "date_published": "2020-08-29T00:00:00Z",
@@ -3638,7 +3638,7 @@
     },
     {
       "id": "replace-h2-with-real-database-for-testing",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/replace-h2-with-real-database-for-testing-gradle-java/",
+      "url": "https://guides.micronaut.io/replace-h2-with-real-database-for-testing-gradle-java/",
       "title": "Replace H2 with a real database for testing",
       "content_text": "This guide shows how to replace H2 with a real database for testing in a Micronaut application.",
       "date_published": "2023-10-02T00:00:00Z",
@@ -3659,7 +3659,7 @@
     },
     {
       "id": "spring-boot-micronaut-data",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/spring-boot-micronaut-data-gradle-java/",
+      "url": "https://guides.micronaut.io/spring-boot-micronaut-data-gradle-java/",
       "title": "Micronaut Data from a Spring Boot Application",
       "content_text": "This guide shows how to use Micronaut Data from a Spring Boot application.",
       "date_published": "2022-09-20T00:00:00Z",
@@ -3679,7 +3679,7 @@
     },
     {
       "id": "spring-boot-to-micronaut-application-class",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/spring-boot-to-micronaut-application-class-gradle-java/",
+      "url": "https://guides.micronaut.io/spring-boot-to-micronaut-application-class-gradle-java/",
       "title": "Application Class - Spring Boot",
       "content_text": "This guide compares the application class of a Spring Boot application with a Micronaut Framework application.",
       "date_published": "2022-09-13T00:00:00Z",
@@ -3696,7 +3696,7 @@
     },
     {
       "id": "spring-boot-to-micronaut-at-configuration-at-bean-at-factory",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/spring-boot-to-micronaut-at-configuration-at-bean-at-factory-gradle-java/",
+      "url": "https://guides.micronaut.io/spring-boot-to-micronaut-at-configuration-at-bean-at-factory-gradle-java/",
       "title": "Manually define a Bean - Spring Boot",
       "content_text": "This guide compares how to create a bean in a Spring Boot application with @Configuration vs. in a Micronaut application with @Factory.",
       "date_published": "2022-09-13T00:00:00Z",
@@ -3713,7 +3713,7 @@
     },
     {
       "id": "spring-boot-to-micronaut-at-singleton-at-component",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/spring-boot-to-micronaut-at-singleton-at-component-gradle-java/",
+      "url": "https://guides.micronaut.io/spring-boot-to-micronaut-at-singleton-at-component-gradle-java/",
       "title": "Mark a class as a bean - Spring Boot",
       "content_text": "This guide compares how to mark a class as a bean in a Spring Boot application with @Component vs. in a Micronaut application with @Singleton.",
       "date_published": "2022-09-13T00:00:00Z",
@@ -3730,7 +3730,7 @@
     },
     {
       "id": "spring-boot-to-micronaut-uri-components-builder-vs-uri-builder",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/spring-boot-to-micronaut-uri-components-builder-vs-uri-builder-gradle-java/",
+      "url": "https://guides.micronaut.io/spring-boot-to-micronaut-uri-components-builder-vs-uri-builder-gradle-java/",
       "title": "Building URIs - Spring Boot",
       "content_text": "This guide compares using Spring's UriComponentsBuilder vs Micronaut Framework's UriBuilder.",
       "date_published": "2022-09-13T00:00:00Z",
@@ -3747,7 +3747,7 @@
     },
     {
       "id": "testing-micronaut-kafka-listener-using-testcontainers",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/testing-micronaut-kafka-listener-using-testcontainers-gradle-java/",
+      "url": "https://guides.micronaut.io/testing-micronaut-kafka-listener-using-testcontainers-gradle-java/",
       "title": "Testing Kafka Listener using Testcontainers with the Micronaut Framework",
       "content_text": "This guide shows how to test a Kafka Listener using Testcontainers in a Micronaut Framework application.",
       "date_published": "2023-09-14T00:00:00Z",
@@ -3769,7 +3769,7 @@
     },
     {
       "id": "testing-rest-api-integrations-using-mockserver",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/testing-rest-api-integrations-using-mockserver-gradle-java/",
+      "url": "https://guides.micronaut.io/testing-rest-api-integrations-using-mockserver-gradle-java/",
       "title": "Testing REST API integrations using Testcontainers with WireMock or MockServer",
       "content_text": "This guide shows how to test an external API integration using Testcontainers WireMock module.",
       "date_published": "2023-09-13T00:00:00Z",
@@ -3788,7 +3788,7 @@
     },
     {
       "id": "working-with-jooq-flyway-using-testcontainers",
-      "url": "https://micronaut-projects.github.io/micronaut-guides-v2/working-with-jooq-flyway-using-testcontainers-maven-java/",
+      "url": "https://guides.micronaut.io/working-with-jooq-flyway-using-testcontainers-maven-java/",
       "title": "Working with jOOQ and Flyway using Testcontainers",
       "content_text": "This guide shows how to create a Micronaut application with jOOQ support",
       "date_published": "2022-09-13T00:00:00Z",
