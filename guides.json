@@ -1841,6 +1841,58 @@
     ]
   },
   {
+    "title": "Use JSON duality view in Oracle",
+    "intro": "Learn how to use JSON duality views in Micronaut",
+    "authors": [
+      "Dimitrije Zdravkovic"
+    ],
+    "tags": [
+      "database",
+      "micronaut-data",
+      "JSON duality view",
+      "data-jdbc",
+      "jdbc-hikari",
+      "oracle",
+      "serialization-jackson",
+      "validation",
+      "graalvm"
+    ],
+    "category": "Data JDBC",
+    "categories": [
+      "Data JDBC"
+    ],
+    "publicationDate": "2025-01-21",
+    "slug": "micronaut-data-json-duality-view",
+    "url": "https://guides.micronaut.io/micronaut-data-json-duality-view-gradle-java/",
+    "options": [
+      {
+        "buildTool": "GRADLE",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-json-duality-view-gradle-java/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "KOTLIN",
+        "url": "https://guides.micronaut.io/micronaut-data-json-duality-view-gradle-kotlin/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-json-duality-view-gradle-groovy/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-json-duality-view-maven-java/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-json-duality-view-maven-groovy/"
+      }
+    ]
+  },
+  {
     "title": "Many-to-Many with Micronaut Data JDBC and MySQL",
     "intro": "Learn how to map a many-to-many association with Micronaut Data JDBC and MySQL.",
     "authors": [

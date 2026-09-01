@@ -12,7 +12,7 @@ a{color:inherit}
 <meta http-equiv="refresh" content="0;url=/spring-boot-micronaut-data-gradle-java/" />
 <title>Redirecting to Micronaut Data from a Spring Boot Application</title>
 <script>
-try{const storedThemeMode=localStorage.getItem("micronaut-web-theme-mode");if(storedThemeMode==="light"||storedThemeMode==="dark"){document.documentElement.style.colorScheme=storedThemeMode;}}catch{}
+try{const cookieThemeMode=(document.cookie.match(/(?:^|;\s*)micronaut-theme-mode=(light|dark)/)||[])[1];const storedThemeMode=cookieThemeMode||localStorage.getItem("micronaut-web-theme-mode");if(storedThemeMode==="light"||storedThemeMode==="dark"){document.documentElement.style.colorScheme=storedThemeMode;}}catch{}
 location.replace("/spring-boot-micronaut-data-gradle-java/" + location.search + location.hash);
 </script>
 </head>

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T19:17:18.214Z",
-  "guideCount": 177,
+  "generatedAt": "2026-09-01T11:30:00.409Z",
+  "guideCount": 178,
   "guides": [
     {
       "slug": "micronaut-data-h2-geospatial-nearby-drivers",
@@ -1029,6 +1029,89 @@
           "file": "micronaut-push-to-oracle-cloud-container-registry-gradle-java.html",
           "fragment": "fragments/micronaut-push-to-oracle-cloud-container-registry-gradle-java.html",
           "zipUrl": "micronaut-push-to-oracle-cloud-container-registry-gradle-java.zip"
+        }
+      ]
+    },
+    {
+      "slug": "micronaut-data-json-duality-view",
+      "title": "Use JSON duality view in Oracle",
+      "intro": "Learn how to use JSON duality views in Micronaut",
+      "authors": [
+        "Dimitrije Zdravkovic"
+      ],
+      "tags": [
+        "database",
+        "micronaut-data",
+        "JSON duality view",
+        "data-jdbc",
+        "jdbc-hikari",
+        "oracle",
+        "serialization-jackson",
+        "validation",
+        "graalvm"
+      ],
+      "categories": [
+        "Data JDBC"
+      ],
+      "publicationDate": "2025-01-21",
+      "estimatedMinutes": 20,
+      "overviewFile": "micronaut-data-json-duality-view.html",
+      "defaultOptionFile": "micronaut-data-json-duality-view-gradle-java.html",
+      "options": [
+        {
+          "id": "micronaut-data-json-duality-view-gradle-java",
+          "label": "Java / Gradle",
+          "language": "java",
+          "languageLabel": "Java",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-json-duality-view-gradle-java.html",
+          "fragment": "fragments/micronaut-data-json-duality-view-gradle-java.html",
+          "zipUrl": "micronaut-data-json-duality-view-gradle-java.zip"
+        },
+        {
+          "id": "micronaut-data-json-duality-view-gradle-kotlin",
+          "label": "Kotlin / Gradle",
+          "language": "kotlin",
+          "languageLabel": "Kotlin",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-json-duality-view-gradle-kotlin.html",
+          "fragment": "fragments/micronaut-data-json-duality-view-gradle-kotlin.html",
+          "zipUrl": "micronaut-data-json-duality-view-gradle-kotlin.zip"
+        },
+        {
+          "id": "micronaut-data-json-duality-view-gradle-groovy",
+          "label": "Groovy / Gradle",
+          "language": "groovy",
+          "languageLabel": "Groovy",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-json-duality-view-gradle-groovy.html",
+          "fragment": "fragments/micronaut-data-json-duality-view-gradle-groovy.html",
+          "zipUrl": "micronaut-data-json-duality-view-gradle-groovy.zip"
+        },
+        {
+          "id": "micronaut-data-json-duality-view-maven-java",
+          "label": "Java / Maven",
+          "language": "java",
+          "languageLabel": "Java",
+          "buildTool": "maven",
+          "buildToolLabel": "Maven",
+          "file": "micronaut-data-json-duality-view-maven-java.html",
+          "fragment": "fragments/micronaut-data-json-duality-view-maven-java.html",
+          "zipUrl": "micronaut-data-json-duality-view-maven-java.zip"
+        },
+        {
+          "id": "micronaut-data-json-duality-view-maven-groovy",
+          "label": "Groovy / Maven",
+          "language": "groovy",
+          "languageLabel": "Groovy",
+          "buildTool": "maven",
+          "buildToolLabel": "Maven",
+          "file": "micronaut-data-json-duality-view-maven-groovy.html",
+          "fragment": "fragments/micronaut-data-json-duality-view-maven-groovy.html",
+          "zipUrl": "micronaut-data-json-duality-view-maven-groovy.zip"
         }
       ]
     },

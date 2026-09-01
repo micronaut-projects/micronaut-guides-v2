@@ -927,6 +927,30 @@
       "language": "LANG_ENGLISH"
     },
     {
+      "id": "micronaut-data-json-duality-view",
+      "url": "https://guides.micronaut.io/micronaut-data-json-duality-view-gradle-java/",
+      "title": "Use JSON duality view in Oracle",
+      "content_text": "Learn how to use JSON duality views in Micronaut",
+      "date_published": "2025-01-21T00:00:00Z",
+      "authors": [
+        {
+          "name": "Dimitrije Zdravkovic"
+        }
+      ],
+      "tags": [
+        "database",
+        "micronaut-data",
+        "JSON duality view",
+        "data-jdbc",
+        "jdbc-hikari",
+        "oracle",
+        "serialization-jackson",
+        "validation",
+        "graalvm"
+      ],
+      "language": "LANG_ENGLISH"
+    },
+    {
       "id": "micronaut-data-many-to-many-mysql",
       "url": "https://guides.micronaut.io/micronaut-data-many-to-many-mysql-gradle-java/",
       "title": "Many-to-Many with Micronaut Data JDBC and MySQL",
