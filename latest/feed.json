@@ -3466,8 +3466,8 @@
     {
       "id": "micronaut-static-resources",
       "url": "https://guides.micronaut.io/micronaut-static-resources-gradle-java/",
-      "title": "Serving static resources in a Micronaut Framework application",
-      "content_text": "Learn how to expose static resources such as CSS or images in a Micronaut Framework application.",
+      "title": "Serving static resources in a Micronaut application",
+      "content_text": "Learn how to expose static resources such as CSS or images in a Micronaut application.",
       "date_published": "2024-02-01T00:00:00Z",
       "authors": [
         {
@@ -3727,7 +3727,7 @@
       "id": "spring-boot-to-micronaut-application-class",
       "url": "https://guides.micronaut.io/spring-boot-to-micronaut-application-class-gradle-java/",
       "title": "Application Class - Spring Boot",
-      "content_text": "This guide compares the application class of a Spring Boot application with a Micronaut Framework application.",
+      "content_text": "This guide compares the application class of a Spring Boot application with a Micronaut application.",
       "date_published": "2022-09-13T00:00:00Z",
       "authors": [
         {
@@ -3795,7 +3795,7 @@
       "id": "testing-micronaut-kafka-listener-using-testcontainers",
       "url": "https://guides.micronaut.io/testing-micronaut-kafka-listener-using-testcontainers-gradle-java/",
       "title": "Testing Kafka Listener using Testcontainers with the Micronaut Framework",
-      "content_text": "This guide shows how to test a Kafka Listener using Testcontainers in a Micronaut Framework application.",
+      "content_text": "This guide shows how to test a Kafka Listener using Testcontainers in a Micronaut application.",
       "date_published": "2023-09-14T00:00:00Z",
       "authors": [
         {

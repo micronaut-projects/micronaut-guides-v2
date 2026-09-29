@@ -6953,8 +6953,8 @@
     ]
   },
   {
-    "title": "Serving static resources in a Micronaut Framework application",
-    "intro": "Learn how to expose static resources such as CSS or images in a Micronaut Framework application.",
+    "title": "Serving static resources in a Micronaut application",
+    "intro": "Learn how to expose static resources such as CSS or images in a Micronaut application.",
     "authors": [
       "Tim Yates"
     ],
@@ -7471,7 +7471,7 @@
   },
   {
     "title": "Application Class - Spring Boot",
-    "intro": "This guide compares the application class of a Spring Boot application with a Micronaut Framework application.",
+    "intro": "This guide compares the application class of a Spring Boot application with a Micronaut application.",
     "authors": [
       "Sergio del Amo"
     ],
@@ -7596,7 +7596,7 @@
   },
   {
     "title": "Testing Kafka Listener using Testcontainers with the Micronaut Framework",
-    "intro": "This guide shows how to test a Kafka Listener using Testcontainers in a Micronaut Framework application.",
+    "intro": "This guide shows how to test a Kafka Listener using Testcontainers in a Micronaut application.",
     "authors": [
       "Sergio del Amo"
     ],

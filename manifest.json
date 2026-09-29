@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T11:22:05.274Z",
+  "generatedAt": "2026-09-29T16:02:12.341Z",
   "guideCount": 179,
   "guides": [
     {
@@ -1753,8 +1753,8 @@
     },
     {
       "slug": "micronaut-static-resources",
-      "title": "Serving static resources in a Micronaut Framework application",
-      "intro": "Learn how to expose static resources such as CSS or images in a Micronaut Framework application.",
+      "title": "Serving static resources in a Micronaut application",
+      "intro": "Learn how to expose static resources such as CSS or images in a Micronaut application.",
       "authors": [
         "Tim Yates"
       ],
@@ -1768,7 +1768,7 @@
         "Static Resources"
       ],
       "publicationDate": "2024-02-01",
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 35,
       "overviewFile": "micronaut-static-resources.html",
       "defaultOptionFile": "micronaut-static-resources-gradle-java.html",
       "options": [
@@ -2640,7 +2640,7 @@
     {
       "slug": "testing-micronaut-kafka-listener-using-testcontainers",
       "title": "Testing Kafka Listener using Testcontainers with the Micronaut Framework",
-      "intro": "This guide shows how to test a Kafka Listener using Testcontainers in a Micronaut Framework application.",
+      "intro": "This guide shows how to test a Kafka Listener using Testcontainers in a Micronaut application.",
       "authors": [
         "Sergio del Amo"
       ],
@@ -2657,7 +2657,7 @@
         "Testing"
       ],
       "publicationDate": "2023-09-14",
-      "estimatedMinutes": 45,
+      "estimatedMinutes": 40,
       "overviewFile": "testing-micronaut-kafka-listener-using-testcontainers.html",
       "defaultOptionFile": "testing-micronaut-kafka-listener-using-testcontainers-gradle-java.html",
       "options": [
@@ -4230,7 +4230,7 @@
     {
       "slug": "spring-boot-to-micronaut-application-class",
       "title": "Application Class - Spring Boot",
-      "intro": "This guide compares the application class of a Spring Boot application with a Micronaut Framework application.",
+      "intro": "This guide compares the application class of a Spring Boot application with a Micronaut application.",
       "authors": [
         "Sergio del Amo"
       ],
