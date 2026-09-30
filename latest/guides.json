@@ -6642,8 +6642,8 @@
       "views",
       "velocity",
       "security-session",
-      "reactor",
       "graalvm",
+      "reactor",
       "micronaut-security"
     ],
     "category": "Micronaut Security",

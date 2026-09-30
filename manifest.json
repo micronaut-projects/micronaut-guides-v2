@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T13:54:43.650Z",
+  "generatedAt": "2026-09-30T19:34:18.158Z",
   "guideCount": 179,
   "guides": [
     {
@@ -11721,8 +11721,8 @@
         "views",
         "velocity",
         "security-session",
-        "reactor",
         "graalvm",
+        "reactor",
         "micronaut-security"
       ],
       "categories": [

@@ -3328,8 +3328,8 @@
         "views",
         "velocity",
         "security-session",
-        "reactor",
         "graalvm",
+        "reactor",
         "micronaut-security"
       ],
       "language": "LANG_ENGLISH"
