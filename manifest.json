@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T17:17:57.727Z",
+  "generatedAt": "2026-10-06T11:33:54.721Z",
   "guideCount": 179,
   "guides": [
     {
@@ -10698,7 +10698,7 @@
     {
       "slug": "micronaut-file-download-excel",
       "title": "Download an Excel file in a Micronaut application",
-      "intro": "Learn how to download an Excel file with the Micronaut framework and Spreadsheet Builder library.",
+      "intro": "Learn how to download an Excel file with the Micronaut framework.",
       "authors": [
         "Sergio del Amo"
       ],
@@ -10707,7 +10707,6 @@
         "spock",
         "geb",
         "excel",
-        "spreadsheet-builder",
         "thymeleaf",
         "validation",
         "graalvm",
@@ -10717,7 +10716,7 @@
         "Beyond JSON"
       ],
       "publicationDate": "2018-09-03",
-      "estimatedMinutes": 35,
+      "estimatedMinutes": 30,
       "overviewFile": "micronaut-file-download-excel.html",
       "defaultOptionFile": "micronaut-file-download-excel-gradle-java.html",
       "options": [

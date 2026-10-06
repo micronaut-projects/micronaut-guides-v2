@@ -2844,7 +2844,7 @@
   },
   {
     "title": "Download an Excel file in a Micronaut application",
-    "intro": "Learn how to download an Excel file with the Micronaut framework and Spreadsheet Builder library.",
+    "intro": "Learn how to download an Excel file with the Micronaut framework.",
     "authors": [
       "Sergio del Amo"
     ],
@@ -2853,7 +2853,6 @@
       "spock",
       "geb",
       "excel",
-      "spreadsheet-builder",
       "thymeleaf",
       "validation",
       "graalvm",

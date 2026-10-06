@@ -1418,7 +1418,7 @@
       "id": "micronaut-file-download-excel",
       "url": "https://guides.micronaut.io/micronaut-file-download-excel-gradle-java/",
       "title": "Download an Excel file in a Micronaut application",
-      "content_text": "Learn how to download an Excel file with the Micronaut framework and Spreadsheet Builder library.",
+      "content_text": "Learn how to download an Excel file with the Micronaut framework.",
       "date_published": "2018-09-03T00:00:00Z",
       "authors": [
         {
@@ -1430,7 +1430,6 @@
         "spock",
         "geb",
         "excel",
-        "spreadsheet-builder",
         "thymeleaf",
         "validation",
         "graalvm",
