@@ -1192,6 +1192,29 @@
       "language": "LANG_ENGLISH"
     },
     {
+      "id": "micronaut-data-oracle-transaction-priority",
+      "url": "https://guides.micronaut.io/micronaut-data-oracle-transaction-priority-gradle-java/",
+      "title": "Prioritize Oracle Transactions with Micronaut Data JDBC",
+      "content_text": "Build an inventory example where an Oracle HIGH-priority checkout can roll back conflicting LOW-priority background work.",
+      "date_published": "2026-09-01T00:00:00Z",
+      "authors": [
+        {
+          "name": "Radovan Radic"
+        }
+      ],
+      "tags": [
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "oracle",
+        "transactions",
+        "data-jdbc",
+        "serialization-jackson",
+        "validation"
+      ],
+      "language": "LANG_ENGLISH"
+    },
+    {
       "id": "micronaut-data-postgres-geospatial-nearby-drivers",
       "url": "https://guides.micronaut.io/micronaut-data-postgres-geospatial-nearby-drivers-gradle-java/",
       "title": "Find Nearby Delivery Drivers with Micronaut Data JDBC and PostGIS",

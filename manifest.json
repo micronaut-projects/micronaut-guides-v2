@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T09:20:17.970Z",
-  "guideCount": 181,
+  "generatedAt": "2026-10-07T16:39:10.138Z",
+  "guideCount": 182,
   "guides": [
     {
       "slug": "micronaut-data-oracle-lockfree-reservation",
@@ -162,6 +162,88 @@
           "file": "micronaut-data-oracle-boolean-maven-groovy.html",
           "fragment": "fragments/micronaut-data-oracle-boolean-maven-groovy.html",
           "zipUrl": "micronaut-data-oracle-boolean-maven-groovy.zip"
+        }
+      ]
+    },
+    {
+      "slug": "micronaut-data-oracle-transaction-priority",
+      "title": "Prioritize Oracle Transactions with Micronaut Data JDBC",
+      "intro": "Build an inventory example where an Oracle HIGH-priority checkout can roll back conflicting LOW-priority background work.",
+      "authors": [
+        "Radovan Radic"
+      ],
+      "tags": [
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "oracle",
+        "transactions",
+        "data-jdbc",
+        "serialization-jackson",
+        "validation"
+      ],
+      "categories": [
+        "Data JDBC"
+      ],
+      "publicationDate": "2026-09-01",
+      "estimatedMinutes": 45,
+      "overviewFile": "micronaut-data-oracle-transaction-priority.html",
+      "defaultOptionFile": "micronaut-data-oracle-transaction-priority-gradle-java.html",
+      "options": [
+        {
+          "id": "micronaut-data-oracle-transaction-priority-gradle-java",
+          "label": "Java / Gradle",
+          "language": "java",
+          "languageLabel": "Java",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-oracle-transaction-priority-gradle-java.html",
+          "fragment": "fragments/micronaut-data-oracle-transaction-priority-gradle-java.html",
+          "zipUrl": "micronaut-data-oracle-transaction-priority-gradle-java.zip"
+        },
+        {
+          "id": "micronaut-data-oracle-transaction-priority-gradle-kotlin",
+          "label": "Kotlin / Gradle",
+          "language": "kotlin",
+          "languageLabel": "Kotlin",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-oracle-transaction-priority-gradle-kotlin.html",
+          "fragment": "fragments/micronaut-data-oracle-transaction-priority-gradle-kotlin.html",
+          "zipUrl": "micronaut-data-oracle-transaction-priority-gradle-kotlin.zip"
+        },
+        {
+          "id": "micronaut-data-oracle-transaction-priority-gradle-groovy",
+          "label": "Groovy / Gradle",
+          "language": "groovy",
+          "languageLabel": "Groovy",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-oracle-transaction-priority-gradle-groovy.html",
+          "fragment": "fragments/micronaut-data-oracle-transaction-priority-gradle-groovy.html",
+          "zipUrl": "micronaut-data-oracle-transaction-priority-gradle-groovy.zip"
+        },
+        {
+          "id": "micronaut-data-oracle-transaction-priority-maven-java",
+          "label": "Java / Maven",
+          "language": "java",
+          "languageLabel": "Java",
+          "buildTool": "maven",
+          "buildToolLabel": "Maven",
+          "file": "micronaut-data-oracle-transaction-priority-maven-java.html",
+          "fragment": "fragments/micronaut-data-oracle-transaction-priority-maven-java.html",
+          "zipUrl": "micronaut-data-oracle-transaction-priority-maven-java.zip"
+        },
+        {
+          "id": "micronaut-data-oracle-transaction-priority-maven-groovy",
+          "label": "Groovy / Maven",
+          "language": "groovy",
+          "languageLabel": "Groovy",
+          "buildTool": "maven",
+          "buildToolLabel": "Maven",
+          "file": "micronaut-data-oracle-transaction-priority-maven-groovy.html",
+          "fragment": "fragments/micronaut-data-oracle-transaction-priority-maven-groovy.html",
+          "zipUrl": "micronaut-data-oracle-transaction-priority-maven-groovy.zip"
         }
       ]
     },

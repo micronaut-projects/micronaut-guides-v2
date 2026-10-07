@@ -2392,6 +2392,57 @@
     ]
   },
   {
+    "title": "Prioritize Oracle Transactions with Micronaut Data JDBC",
+    "intro": "Build an inventory example where an Oracle HIGH-priority checkout can roll back conflicting LOW-priority background work.",
+    "authors": [
+      "Radovan Radic"
+    ],
+    "tags": [
+      "database",
+      "micronaut-data",
+      "jdbc",
+      "oracle",
+      "transactions",
+      "data-jdbc",
+      "serialization-jackson",
+      "validation"
+    ],
+    "category": "Data JDBC",
+    "categories": [
+      "Data JDBC"
+    ],
+    "publicationDate": "2026-09-01",
+    "slug": "micronaut-data-oracle-transaction-priority",
+    "url": "https://guides.micronaut.io/micronaut-data-oracle-transaction-priority-gradle-java/",
+    "options": [
+      {
+        "buildTool": "GRADLE",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-transaction-priority-gradle-java/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "KOTLIN",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-transaction-priority-gradle-kotlin/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-transaction-priority-gradle-groovy/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-transaction-priority-maven-java/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-transaction-priority-maven-groovy/"
+      }
+    ]
+  },
+  {
     "title": "Find Nearby Delivery Drivers with Micronaut Data JDBC and PostGIS",
     "intro": "Learn how to use Micronaut Data JDBC and PostgreSQL spatial queries to find the closest available delivery driver within 5 km of a food delivery order.",
     "authors": [
