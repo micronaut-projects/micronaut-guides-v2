@@ -1101,6 +1101,28 @@
       "language": "LANG_ENGLISH"
     },
     {
+      "id": "micronaut-data-oracle-boolean",
+      "url": "https://guides.micronaut.io/micronaut-data-oracle-boolean-gradle-java/",
+      "title": "Oracle native BOOLEAN with Micronaut Data JDBC",
+      "content_text": "Learn how to map Java boolean properties to Oracle Database 23ai native BOOLEAN columns and query them with Micronaut Data JDBC.",
+      "date_published": "2026-09-29T00:00:00Z",
+      "authors": [
+        {
+          "name": "Radovan Radic"
+        }
+      ],
+      "tags": [
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "oracle",
+        "boolean",
+        "data-jdbc",
+        "serialization-jackson"
+      ],
+      "language": "LANG_ENGLISH"
+    },
+    {
       "id": "micronaut-data-oracle-etag",
       "url": "https://guides.micronaut.io/micronaut-data-oracle-etag-gradle-java/",
       "title": "Value-based optimistic locking with Micronaut Data JDBC and Oracle",
@@ -1141,6 +1163,29 @@
         "geospatial",
         "data-jdbc",
         "liquibase",
+        "serialization-jackson",
+        "validation"
+      ],
+      "language": "LANG_ENGLISH"
+    },
+    {
+      "id": "micronaut-data-oracle-lockfree-reservation",
+      "url": "https://guides.micronaut.io/micronaut-data-oracle-lockfree-reservation-gradle-java/",
+      "title": "Oracle Lock-Free Reservation with Micronaut Data JDBC",
+      "content_text": "Learn how to map Oracle reservable columns and update them concurrently with Micronaut Data JDBC reservation methods.",
+      "date_published": "2026-09-29T00:00:00Z",
+      "authors": [
+        {
+          "name": "Radovan Radic"
+        }
+      ],
+      "tags": [
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "oracle",
+        "lock-free-reservation",
+        "data-jdbc",
         "serialization-jackson",
         "validation"
       ],
@@ -1454,7 +1499,7 @@
         "flyway",
         "mysql",
         "management",
-        "jackson-databind",
+        "serialization-jackson",
         "validation",
         "graalvm",
         "schema-migration"
@@ -2010,6 +2055,7 @@
         "liquibase",
         "postgres",
         "management",
+        "serialization-jackson",
         "validation",
         "graalvm",
         "schema-migration"

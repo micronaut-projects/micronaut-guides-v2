@@ -2189,6 +2189,56 @@
     ]
   },
   {
+    "title": "Oracle native BOOLEAN with Micronaut Data JDBC",
+    "intro": "Learn how to map Java boolean properties to Oracle Database 23ai native BOOLEAN columns and query them with Micronaut Data JDBC.",
+    "authors": [
+      "Radovan Radic"
+    ],
+    "tags": [
+      "database",
+      "micronaut-data",
+      "jdbc",
+      "oracle",
+      "boolean",
+      "data-jdbc",
+      "serialization-jackson"
+    ],
+    "category": "Data JDBC",
+    "categories": [
+      "Data JDBC"
+    ],
+    "publicationDate": "2026-09-29",
+    "slug": "micronaut-data-oracle-boolean",
+    "url": "https://guides.micronaut.io/micronaut-data-oracle-boolean-gradle-java/",
+    "options": [
+      {
+        "buildTool": "GRADLE",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-boolean-gradle-java/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "KOTLIN",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-boolean-gradle-kotlin/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-boolean-gradle-groovy/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-boolean-maven-java/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-boolean-maven-groovy/"
+      }
+    ]
+  },
+  {
     "title": "Value-based optimistic locking with Micronaut Data JDBC and Oracle",
     "intro": "Learn how to use Oracle SYS_ROW_ETAG values for optimistic locking with Micronaut Data JDBC.",
     "authors": [
@@ -2287,6 +2337,57 @@
         "buildTool": "MAVEN",
         "language": "GROOVY",
         "url": "https://guides.micronaut.io/micronaut-data-oracle-geospatial-nearby-drivers-maven-groovy/"
+      }
+    ]
+  },
+  {
+    "title": "Oracle Lock-Free Reservation with Micronaut Data JDBC",
+    "intro": "Learn how to map Oracle reservable columns and update them concurrently with Micronaut Data JDBC reservation methods.",
+    "authors": [
+      "Radovan Radic"
+    ],
+    "tags": [
+      "database",
+      "micronaut-data",
+      "jdbc",
+      "oracle",
+      "lock-free-reservation",
+      "data-jdbc",
+      "serialization-jackson",
+      "validation"
+    ],
+    "category": "Data JDBC",
+    "categories": [
+      "Data JDBC"
+    ],
+    "publicationDate": "2026-09-29",
+    "slug": "micronaut-data-oracle-lockfree-reservation",
+    "url": "https://guides.micronaut.io/micronaut-data-oracle-lockfree-reservation-gradle-java/",
+    "options": [
+      {
+        "buildTool": "GRADLE",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-lockfree-reservation-gradle-java/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "KOTLIN",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-lockfree-reservation-gradle-kotlin/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-lockfree-reservation-gradle-groovy/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-lockfree-reservation-maven-java/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-lockfree-reservation-maven-groovy/"
       }
     ]
   },
@@ -2905,7 +3006,7 @@
       "flyway",
       "mysql",
       "management",
-      "jackson-databind",
+      "serialization-jackson",
       "validation",
       "graalvm",
       "schema-migration"
@@ -4012,6 +4113,7 @@
       "liquibase",
       "postgres",
       "management",
+      "serialization-jackson",
       "validation",
       "graalvm",
       "schema-migration"
