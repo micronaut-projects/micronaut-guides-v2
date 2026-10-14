@@ -1288,6 +1288,46 @@
       "language": "LANG_ENGLISH"
     },
     {
+      "id": "micronaut-data-upsert-oracle",
+      "url": "https://guides.micronaut.io/micronaut-data-upsert-oracle-gradle-java/",
+      "title": "Upsert Oracle AI Database",
+      "content_text": "An upsert is a database operation that will update an existing row if a specified value already exists in a table, and insert a new row if the specified value doesn’t already exist.",
+      "date_published": "2026-10-12T00:00:00Z",
+      "authors": [
+        {
+          "name": "Sergio del Amo"
+        }
+      ],
+      "tags": [
+        "data-jdbc",
+        "liquibase",
+        "oracle",
+        "serialization-jackson",
+        "testcontainers"
+      ],
+      "language": "LANG_ENGLISH"
+    },
+    {
+      "id": "micronaut-data-upsert-postgresql",
+      "url": "https://guides.micronaut.io/micronaut-data-upsert-postgresql-gradle-java/",
+      "title": "Upsert PostgreSQL",
+      "content_text": "An upsert is a database operation that will update an existing row if a specified value already exists in a table, and insert a new row if the specified value doesn’t already exist.",
+      "date_published": "2026-10-12T00:00:00Z",
+      "authors": [
+        {
+          "name": "Sergio del Amo"
+        }
+      ],
+      "tags": [
+        "data-jdbc",
+        "liquibase",
+        "postgres",
+        "serialization-jackson",
+        "testcontainers"
+      ],
+      "language": "LANG_ENGLISH"
+    },
+    {
       "id": "micronaut-database-authentication-provider",
       "url": "https://guides.micronaut.io/micronaut-database-authentication-provider-gradle-groovy/",
       "title": "LDAP and database authentication providers",

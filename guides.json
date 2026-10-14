@@ -2600,6 +2600,102 @@
     ]
   },
   {
+    "title": "Upsert Oracle AI Database",
+    "intro": "An upsert is a database operation that will update an existing row if a specified value already exists in a table, and insert a new row if the specified value doesn’t already exist.",
+    "authors": [
+      "Sergio del Amo"
+    ],
+    "tags": [
+      "data-jdbc",
+      "liquibase",
+      "oracle",
+      "serialization-jackson",
+      "testcontainers"
+    ],
+    "category": "Data JDBC",
+    "categories": [
+      "Data JDBC"
+    ],
+    "publicationDate": "2026-10-12",
+    "slug": "micronaut-data-upsert-oracle",
+    "url": "https://guides.micronaut.io/micronaut-data-upsert-oracle-gradle-java/",
+    "options": [
+      {
+        "buildTool": "GRADLE",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-oracle-gradle-java/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "KOTLIN",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-oracle-gradle-kotlin/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-oracle-gradle-groovy/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-oracle-maven-java/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-oracle-maven-groovy/"
+      }
+    ]
+  },
+  {
+    "title": "Upsert PostgreSQL",
+    "intro": "An upsert is a database operation that will update an existing row if a specified value already exists in a table, and insert a new row if the specified value doesn’t already exist.",
+    "authors": [
+      "Sergio del Amo"
+    ],
+    "tags": [
+      "data-jdbc",
+      "liquibase",
+      "postgres",
+      "serialization-jackson",
+      "testcontainers"
+    ],
+    "category": "Data JDBC",
+    "categories": [
+      "Data JDBC"
+    ],
+    "publicationDate": "2026-10-12",
+    "slug": "micronaut-data-upsert-postgresql",
+    "url": "https://guides.micronaut.io/micronaut-data-upsert-postgresql-gradle-java/",
+    "options": [
+      {
+        "buildTool": "GRADLE",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-postgresql-gradle-java/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "KOTLIN",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-postgresql-gradle-kotlin/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-postgresql-gradle-groovy/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-postgresql-maven-java/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-upsert-postgresql-maven-groovy/"
+      }
+    ]
+  },
+  {
     "title": "LDAP and database authentication providers",
     "intro": "Learn how to create an LDAP and a database authentication provider in a Micronaut application.",
     "authors": [

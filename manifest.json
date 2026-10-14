@@ -1,7 +1,165 @@
 {
-  "generatedAt": "2026-10-07T16:39:10.138Z",
-  "guideCount": 182,
+  "generatedAt": "2026-10-14T02:04:58.824Z",
+  "guideCount": 184,
   "guides": [
+    {
+      "slug": "micronaut-data-upsert-oracle",
+      "title": "Upsert Oracle AI Database",
+      "intro": "An upsert is a database operation that will update an existing row if a specified value already exists in a table, and insert a new row if the specified value doesn’t already exist.",
+      "authors": [
+        "Sergio del Amo"
+      ],
+      "tags": [
+        "data-jdbc",
+        "liquibase",
+        "oracle",
+        "serialization-jackson",
+        "testcontainers"
+      ],
+      "categories": [
+        "Data JDBC"
+      ],
+      "publicationDate": "2026-10-12",
+      "estimatedMinutes": 50,
+      "overviewFile": "micronaut-data-upsert-oracle.html",
+      "defaultOptionFile": "micronaut-data-upsert-oracle-gradle-java.html",
+      "options": [
+        {
+          "id": "micronaut-data-upsert-oracle-gradle-java",
+          "label": "Java / Gradle",
+          "language": "java",
+          "languageLabel": "Java",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-upsert-oracle-gradle-java.html",
+          "fragment": "fragments/micronaut-data-upsert-oracle-gradle-java.html",
+          "zipUrl": "micronaut-data-upsert-oracle-gradle-java.zip"
+        },
+        {
+          "id": "micronaut-data-upsert-oracle-gradle-kotlin",
+          "label": "Kotlin / Gradle",
+          "language": "kotlin",
+          "languageLabel": "Kotlin",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-upsert-oracle-gradle-kotlin.html",
+          "fragment": "fragments/micronaut-data-upsert-oracle-gradle-kotlin.html",
+          "zipUrl": "micronaut-data-upsert-oracle-gradle-kotlin.zip"
+        },
+        {
+          "id": "micronaut-data-upsert-oracle-gradle-groovy",
+          "label": "Groovy / Gradle",
+          "language": "groovy",
+          "languageLabel": "Groovy",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-upsert-oracle-gradle-groovy.html",
+          "fragment": "fragments/micronaut-data-upsert-oracle-gradle-groovy.html",
+          "zipUrl": "micronaut-data-upsert-oracle-gradle-groovy.zip"
+        },
+        {
+          "id": "micronaut-data-upsert-oracle-maven-java",
+          "label": "Java / Maven",
+          "language": "java",
+          "languageLabel": "Java",
+          "buildTool": "maven",
+          "buildToolLabel": "Maven",
+          "file": "micronaut-data-upsert-oracle-maven-java.html",
+          "fragment": "fragments/micronaut-data-upsert-oracle-maven-java.html",
+          "zipUrl": "micronaut-data-upsert-oracle-maven-java.zip"
+        },
+        {
+          "id": "micronaut-data-upsert-oracle-maven-groovy",
+          "label": "Groovy / Maven",
+          "language": "groovy",
+          "languageLabel": "Groovy",
+          "buildTool": "maven",
+          "buildToolLabel": "Maven",
+          "file": "micronaut-data-upsert-oracle-maven-groovy.html",
+          "fragment": "fragments/micronaut-data-upsert-oracle-maven-groovy.html",
+          "zipUrl": "micronaut-data-upsert-oracle-maven-groovy.zip"
+        }
+      ]
+    },
+    {
+      "slug": "micronaut-data-upsert-postgresql",
+      "title": "Upsert PostgreSQL",
+      "intro": "An upsert is a database operation that will update an existing row if a specified value already exists in a table, and insert a new row if the specified value doesn’t already exist.",
+      "authors": [
+        "Sergio del Amo"
+      ],
+      "tags": [
+        "data-jdbc",
+        "liquibase",
+        "postgres",
+        "serialization-jackson",
+        "testcontainers"
+      ],
+      "categories": [
+        "Data JDBC"
+      ],
+      "publicationDate": "2026-10-12",
+      "estimatedMinutes": 50,
+      "overviewFile": "micronaut-data-upsert-postgresql.html",
+      "defaultOptionFile": "micronaut-data-upsert-postgresql-gradle-java.html",
+      "options": [
+        {
+          "id": "micronaut-data-upsert-postgresql-gradle-java",
+          "label": "Java / Gradle",
+          "language": "java",
+          "languageLabel": "Java",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-upsert-postgresql-gradle-java.html",
+          "fragment": "fragments/micronaut-data-upsert-postgresql-gradle-java.html",
+          "zipUrl": "micronaut-data-upsert-postgresql-gradle-java.zip"
+        },
+        {
+          "id": "micronaut-data-upsert-postgresql-gradle-kotlin",
+          "label": "Kotlin / Gradle",
+          "language": "kotlin",
+          "languageLabel": "Kotlin",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-upsert-postgresql-gradle-kotlin.html",
+          "fragment": "fragments/micronaut-data-upsert-postgresql-gradle-kotlin.html",
+          "zipUrl": "micronaut-data-upsert-postgresql-gradle-kotlin.zip"
+        },
+        {
+          "id": "micronaut-data-upsert-postgresql-gradle-groovy",
+          "label": "Groovy / Gradle",
+          "language": "groovy",
+          "languageLabel": "Groovy",
+          "buildTool": "gradle",
+          "buildToolLabel": "Gradle",
+          "file": "micronaut-data-upsert-postgresql-gradle-groovy.html",
+          "fragment": "fragments/micronaut-data-upsert-postgresql-gradle-groovy.html",
+          "zipUrl": "micronaut-data-upsert-postgresql-gradle-groovy.zip"
+        },
+        {
+          "id": "micronaut-data-upsert-postgresql-maven-java",
+          "label": "Java / Maven",
+          "language": "java",
+          "languageLabel": "Java",
+          "buildTool": "maven",
+          "buildToolLabel": "Maven",
+          "file": "micronaut-data-upsert-postgresql-maven-java.html",
+          "fragment": "fragments/micronaut-data-upsert-postgresql-maven-java.html",
+          "zipUrl": "micronaut-data-upsert-postgresql-maven-java.zip"
+        },
+        {
+          "id": "micronaut-data-upsert-postgresql-maven-groovy",
+          "label": "Groovy / Maven",
+          "language": "groovy",
+          "languageLabel": "Groovy",
+          "buildTool": "maven",
+          "buildToolLabel": "Maven",
+          "file": "micronaut-data-upsert-postgresql-maven-groovy.html",
+          "fragment": "fragments/micronaut-data-upsert-postgresql-maven-groovy.html",
+          "zipUrl": "micronaut-data-upsert-postgresql-maven-groovy.zip"
+        }
+      ]
+    },
     {
       "slug": "micronaut-data-oracle-lockfree-reservation",
       "title": "Oracle Lock-Free Reservation with Micronaut Data JDBC",
