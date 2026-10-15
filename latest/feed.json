@@ -1192,6 +1192,34 @@
       "language": "LANG_ENGLISH"
     },
     {
+      "id": "micronaut-data-oracle-sessionless-kafka",
+      "url": "https://guides.micronaut.io/micronaut-data-oracle-sessionless-kafka-gradle-java/",
+      "title": "Oracle Sessionless Transactions with Micronaut Data and Kafka",
+      "content_text": "Learn how to use Oracle sessionless transactions with Micronaut Data and Kafka.",
+      "date_published": "2026-10-12T00:00:00Z",
+      "authors": [
+        {
+          "name": "Milenko Supic"
+        }
+      ],
+      "tags": [
+        "database",
+        "micronaut-data",
+        "jdbc",
+        "oracle",
+        "sessionless-transactions",
+        "transactions",
+        "data-jdbc",
+        "jdbc-hikari",
+        "liquibase",
+        "kafka",
+        "serialization-jackson",
+        "validation",
+        "messaging"
+      ],
+      "language": "LANG_ENGLISH"
+    },
+    {
       "id": "micronaut-data-oracle-transaction-priority",
       "url": "https://guides.micronaut.io/micronaut-data-oracle-transaction-priority-gradle-java/",
       "title": "Prioritize Oracle Transactions with Micronaut Data JDBC",
@@ -2625,7 +2653,6 @@
         "cognito",
         "oidc",
         "security",
-        "thymeleaf",
         "security-jwt",
         "security-oauth2",
         "graalvm",

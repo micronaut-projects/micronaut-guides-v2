@@ -2392,6 +2392,63 @@
     ]
   },
   {
+    "title": "Oracle Sessionless Transactions with Micronaut Data and Kafka",
+    "intro": "Learn how to use Oracle sessionless transactions with Micronaut Data and Kafka.",
+    "authors": [
+      "Milenko Supic"
+    ],
+    "tags": [
+      "database",
+      "micronaut-data",
+      "jdbc",
+      "oracle",
+      "sessionless-transactions",
+      "transactions",
+      "data-jdbc",
+      "jdbc-hikari",
+      "liquibase",
+      "kafka",
+      "serialization-jackson",
+      "validation",
+      "messaging"
+    ],
+    "category": "Data JDBC",
+    "categories": [
+      "Data JDBC",
+      "Messaging"
+    ],
+    "publicationDate": "2026-10-12",
+    "slug": "micronaut-data-oracle-sessionless-kafka",
+    "url": "https://guides.micronaut.io/micronaut-data-oracle-sessionless-kafka-gradle-java/",
+    "options": [
+      {
+        "buildTool": "GRADLE",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-sessionless-kafka-gradle-java/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "KOTLIN",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-sessionless-kafka-gradle-kotlin/"
+      },
+      {
+        "buildTool": "GRADLE",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-sessionless-kafka-gradle-groovy/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "JAVA",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-sessionless-kafka-maven-java/"
+      },
+      {
+        "buildTool": "MAVEN",
+        "language": "GROOVY",
+        "url": "https://guides.micronaut.io/micronaut-data-oracle-sessionless-kafka-maven-groovy/"
+      }
+    ]
+  },
+  {
     "title": "Prioritize Oracle Transactions with Micronaut Data JDBC",
     "intro": "Build an inventory example where an Oracle HIGH-priority checkout can roll back conflicting LOW-priority background work.",
     "authors": [
@@ -5301,7 +5358,6 @@
       "cognito",
       "oidc",
       "security",
-      "thymeleaf",
       "security-jwt",
       "security-oauth2",
       "graalvm",
