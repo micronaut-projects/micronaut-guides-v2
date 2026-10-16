@@ -5462,7 +5462,6 @@
       "keycloak",
       "oidc",
       "security",
-      "thymeleaf",
       "security-jwt",
       "security-oauth2",
       "graalvm",
